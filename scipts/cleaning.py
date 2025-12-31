@@ -49,4 +49,5 @@ print(len(df["activities"]))
 acts=df["activities"]
 for i in acts:
     #print(type(i))
-    
+    i = re.sub(r" \| ", ",", i)
+    print(i)
