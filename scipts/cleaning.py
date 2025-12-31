@@ -12,10 +12,10 @@ df.columns = [c.strip().lower() for c in df.columns]
 print(df.columns)
 
 # Parse dates safely
-df["date"] = pd.to_datetime(df["date"], errors="coerce")
+df["full_date"] = pd.to_datetime(df["full_date"], errors="coerce")
 
 # Drop rows with invalid or missing mood/date
-df = df.dropna(subset=["date", "mood"])
+df = df.dropna(subset=["full_date", "mood"])
 
 # Normalize mood text (remove emojis, lowercase, strip)
 def normalize_mood(m):
