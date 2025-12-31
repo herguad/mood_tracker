@@ -46,8 +46,20 @@ df.to_csv("data/moods_cleaned.csv", index=False)
 print("Cleaning complete. Cleaned file saved to data/moods_cleaned.csv")
 
 print(len(df["activities"]))
+
 acts=df["activities"]
+
+c= 0
+s=[]
 for i in acts:
     #print(type(i))
     i = re.sub(r" \| ", ",", i)
+    #print(i)
+    i = i.split(",")
     print(i)
+    len_act=len(i)
+    s.append(len_act)
+
+print(s)
+
+
