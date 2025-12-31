@@ -4,8 +4,12 @@ import re
 # Load raw data
 df = pd.read_csv("data/raw_mood.csv")
 
+print(df.columns)
+
 # Standardize column names
 df.columns = [c.strip().lower() for c in df.columns]
+
+print(df.columns)
 
 # Parse dates safely
 df["date"] = pd.to_datetime(df["date"], errors="coerce")
