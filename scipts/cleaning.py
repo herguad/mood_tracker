@@ -44,3 +44,9 @@ if "intensity" in df.columns:
 df.to_csv("data/moods_cleaned.csv", index=False)
 
 print("Cleaning complete. Cleaned file saved to data/moods_cleaned.csv")
+
+print(len(df["activities"]))
+acts=df["activities"]
+for i in acts:
+    #print(type(i))
+    
