@@ -57,6 +57,7 @@ for i in acts:
     s.append(len_act)
 
 print(s)
+print(type(s[1])) #s is a list of ints
 
 
 # Save cleaned dataset
