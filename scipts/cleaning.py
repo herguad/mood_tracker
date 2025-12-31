@@ -40,10 +40,6 @@ if "note" in df.columns:
 if "intensity" in df.columns:
     df["intensity"] = pd.to_numeric(df["intensity"], errors="coerce").fillna(0).astype(int)
 
-# Save cleaned dataset
-df.to_csv("data/moods_cleaned.csv", index=False)
-
-print("Cleaning complete. Cleaned file saved to data/moods_cleaned.csv")
 
 print(len(df["activities"]))
 
@@ -63,3 +59,7 @@ for i in acts:
 print(s)
 
 
+# Save cleaned dataset
+df.to_csv("data/moods_cleaned.csv", index=False)
+
+print("Cleaning complete. Cleaned file saved to data/moods_cleaned.csv")
