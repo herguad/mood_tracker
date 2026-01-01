@@ -52,12 +52,12 @@ for i in acts:
     i = re.sub(r" \| ", ",", i)
     #print(i)
     i = i.split(",")
-    print(i)
+    #print(i)
     len_act=len(i)
     s.append(len_act)
 
-print(s)
-print(type(s[1])) #s is a list of ints
+#print(s)
+#print(type(s[1])) #s is a list of ints
 
 
 # Save cleaned dataset
