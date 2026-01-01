@@ -13,7 +13,7 @@ df %>% count(mood, sort = TRUE)
 # Weekday mood counts
 df %>% count(weekday, sort = TRUE)
 
-# If intensity exists, compute monthly stats + 7-day rolling mean
+# If intensity exists, compute monthly stats + 7-day rolling mean################################################################
 if ("intensity" %in% colnames(df)) {
   df <- df %>%
     arrange(full_date) %>%
