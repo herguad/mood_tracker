@@ -1,6 +1,6 @@
 CREATE TABLE IF NOT EXISTS moods (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    date TEXT NOT NULL,
+    full_date TEXT NOT NULL,
     mood TEXT NOT NULL,
     intensity INTEGER,
     note TEXT,
