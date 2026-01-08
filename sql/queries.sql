@@ -17,6 +17,6 @@ SELECT
     COUNT(*) AS transitions
 FROM moods m1
 JOIN moods m2
-  ON date(m1.date, '+1 day') = m2.date
+  ON date(m1.full_date, '+1 day') = m2.full_date
 GROUP BY mood_today, mood_next_day
 ORDER BY transitions DESC;
