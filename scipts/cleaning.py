@@ -44,7 +44,7 @@ if "intensity" in df.columns:
 # Remove NaN columns and subdivide 'activities' into 8 categories: emotions,sleep, health, social, better me, productivity, chores and weather.
 
 # 1. Drop unwanted columns
-df = df.drop(columns=["date", "time", "scales", "note_title", "note_title"], errors="ignore")
+df = df.drop(columns=["date", "time", "scales", "note_title", "note"], errors="ignore")
 
 # 2. Ensure 'activities' column contains actual lists
 print(type(df.activities))
@@ -52,21 +52,13 @@ print(type(df.activities))
 # Change | for commas in activities column to get lists instead of single strings.
 df['activities']=df['activities'].str.split('|')
 print(type(df.activities[5]))
-
-
-def parse_list(x):
-    if pd.isna(x): 
-        return []
-    if isinstance(x, str):
-        try:
-            return ast.literal_eval(x)  # safer than eval()
-        except:
-            return [i.strip() for i in x.split(",")]  # fallback if stored as csv-like string
-    return x
-
-df["activities"] = df["activities"].apply(parse_list)
-
 print(df.activities[6])
+
+# Ensure 'activities' column contains actual list with a parse_list() using 2 if loops isna, isinstance(x,str), 
+# ast package, try/except ast.literal_eval(x), except return [i.strip() for i in x.split(",")]
+#df["activities"] = df["activities"].apply(parse_list)
+
+
 
 # 3. Create the 8 new columns
 activity_columns = ["emotions", "sleep", "health", "social", "better_me", "productivity", "chores", "weather"]
