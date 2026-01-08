@@ -9,7 +9,7 @@ CREATE TABLE IF NOT EXISTS moods (
 );
 
 -- 2. Indexes for faster queries
-CREATE INDEX IF NOT EXISTS idx_moods_date ON moods(date);
+CREATE INDEX IF NOT EXISTS idx_moods_date ON moods(full_date);
 CREATE INDEX IF NOT EXISTS idx_moods_mood ON moods(mood);
 
 -- 3. A view for mood counts per weekday
