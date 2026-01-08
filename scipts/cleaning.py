@@ -1,5 +1,6 @@
 import pandas as pd
 import re
+import ast
 
 # Load raw data
 df = pd.read_csv("data/raw_mood.csv")
@@ -36,28 +37,39 @@ if "note" in df.columns:
         return t.strip()
     df["note"] = df["note"].apply(clean_text)
 
-# Optional: clean intensity if present
+############################################### Optional: clean intensity if present
 if "intensity" in df.columns:
     df["intensity"] = pd.to_numeric(df["intensity"], errors="coerce").fillna(0).astype(int)
 
+# Remove NaN columns and subdivide 'activities' into 8 categories: emotions,sleep, health, social, better me, productivity, chores and weather.
 
-print(len(df["activities"]))
+# 1. Drop unwanted columns
+df = df.drop(columns=["date", "time", "scales", "note_title", "note_title"], errors="ignore")
 
-acts=df["activities"]
+# 2. Ensure 'activities' column contains actual lists
+print(type(df.activities))
 
-c= 0
-s=[]
-for i in acts:
-    #print(type(i))
-    i = re.sub(r" \| ", ",", i)
-    #print(i)
-    i = i.split(",")
-    #print(i)
-    len_act=len(i)
-    s.append(len_act)
+# Change | for commas in activities column to get lists instead of single strings.
+df['activities']=df['activities'].str.split('|')
+print(type(df.activities[5]))
 
-#print(s)
-#print(type(s[1])) #s is a list of ints
+
+def parse_list(x):
+    if pd.isna(x): 
+        return []
+    if isinstance(x, str):
+        try:
+            return ast.literal_eval(x)  # safer than eval()
+        except:
+            return [i.strip() for i in x.split(",")]  # fallback if stored as csv-like string
+    return x
+
+df["activities"] = df["activities"].apply(parse_list)
+
+print(df.activities[6])
+
+# 3. Create the 8 new columns
+activity_columns = ["emotions", "sleep", "health", "social", "better_me", "productivity", "chores", "weather"]
 
 
 # Save cleaned dataset
