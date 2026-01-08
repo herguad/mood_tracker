@@ -32,3 +32,6 @@ SELECT
         ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
     ) AS avg_intensity_7d
 FROM moods;
+
+
+--- After loading your cleaned CSV into SQLite or PostgreSQL: queries.sql
