@@ -63,6 +63,81 @@ print(df.activities[6])
 # 3. Create the 8 new columns
 activity_columns = ["emotions", "sleep", "health", "social", "better_me", "productivity", "chores", "weather"]
 
+print(df["activities"].head())
+print(type(df["activities"].iloc[0]))
+
+# Map labels into the 8 categories.
+mapping = {
+    "happy": "emotions",
+    "excited": "emotions",
+    "grateful": "emotions",
+    "relaxed": "emotions",
+    "content": "emotions",
+    "tired": "emotions",
+    "unsure": "emotions",
+    "bored": "emotions",
+    "anxious": "emotions",
+    "angry": "emotions",
+    "stressed": "emotions",
+    "sad": "emotions",
+    "desperate": "emotions",
+    "irritated": "emotions",
+    "happy": "emotions",
+    "early": "sleep",
+    "good": "sleep",
+    "medium": "sleep",
+    "bad": "sleep",
+    "excercise": "health",
+    "drink water": "health",
+    "walk": "health",
+    "stretch": "health",
+    "doctor": "health",
+    "friends": "social",
+    "family": "social",
+    "date": "social",
+    "meditation": "better_me",
+    "kindness": "better_me",
+    "listen": "better_me",
+    "give gift": "better_me", #normalize?
+    "gardening": "better_me",
+    "pleasuread": "better_me",
+    "nap": "better_me",
+    "start early":"productivity",#normalize? 
+    "make list":"productivity",#normalize?
+    "focus":"productivity",
+    "take a break":"productivity",#normalize?
+    "shopping":"chores", 
+    "cleaning":"chores", 
+    "cooking":"chores", 
+    "laundry":"chores", 
+    "sunny":"weather",
+    "clouds":"weather",
+    "rain":"weather",
+    "storm":"weather",
+    "wind":"weather",
+    "heat":"weather",
+    "cold":"weather",
+    "humid":"weather"
+}
+
+################################################# 
+col = mapping.get(activity)
+if col:
+    df.at[idx, col] = 1
+
+
+for col in activity_columns:
+    df[col] = 0
+
+# Assign 1s
+for idx, row in df.iterrows():
+    for activity in row["activities"]:
+        if activity in activity_columns:
+            df.at[idx, activity] = 1
+
+df = df.drop(columns=["activities"])
+df.to_csv("data/moods_ready.csv", index=False)
+df.head()
 
 # Save cleaned dataset
 df.to_csv("data/moods_cleaned.csv", index=False)
