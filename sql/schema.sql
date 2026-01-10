@@ -34,4 +34,4 @@ SELECT
 FROM moods;
 
 
---- After loading your cleaned CSV into SQLite or PostgreSQL: queries.sql
+--- After loading cleaned CSV into SQLite or PostgreSQL: queries.sql
