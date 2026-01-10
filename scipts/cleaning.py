@@ -74,6 +74,9 @@ print(df["activities"].head())
 print(type(df["activities"].iloc[0]))
 
 #Clean trailing spaces in decomposed micro_activities column names
+for i in df['activities']:
+    for j in i:
+        j= [re.sub(r'\s+$', '', item) for item in j]
 
 # Map labels into the 8 categories.
 mapping = {
