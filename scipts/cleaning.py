@@ -140,7 +140,10 @@ mapping = {
 
 ################################################# 
 # Create the micro-activity binary columns for ML methods.
-#from sklearn.preprocessing import MultiLabelBinarizer
+
+# Inspect unique values before binarization:
+print(sorted({item for sublist in df["activities"] for item in sublist}))
+
 mlb = MultiLabelBinarizer()
 micro_df = pd.DataFrame(
     mlb.fit_transform(df["activities"]),
@@ -159,5 +162,6 @@ micro_df = micro_df.groupby(micro_df.columns, axis=1).max()
 
 print(micro_df.head())
 print(micro_df.info())
+
 
 
