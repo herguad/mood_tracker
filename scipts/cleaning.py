@@ -73,10 +73,16 @@ activity_columns = ["emotions", "sleep", "health", "social", "better_me", "produ
 print(df["activities"].head())
 print(type(df["activities"].iloc[0]))
 
-#Clean trailing spaces in decomposed micro_activities column names
-for i in df['activities']:
-    for j in i:
-        j= [re.sub(r'\s+$', '', item) for item in j]
+#Clean trailing spaces in decomposed micro_activities column names. Normalize.
+df["activities"] = df["activities"].apply(
+    lambda lst: [
+        re.sub(r"\s+", " ", item)   # collapse internal spaces
+          .strip()                  # remove left/right spaces
+          .lower()                  # normalize case
+        for item in lst
+    ]
+)
+
 
 # Map labels into the 8 categories.
 mapping = {
@@ -146,3 +152,5 @@ micro_df = pd.DataFrame(
 micro_df.to_csv("data/moods_microacts.csv", index=False)
 
 print("Multilabelled activities df saved to data/moods_cleaned.csv")
+
+
