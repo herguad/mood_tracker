@@ -172,14 +172,4 @@ print("Multilabelled activities df saved micro_df")
 macro_mood= result_cross.drop("activities",axis=1)
 print(macro_mood.head())
 
-import sqlite3
-
-conn = sqlite3.connect("data/moods.db")
-
-df = pd.read_csv("data/moods_cleaned.csv")
-
-df.to_sql("moods", conn, if_exists="append", index=False)
-
-conn.close()
-
 
