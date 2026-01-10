@@ -1,6 +1,9 @@
 import pandas as pd
+import numpy as np
 import re
 import ast
+from sklearn.preprocessing import StandardScaler
+
 
 # Load raw data
 df = pd.read_csv("data/raw_mood.csv")
@@ -58,7 +61,10 @@ print(df.activities[6])
 # ast package, try/except ast.literal_eval(x), except return [i.strip() for i in x.split(",")]
 #df["activities"] = df["activities"].apply(parse_list)
 
+# Save cleaned dataset
+df.to_csv("data/moods_cleaned.csv", index=False)
 
+print("Cleaning complete. Cleaned file saved to data/moods_cleaned.csv")
 
 # 3. Create the 8 new columns
 activity_columns = ["emotions", "sleep", "health", "social", "better_me", "productivity", "chores", "weather"]
@@ -121,25 +127,28 @@ mapping = {
 }
 
 ################################################# 
-col = mapping.get(activity)
-if col:
-    df.at[idx, col] = 1
+# Create the micro-activity binary columns for ML methods.
+from sklearn.preprocessing import MultiLabelBinarizer
 
+mlb = MultiLabelBinarizer()
+micro_df = pd.DataFrame(
+    mlb.fit_transform(df["activities"]),
+    columns=mlb.classes_,
+    index=df.index
+)
 
-for col in activity_columns:
-    df[col] = 0
+df_micro = df.join(micro_df)
 
-# Assign 1s
-for idx, row in df.iterrows():
-    for activity in row["activities"]:
-        if activity in activity_columns:
-            df.at[idx, activity] = 1
+for major in activity_columns:
+    df_micro[major] = 0
 
-df = df.drop(columns=["activities"])
-df.to_csv("data/moods_ready.csv", index=False)
-df.head()
+for sub, major in mapping.items():
+    if sub in df_micro.columns:
+        df_micro[major] += df_micro[sub]
+
+df_micro[activity_columns] = (df_micro[activity_columns] > 0).astype(int)
 
 # Save cleaned dataset
-df.to_csv("data/moods_cleaned.csv", index=False)
+df.to_csv("data/moods_microacts.csv", index=False)
 
 print("Cleaning complete. Cleaned file saved to data/moods_cleaned.csv")

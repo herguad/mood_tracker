@@ -1,751 +1,751 @@
-full_date,weekday,mood
-2026-01-07,Wednesday,good
-2026-01-06,Tuesday,good
-2026-01-05,Monday,meh
-2026-01-04,Sunday,good
-2026-01-03,Saturday,good
-2026-01-02,Friday,good
-2026-01-01,Thursday,good
-2025-12-31,Wednesday,good
-2025-12-30,Tuesday,good
-2025-12-29,Monday,meh
-2025-12-28,Sunday,good
-2025-12-27,Saturday,good
-2025-12-26,Friday,meh
-2025-12-25,Thursday,good
-2025-12-24,Wednesday,good
-2025-12-23,Tuesday,meh
-2025-12-22,Monday,good
-2025-12-21,Sunday,meh
-2025-12-20,Saturday,good
-2025-12-19,Friday,meh
-2025-12-18,Thursday,bad
-2025-12-17,Wednesday,meh
-2025-12-16,Tuesday,meh
-2025-12-15,Monday,meh
-2025-12-14,Sunday,meh
-2025-12-13,Saturday,awful
-2025-12-12,Friday,bad
-2025-12-11,Thursday,meh
-2025-12-10,Wednesday,bad
-2025-12-09,Tuesday,bad
-2025-12-08,Monday,meh
-2025-12-07,Sunday,meh
-2025-12-06,Saturday,bad
-2025-12-05,Friday,good
-2025-12-04,Thursday,good
-2025-12-03,Wednesday,good
-2025-12-02,Tuesday,good
-2025-12-01,Monday,meh
-2025-11-30,Sunday,good
-2025-11-29,Saturday,good
-2025-11-28,Friday,good
-2025-11-27,Thursday,good
-2025-11-26,Wednesday,good
-2025-11-25,Tuesday,meh
-2025-11-24,Monday,good
-2025-11-23,Sunday,good
-2025-11-22,Saturday,good
-2025-11-21,Friday,rad
-2025-11-20,Thursday,meh
-2025-11-19,Wednesday,good
-2025-11-18,Tuesday,meh
-2025-11-17,Monday,good
-2025-11-16,Sunday,meh
-2025-11-15,Saturday,good
-2025-11-14,Friday,good
-2025-11-13,Thursday,meh
-2025-11-12,Wednesday,good
-2025-11-11,Tuesday,rad
-2025-11-10,Monday,good
-2025-11-09,Sunday,good
-2025-11-08,Saturday,good
-2025-11-07,Friday,good
-2025-11-06,Thursday,good
-2025-11-05,Wednesday,good
-2025-11-04,Tuesday,good
-2025-11-03,Monday,good
-2025-11-02,Sunday,rad
-2025-11-01,Saturday,rad
-2025-10-31,Friday,good
-2025-10-30,Thursday,good
-2025-10-29,Wednesday,good
-2025-10-28,Tuesday,good
-2025-10-27,Monday,good
-2025-10-26,Sunday,meh
-2025-10-25,Saturday,good
-2025-10-24,Friday,good
-2025-10-23,Thursday,meh
-2025-10-22,Wednesday,good
-2025-10-21,Tuesday,meh
-2025-10-20,Monday,good
-2025-10-19,Sunday,good
-2025-10-18,Saturday,good
-2025-10-17,Friday,good
-2025-10-16,Thursday,rad
-2025-10-15,Wednesday,good
-2025-10-14,Tuesday,good
-2025-10-13,Monday,meh
-2025-10-12,Sunday,good
-2025-10-11,Saturday,good
-2025-10-10,Friday,good
-2025-10-09,Thursday,good
-2025-10-08,Wednesday,good
-2025-10-07,Tuesday,good
-2025-10-06,Monday,good
-2025-10-05,Sunday,meh
-2025-10-04,Saturday,good
-2025-10-03,Friday,good
-2025-10-02,Thursday,good
-2025-10-01,Wednesday,meh
-2025-09-30,Tuesday,good
-2025-09-29,Monday,good
-2025-09-28,Sunday,good
-2025-09-27,Saturday,good
-2025-09-26,Friday,good
-2025-09-25,Thursday,rad
-2025-09-24,Wednesday,good
-2025-09-23,Tuesday,good
-2025-09-22,Monday,good
-2025-09-21,Sunday,good
-2025-09-20,Saturday,good
-2025-09-19,Friday,good
-2025-09-18,Thursday,meh
-2025-09-17,Wednesday,good
-2025-09-16,Tuesday,good
-2025-09-15,Monday,good
-2025-09-14,Sunday,rad
-2025-09-13,Saturday,good
-2025-09-12,Friday,meh
-2025-09-11,Thursday,good
-2025-09-10,Wednesday,meh
-2025-09-09,Tuesday,meh
-2025-09-08,Monday,meh
-2025-09-07,Sunday,good
-2025-09-06,Saturday,good
-2025-09-05,Friday,good
-2025-09-04,Thursday,meh
-2025-09-03,Wednesday,good
-2025-09-02,Tuesday,good
-2025-09-01,Monday,good
-2025-08-31,Sunday,good
-2025-08-30,Saturday,good
-2025-08-29,Friday,good
-2025-08-28,Thursday,good
-2025-08-27,Wednesday,good
-2025-08-26,Tuesday,good
-2025-08-25,Monday,meh
-2025-08-24,Sunday,good
-2025-08-23,Saturday,good
-2025-08-22,Friday,good
-2025-08-21,Thursday,meh
-2025-08-20,Wednesday,good
-2025-08-19,Tuesday,meh
-2025-08-18,Monday,good
-2025-08-17,Sunday,good
-2025-08-16,Saturday,rad
-2025-08-15,Friday,good
-2025-08-14,Thursday,good
-2025-08-13,Wednesday,good
-2025-08-12,Tuesday,good
-2025-08-11,Monday,good
-2025-08-10,Sunday,good
-2025-08-09,Saturday,rad
-2025-08-08,Friday,good
-2025-08-07,Thursday,good
-2025-08-06,Wednesday,good
-2025-08-05,Tuesday,good
-2025-08-04,Monday,good
-2025-08-03,Sunday,rad
-2025-08-02,Saturday,rad
-2025-08-01,Friday,rad
-2025-07-31,Thursday,good
-2025-07-30,Wednesday,good
-2025-07-29,Tuesday,good
-2025-07-28,Monday,good
-2025-07-27,Sunday,good
-2025-07-26,Saturday,good
-2025-07-25,Friday,meh
-2025-07-24,Thursday,meh
-2025-07-23,Wednesday,bad
-2025-07-22,Tuesday,good
-2025-07-21,Monday,good
-2025-07-20,Sunday,meh
-2025-07-19,Saturday,meh
-2025-07-18,Friday,meh
-2025-07-17,Thursday,good
-2025-07-16,Wednesday,good
-2025-07-15,Tuesday,meh
-2025-07-14,Monday,meh
-2025-07-13,Sunday,good
-2025-07-12,Saturday,rad
-2025-07-11,Friday,rad
-2025-07-10,Thursday,rad
-2025-07-09,Wednesday,good
-2025-07-08,Tuesday,bad
-2025-07-07,Monday,good
-2025-07-06,Sunday,good
-2025-07-05,Saturday,meh
-2025-07-04,Friday,bad
-2025-07-03,Thursday,bad
-2025-07-02,Wednesday,good
-2025-07-01,Tuesday,good
-2025-06-30,Monday,meh
-2025-06-29,Sunday,meh
-2025-06-28,Saturday,good
-2025-06-27,Friday,good
-2025-06-26,Thursday,rad
-2025-06-25,Wednesday,meh
-2025-06-24,Tuesday,good
-2025-06-23,Monday,good
-2025-06-22,Sunday,good
-2025-06-21,Saturday,meh
-2025-06-20,Friday,meh
-2025-06-19,Thursday,good
-2025-06-18,Wednesday,good
-2025-06-17,Tuesday,good
-2025-06-16,Monday,good
-2025-06-15,Sunday,good
-2025-06-14,Saturday,rad
-2025-06-13,Friday,meh
-2025-06-12,Thursday,rad
-2025-06-11,Wednesday,rad
-2025-06-10,Tuesday,good
-2025-06-09,Monday,rad
-2025-06-08,Sunday,rad
-2025-06-07,Saturday,good
-2025-06-06,Friday,rad
-2025-06-05,Thursday,good
-2025-06-04,Wednesday,meh
-2025-06-03,Tuesday,good
-2025-06-02,Monday,meh
-2025-06-01,Sunday,good
-2025-05-31,Saturday,good
-2025-05-30,Friday,good
-2025-05-29,Thursday,rad
-2025-05-28,Wednesday,good
-2025-05-27,Tuesday,good
-2025-05-26,Monday,rad
-2025-05-25,Sunday,good
-2025-05-24,Saturday,rad
-2025-05-23,Friday,good
-2025-05-22,Thursday,good
-2025-05-21,Wednesday,good
-2025-05-20,Tuesday,good
-2025-05-19,Monday,good
-2025-05-18,Sunday,good
-2025-05-17,Saturday,good
-2025-05-16,Friday,good
-2025-05-15,Thursday,good
-2025-05-14,Wednesday,good
-2025-05-13,Tuesday,meh
-2025-05-12,Monday,good
-2025-05-11,Sunday,rad
-2025-05-10,Saturday,meh
-2025-05-09,Friday,meh
-2025-05-08,Thursday,rad
-2025-05-07,Wednesday,good
-2025-05-06,Tuesday,good
-2025-05-05,Monday,good
-2025-05-04,Sunday,rad
-2025-05-03,Saturday,rad
-2025-05-02,Friday,rad
-2025-05-01,Thursday,good
-2025-04-30,Wednesday,good
-2025-04-29,Tuesday,meh
-2025-04-28,Monday,good
-2025-04-27,Sunday,good
-2025-04-26,Saturday,good
-2025-04-25,Friday,meh
-2025-04-24,Thursday,good
-2025-04-23,Wednesday,good
-2025-04-22,Tuesday,good
-2025-04-21,Monday,good
-2025-04-20,Sunday,good
-2025-04-19,Saturday,rad
-2025-04-18,Friday,rad
-2025-04-17,Thursday,meh
-2025-04-16,Wednesday,good
-2025-04-15,Tuesday,good
-2025-04-14,Monday,good
-2025-04-13,Sunday,good
-2025-04-12,Saturday,rad
-2025-04-11,Friday,rad
-2025-04-10,Thursday,good
-2025-04-09,Wednesday,good
-2025-04-08,Tuesday,rad
-2025-04-07,Monday,rad
-2025-04-06,Sunday,rad
-2025-04-05,Saturday,good
-2025-04-04,Friday,meh
-2025-04-03,Thursday,good
-2025-04-02,Wednesday,good
-2025-04-01,Tuesday,good
-2025-03-31,Monday,good
-2025-03-30,Sunday,good
-2025-03-29,Saturday,good
-2025-03-28,Friday,good
-2025-03-27,Thursday,good
-2025-03-26,Wednesday,good
-2025-03-25,Tuesday,good
-2025-03-24,Monday,meh
-2025-03-23,Sunday,good
-2025-03-22,Saturday,good
-2025-03-21,Friday,meh
-2025-03-20,Thursday,good
-2025-03-19,Wednesday,good
-2025-03-18,Tuesday,good
-2025-03-17,Monday,good
-2025-03-16,Sunday,good
-2025-03-15,Saturday,good
-2025-03-14,Friday,meh
-2025-03-13,Thursday,good
-2025-03-12,Wednesday,meh
-2025-03-11,Tuesday,meh
-2025-03-10,Monday,meh
-2025-03-09,Sunday,bad
-2025-03-08,Saturday,meh
-2025-03-07,Friday,meh
-2025-03-06,Thursday,meh
-2025-03-05,Wednesday,good
-2025-03-04,Tuesday,meh
-2025-03-03,Monday,meh
-2025-03-02,Sunday,meh
-2025-03-01,Saturday,good
-2025-02-28,Friday,good
-2025-02-27,Thursday,good
-2025-02-26,Wednesday,good
-2025-02-25,Tuesday,meh
-2025-02-24,Monday,good
-2025-02-23,Sunday,good
-2025-02-22,Saturday,meh
-2025-02-21,Friday,good
-2025-02-20,Thursday,meh
-2025-02-19,Wednesday,good
-2025-02-18,Tuesday,good
-2025-02-17,Monday,good
-2025-02-16,Sunday,meh
-2025-02-15,Saturday,good
-2025-02-14,Friday,meh
-2025-02-13,Thursday,good
-2025-02-12,Wednesday,good
-2025-02-11,Tuesday,good
-2025-02-10,Monday,meh
-2025-02-09,Sunday,good
-2025-02-08,Saturday,good
-2025-02-07,Friday,meh
-2025-02-06,Thursday,meh
-2025-02-05,Wednesday,meh
-2025-02-04,Tuesday,meh
-2025-02-03,Monday,meh
-2025-02-02,Sunday,good
-2025-02-01,Saturday,good
-2025-01-31,Friday,good
-2025-01-30,Thursday,meh
-2025-01-29,Wednesday,good
-2025-01-28,Tuesday,meh
-2025-01-27,Monday,meh
-2025-01-26,Sunday,good
-2025-01-25,Saturday,good
-2025-01-24,Friday,rad
-2025-01-23,Thursday,good
-2025-01-22,Wednesday,rad
-2025-01-21,Tuesday,good
-2025-01-20,Monday,good
-2025-01-19,Sunday,good
-2025-01-18,Saturday,good
-2025-01-17,Friday,good
-2025-01-16,Thursday,good
-2025-01-15,Wednesday,good
-2025-01-14,Tuesday,good
-2025-01-13,Monday,good
-2025-01-12,Sunday,good
-2025-01-11,Saturday,meh
-2025-01-10,Friday,rad
-2025-01-09,Thursday,good
-2025-01-08,Wednesday,good
-2025-01-07,Tuesday,good
-2025-01-06,Monday,good
-2025-01-05,Sunday,good
-2025-01-04,Saturday,good
-2025-01-03,Friday,good
-2025-01-02,Thursday,good
-2025-01-01,Wednesday,good
-2024-12-31,Tuesday,meh
-2024-12-30,Monday,good
-2024-12-29,Sunday,good
-2024-12-28,Saturday,good
-2024-12-27,Friday,good
-2024-12-26,Thursday,good
-2024-12-25,Wednesday,good
-2024-12-24,Tuesday,good
-2024-12-23,Monday,good
-2024-12-22,Sunday,good
-2024-12-21,Saturday,good
-2024-12-20,Friday,meh
-2024-12-19,Thursday,meh
-2024-12-18,Wednesday,good
-2024-12-17,Tuesday,good
-2024-12-16,Monday,good
-2024-12-15,Sunday,good
-2024-12-14,Saturday,good
-2024-12-13,Friday,meh
-2024-12-12,Thursday,meh
-2024-12-11,Wednesday,good
-2024-12-10,Tuesday,good
-2024-12-09,Monday,good
-2024-12-08,Sunday,good
-2024-12-07,Saturday,good
-2024-12-06,Friday,good
-2024-12-05,Thursday,meh
-2024-12-04,Wednesday,good
-2024-12-03,Tuesday,good
-2024-12-02,Monday,good
-2024-12-01,Sunday,good
-2024-11-30,Saturday,good
-2024-11-29,Friday,good
-2024-11-28,Thursday,good
-2024-11-27,Wednesday,good
-2024-11-26,Tuesday,good
-2024-11-25,Monday,good
-2024-11-24,Sunday,good
-2024-11-23,Saturday,good
-2024-11-22,Friday,good
-2024-11-21,Thursday,good
-2024-11-20,Wednesday,good
-2024-11-19,Tuesday,good
-2024-11-18,Monday,good
-2024-11-17,Sunday,good
-2024-11-16,Saturday,good
-2024-11-15,Friday,good
-2024-11-14,Thursday,good
-2024-11-13,Wednesday,good
-2024-11-12,Tuesday,good
-2024-11-11,Monday,meh
-2024-11-10,Sunday,good
-2024-11-09,Saturday,good
-2024-11-08,Friday,good
-2024-11-07,Thursday,good
-2024-11-06,Wednesday,good
-2024-11-05,Tuesday,meh
-2024-11-04,Monday,bad
-2024-11-03,Sunday,good
-2024-11-02,Saturday,good
-2024-11-01,Friday,good
-2024-10-31,Thursday,good
-2024-10-30,Wednesday,good
-2024-10-29,Tuesday,good
-2024-10-28,Monday,meh
-2024-10-27,Sunday,good
-2024-10-26,Saturday,good
-2024-10-25,Friday,good
-2024-10-24,Thursday,meh
-2024-10-23,Wednesday,meh
-2024-10-22,Tuesday,meh
-2024-10-21,Monday,bad
-2024-10-20,Sunday,meh
-2024-10-19,Saturday,good
-2024-10-18,Friday,meh
-2024-10-17,Thursday,good
-2024-10-16,Wednesday,good
-2024-10-15,Tuesday,meh
-2024-10-14,Monday,bad
-2024-10-13,Sunday,meh
-2024-10-12,Saturday,good
-2024-10-11,Friday,rad
-2024-10-10,Thursday,rad
-2024-10-09,Wednesday,good
-2024-10-08,Tuesday,good
-2024-10-07,Monday,meh
-2024-10-06,Sunday,good
-2024-10-05,Saturday,good
-2024-10-04,Friday,good
-2024-10-03,Thursday,good
-2024-10-02,Wednesday,good
-2024-10-01,Tuesday,good
-2024-09-30,Monday,meh
-2024-09-29,Sunday,good
-2024-09-28,Saturday,good
-2024-09-27,Friday,meh
-2024-09-26,Thursday,good
-2024-09-25,Wednesday,good
-2024-09-24,Tuesday,good
-2024-09-23,Monday,meh
-2024-09-22,Sunday,good
-2024-09-21,Saturday,good
-2024-09-20,Friday,good
-2024-09-19,Thursday,good
-2024-09-18,Wednesday,good
-2024-09-17,Tuesday,good
-2024-09-16,Monday,meh
-2024-09-15,Sunday,good
-2024-09-14,Saturday,good
-2024-09-13,Friday,good
-2024-09-12,Thursday,good
-2024-09-11,Wednesday,good
-2024-09-10,Tuesday,meh
-2024-09-09,Monday,good
-2024-09-08,Sunday,good
-2024-09-07,Saturday,good
-2024-09-06,Friday,good
-2024-09-05,Thursday,meh
-2024-09-04,Wednesday,good
-2024-09-03,Tuesday,good
-2024-09-02,Monday,meh
-2024-09-01,Sunday,meh
-2024-08-31,Saturday,good
-2024-08-30,Friday,good
-2024-08-29,Thursday,good
-2024-08-28,Wednesday,good
-2024-08-27,Tuesday,meh
-2024-08-26,Monday,meh
-2024-08-25,Sunday,good
-2024-08-24,Saturday,good
-2024-08-23,Friday,meh
-2024-08-22,Thursday,good
-2024-08-21,Wednesday,meh
-2024-08-20,Tuesday,meh
-2024-08-19,Monday,good
-2024-08-18,Sunday,good
-2024-08-17,Saturday,good
-2024-08-16,Friday,good
-2024-08-15,Thursday,good
-2024-08-14,Wednesday,good
-2024-08-13,Tuesday,good
-2024-08-12,Monday,good
-2024-08-11,Sunday,good
-2024-08-10,Saturday,rad
-2024-08-09,Friday,good
-2024-08-08,Thursday,meh
-2024-08-07,Wednesday,good
-2024-08-06,Tuesday,meh
-2024-08-05,Monday,good
-2024-08-04,Sunday,good
-2024-08-03,Saturday,good
-2024-08-02,Friday,good
-2024-08-01,Thursday,good
-2024-07-31,Wednesday,good
-2024-07-30,Tuesday,good
-2024-07-29,Monday,good
-2024-07-28,Sunday,good
-2024-07-27,Saturday,good
-2024-07-26,Friday,meh
-2024-07-25,Thursday,good
-2024-07-24,Wednesday,meh
-2024-07-23,Tuesday,meh
-2024-07-22,Monday,good
-2024-07-21,Sunday,good
-2024-07-20,Saturday,good
-2024-07-19,Friday,good
-2024-07-18,Thursday,good
-2024-07-17,Wednesday,good
-2024-07-16,Tuesday,meh
-2024-07-15,Monday,good
-2024-07-14,Sunday,good
-2024-07-13,Saturday,good
-2024-07-12,Friday,meh
-2024-07-11,Thursday,meh
-2024-07-10,Wednesday,good
-2024-07-09,Tuesday,good
-2024-07-08,Monday,meh
-2024-07-07,Sunday,good
-2024-07-06,Saturday,good
-2024-07-05,Friday,good
-2024-07-04,Thursday,good
-2024-07-03,Wednesday,good
-2024-07-02,Tuesday,good
-2024-07-01,Monday,meh
-2024-06-30,Sunday,good
-2024-06-29,Saturday,good
-2024-06-28,Friday,good
-2024-06-27,Thursday,meh
-2024-06-26,Wednesday,good
-2024-06-25,Tuesday,good
-2024-06-24,Monday,good
-2024-06-23,Sunday,good
-2024-06-22,Saturday,good
-2024-06-21,Friday,good
-2024-06-20,Thursday,meh
-2024-06-19,Wednesday,meh
-2024-06-18,Tuesday,good
-2024-06-17,Monday,good
-2024-06-16,Sunday,good
-2024-06-15,Saturday,good
-2024-06-14,Friday,good
-2024-06-13,Thursday,good
-2024-06-12,Wednesday,good
-2024-06-11,Tuesday,bad
-2024-06-10,Monday,meh
-2024-06-09,Sunday,good
-2024-06-08,Saturday,good
-2024-06-07,Friday,good
-2024-06-06,Thursday,meh
-2024-06-05,Wednesday,good
-2024-06-04,Tuesday,bad
-2024-06-03,Monday,meh
-2024-06-02,Sunday,good
-2024-06-01,Saturday,meh
-2024-05-31,Friday,meh
-2024-05-30,Thursday,good
-2024-05-29,Wednesday,good
-2024-05-28,Tuesday,good
-2024-05-27,Monday,good
-2024-05-26,Sunday,good
-2024-05-25,Saturday,good
-2024-05-24,Friday,good
-2024-05-23,Thursday,meh
-2024-05-22,Wednesday,meh
-2024-05-21,Tuesday,meh
-2024-05-20,Monday,good
-2024-05-19,Sunday,good
-2024-05-18,Saturday,good
-2024-05-17,Friday,good
-2024-05-16,Thursday,meh
-2024-05-15,Wednesday,good
-2024-05-14,Tuesday,good
-2024-05-13,Monday,good
-2024-05-12,Sunday,good
-2024-05-11,Saturday,meh
-2024-05-10,Friday,good
-2024-05-09,Thursday,good
-2024-05-08,Wednesday,good
-2024-05-07,Tuesday,meh
-2024-05-06,Monday,meh
-2024-05-05,Sunday,meh
-2024-05-04,Saturday,good
-2024-05-03,Friday,good
-2024-05-02,Thursday,meh
-2024-05-01,Wednesday,good
-2024-04-30,Tuesday,meh
-2024-04-29,Monday,good
-2024-04-28,Sunday,good
-2024-04-27,Saturday,good
-2024-04-26,Friday,good
-2024-04-25,Thursday,good
-2024-04-24,Wednesday,good
-2024-04-23,Tuesday,meh
-2024-04-22,Monday,meh
-2024-04-21,Sunday,meh
-2024-04-20,Saturday,good
-2024-04-19,Friday,good
-2024-04-18,Thursday,good
-2024-04-17,Wednesday,good
-2024-04-16,Tuesday,good
-2024-04-15,Monday,meh
-2024-04-14,Sunday,good
-2024-04-13,Saturday,good
-2024-04-12,Friday,good
-2024-04-11,Thursday,meh
-2024-04-10,Wednesday,meh
-2024-04-09,Tuesday,good
-2024-04-08,Monday,good
-2024-04-07,Sunday,good
-2024-04-06,Saturday,good
-2024-04-05,Friday,meh
-2024-04-04,Thursday,meh
-2024-04-03,Wednesday,meh
-2024-04-02,Tuesday,good
-2024-04-01,Monday,good
-2024-03-31,Sunday,good
-2024-03-30,Saturday,good
-2024-03-29,Friday,good
-2024-03-28,Thursday,good
-2024-03-27,Wednesday,good
-2024-03-26,Tuesday,good
-2024-03-25,Monday,meh
-2024-03-24,Sunday,good
-2024-03-23,Saturday,good
-2024-03-22,Friday,good
-2024-03-21,Thursday,good
-2024-03-20,Wednesday,good
-2024-03-19,Tuesday,meh
-2024-03-18,Monday,good
-2024-03-17,Sunday,good
-2024-03-16,Saturday,meh
-2024-03-15,Friday,good
-2024-03-14,Thursday,meh
-2024-03-13,Wednesday,good
-2024-03-12,Tuesday,bad
-2024-03-11,Monday,meh
-2024-03-10,Sunday,good
-2024-03-09,Saturday,meh
-2024-03-08,Friday,good
-2024-03-07,Thursday,meh
-2024-03-06,Wednesday,meh
-2024-03-05,Tuesday,good
-2024-03-04,Monday,good
-2024-03-03,Sunday,meh
-2024-03-02,Saturday,good
-2024-03-01,Friday,bad
-2024-02-29,Thursday,good
-2024-02-28,Wednesday,meh
-2024-02-27,Tuesday,meh
-2024-02-26,Monday,good
-2024-02-25,Sunday,good
-2024-02-24,Saturday,good
-2024-02-23,Friday,good
-2024-02-22,Thursday,good
-2024-02-21,Wednesday,good
-2024-02-20,Tuesday,bad
-2024-02-19,Monday,meh
-2024-02-18,Sunday,meh
-2024-02-17,Saturday,good
-2024-02-16,Friday,good
-2024-02-15,Thursday,meh
-2024-02-14,Wednesday,bad
-2024-02-13,Tuesday,meh
-2024-02-12,Monday,good
-2024-02-11,Sunday,good
-2024-02-10,Saturday,good
-2024-02-09,Friday,meh
-2024-02-08,Thursday,good
-2024-02-07,Wednesday,meh
-2024-02-06,Tuesday,bad
-2024-02-05,Monday,good
-2024-02-04,Sunday,meh
-2024-02-03,Saturday,good
-2024-02-02,Friday,good
-2024-02-01,Thursday,meh
-2024-01-31,Wednesday,meh
-2024-01-30,Tuesday,bad
-2024-01-29,Monday,good
-2024-01-28,Sunday,meh
-2024-01-27,Saturday,good
-2024-01-26,Friday,good
-2024-01-25,Thursday,meh
-2024-01-24,Wednesday,good
-2024-01-23,Tuesday,meh
-2024-01-22,Monday,meh
-2024-01-21,Sunday,meh
-2024-01-20,Saturday,meh
-2024-01-19,Friday,meh
-2024-01-18,Thursday,good
-2024-01-17,Wednesday,good
-2024-01-16,Tuesday,good
-2024-01-15,Monday,good
-2024-01-14,Sunday,meh
-2024-01-13,Saturday,meh
-2024-01-12,Friday,bad
-2024-01-11,Thursday,bad
-2024-01-10,Wednesday,meh
-2024-01-09,Tuesday,good
-2024-01-08,Monday,meh
-2024-01-07,Sunday,bad
-2024-01-06,Saturday,bad
-2024-01-05,Friday,good
-2024-01-04,Thursday,meh
-2024-01-03,Wednesday,meh
-2024-01-02,Tuesday,meh
-2024-01-01,Monday,meh
-2023-12-31,Sunday,meh
-2023-12-30,Saturday,meh
-2023-12-29,Friday,good
-2023-12-28,Thursday,good
-2023-12-27,Wednesday,meh
-2023-12-26,Tuesday,meh
-2023-12-25,Monday,good
-2023-12-24,Sunday,good
-2023-12-23,Saturday,meh
-2023-12-22,Friday,good
-2023-12-21,Thursday,meh
-2023-12-20,Wednesday,meh
+full_date,weekday,mood,activities
+2026-01-07,Wednesday,good,"['relaxed ', ' good sleep ', ' friends ', ' date ', ' nap ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2026-01-06,Tuesday,good,"['relaxed ', ' content ', ' good sleep ', ' exercise ', ' drink water ', ' meditation ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2026-01-05,Monday,meh,"['content ', ' tired ', ' sad ', ' Irritated ', ' medium sleep ', ' drink water ', ' nap ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' wind']"
+2026-01-04,Sunday,good,"['grateful ', ' relaxed ', ' medium sleep ', ' friends ', ' date ', ' nap ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2026-01-03,Saturday,good,"['happy ', ' grateful ', ' medium sleep ', ' friends ', ' date ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' wind']"
+2026-01-02,Friday,good,"['grateful ', ' relaxed ', ' good sleep ', ' family ', ' cleaning ', ' sunny ', ' wind']"
+2026-01-01,Thursday,good,"['content ', ' stressed ', ' good sleep ', ' drink water ', ' walk ', ' kindness ', ' nap ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' wind']"
+2025-12-31,Wednesday,good,"['happy ', ' grateful ', ' relaxed ', ' medium sleep ', ' drink water ', ' meditation ', ' nap ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' heat']"
+2025-12-30,Tuesday,good,"['relaxed ', ' stressed ', ' good sleep ', ' drink water ', ' walk ', ' listen ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' wind ', ' heat']"
+2025-12-29,Monday,meh,"['grateful ', ' tired ', ' sad ', ' bad sleep ', ' friends ', ' date ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' heat ', ' humid']"
+2025-12-28,Sunday,good,"['happy ', ' grateful ', ' medium sleep ', ' friends ', ' date ', ' listen ', ' cleaning ', ' sunny ', ' clouds ', ' heat']"
+2025-12-27,Saturday,good,"['grateful ', ' good sleep ', ' friends ', ' date ', ' nap ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' wind ', ' heat']"
+2025-12-26,Friday,meh,"['relaxed ', ' medium sleep ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' wind ', ' heat']"
+2025-12-25,Thursday,good,"['happy ', ' grateful ', ' good sleep ', ' friends ', ' date ', ' nap ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2025-12-24,Wednesday,good,"['grateful ', ' tired ', ' anxious ', ' medium sleep ', ' friends ', ' date ', ' nap ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-12-23,Tuesday,meh,"['anxious ', ' sad ', ' medium sleep ', ' friends ', ' date ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-12-22,Monday,good,"['grateful ', ' medium sleep ', ' friends ', ' date ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-12-21,Sunday,meh,"['grateful ', ' tired ', ' angry ', ' sad ', ' bad sleep ', ' family ', ' friends ', ' date ', ' listen ', ' nap ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' heat ', ' humid']"
+2025-12-20,Saturday,good,"['grateful ', ' content ', ' medium sleep ', ' friends ', ' date ', ' listen ', ' cleaning ', ' sunny ', ' clouds ', ' rain ', ' humid']"
+2025-12-19,Friday,meh,"['stressed ', ' sad ', ' medium sleep ', ' friends ', ' date ', ' nap ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2025-12-18,Thursday,bad,"['stressed ', ' Irritated ', ' good sleep ', ' exercise ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' wind ', ' heat']"
+2025-12-17,Wednesday,meh,"['grateful ', ' relaxed ', ' sad ', ' medium sleep ', ' family ', ' nap ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' wind']"
+2025-12-16,Tuesday,meh,"['relaxed ', ' tired ', ' good sleep ', ' exercise ', ' nap ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' wind']"
+2025-12-15,Monday,meh,"['relaxed ', ' unsure ', ' sad ', ' good sleep ', ' listen ', ' nap ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' wind']"
+2025-12-14,Sunday,meh,"['grateful ', ' tired ', ' sad ', ' good sleep ', ' friends ', ' cleaning ', ' clouds ', ' rain ', ' wind']"
+2025-12-13,Saturday,awful,"['relaxed ', ' stressed ', ' sad ', ' friends ', ' date ', ' listen ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' wind ', ' heat']"
+2025-12-12,Friday,bad,"['stressed ', ' sad ', ' medium sleep ', ' family ', ' friends ', ' date ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' wind ', ' heat']"
+2025-12-11,Thursday,meh,"['grateful ', ' tired ', ' sad ', ' good sleep ', ' exercise ', ' walk ', ' family ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' wind ', ' heat ', ' humid']"
+2025-12-10,Wednesday,bad,"['grateful ', ' sad ', ' desperate ', ' bad sleep ', ' Doctor ', ' friends ', ' date ', ' start early ', ' focus ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' rain ', ' heat']"
+2025-12-09,Tuesday,bad,"['grateful ', ' anxious ', ' sad ', ' desperate ', ' bad sleep ', ' friends ', ' date ', ' start early ', ' shopping ', ' cleaning ', ' clouds']"
+2025-12-08,Monday,meh,"['happy ', ' grateful ', ' unsure ', ' stressed ', ' bad sleep ', ' friends ', ' date ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' clouds']"
+2025-12-07,Sunday,meh,"['grateful ', ' tired ', ' unsure ', ' bad sleep ', ' friends ', ' date ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds']"
+2025-12-06,Saturday,bad,"['stressed ', ' sad ', ' good sleep ', ' Doctor ', ' friends ', ' date ', ' listen ', ' start early ', ' sunny ', ' clouds ', ' heat']"
+2025-12-05,Friday,good,"['content ', ' good sleep ', ' friends ', ' date ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-12-04,Thursday,good,"['content ', ' good sleep ', ' exercise ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' heat']"
+2025-12-03,Wednesday,good,"['relaxed ', ' unsure ', ' good sleep ', ' nap ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' laundry ', ' sunny ', ' clouds ', ' heat']"
+2025-12-02,Tuesday,good,"['content ', ' good sleep ', ' exercise ', ' nap ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' heat']"
+2025-12-01,Monday,meh,"['content ', ' anxious ', ' Irritated ', ' good sleep ', ' family ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' rain ', ' humid']"
+2025-11-30,Sunday,good,"['happy ', ' grateful ', ' good sleep ', ' fast food ', ' friends ', ' listen ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain']"
+2025-11-29,Saturday,good,"['relaxed ', ' Irritated ', ' good sleep ', ' listen ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' clouds ', ' rain']"
+2025-11-28,Friday,good,"['happy ', ' grateful ', ' relaxed ', ' medium sleep ', ' friends ', ' date ', ' nap ', ' take a break ', ' sunny ', ' clouds ', ' wind']"
+2025-11-27,Thursday,good,"['happy ', ' relaxed ', ' friends ', ' date ', ' nap ', ' cleaning ', ' sunny ', ' clouds ', ' heat']"
+2025-11-26,Wednesday,good,"['content ', ' good sleep ', ' exercise ', ' drink water ', ' nap ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning']"
+2025-11-25,Tuesday,meh,"['angry ', ' Irritated ', ' good sleep ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' heat']"
+2025-11-24,Monday,good,"['content ', ' unsure ', ' stressed ', ' sad ', ' good sleep ', ' walk ', ' start early ', ' cleaning ', ' laundry ', ' sunny ', ' wind']"
+2025-11-23,Sunday,good,"['happy ', ' grateful ', ' tired ', ' anxious ', ' desperate ', ' bad sleep ', ' walk ', ' friends ', ' date ', ' listen ', ' take a break ', ' laundry ', ' sunny ', ' wind']"
+2025-11-22,Saturday,good,"['relaxed ', ' tired ', ' good sleep ', ' friends ', ' date ', ' listen ', ' nap ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' storm']"
+2025-11-21,Friday,rad,"['happy ', ' excited ', ' grateful ', ' good sleep ', ' friends ', ' nap ', ' cleaning ', ' sunny ', ' clouds']"
+2025-11-20,Thursday,meh,"['angry ', ' Irritated ', ' medium sleep ', ' friends ', ' date ', ' cleaning ', ' clouds ', ' rain ', ' storm ', ' wind']"
+2025-11-19,Wednesday,good,"['content ', ' unsure ', ' good sleep ', ' exercise ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' wind']"
+2025-11-18,Tuesday,meh,"['stressed ', ' Irritated ', ' medium sleep ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds']"
+2025-11-17,Monday,good,"['tired ', ' stressed ', ' medium sleep ', ' exercise ', ' walk ', ' start early ', ' make list ', ' focus ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2025-11-16,Sunday,meh,"['content ', ' good sleep ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' rain ', ' storm ', ' wind']"
+2025-11-15,Saturday,good,"['grateful ', ' angry ', ' Irritated ', ' good sleep ', ' family ', ' listen ', ' cleaning ', ' sunny ', ' heat']"
+2025-11-14,Friday,good,"['relaxed ', ' good sleep ', ' nap ', ' shopping ', ' sunny ', ' clouds ', ' heat']"
+2025-11-13,Thursday,meh,"['Irritated ', ' medium sleep ', ' walk ', ' Doctor ', ' friends ', ' date ', ' nap ', ' sunny ', ' clouds ', ' heat']"
+2025-11-12,Wednesday,good,"['relaxed ', ' content ', ' good sleep ', ' exercise ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds']"
+2025-11-11,Tuesday,rad,"['happy ', ' grateful ', ' relaxed ', ' medium sleep ', ' friends ', ' date ', ' pleasuread ', ' nap ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' rain ', ' wind']"
+2025-11-10,Monday,good,"['relaxed ', ' good sleep ', ' exercise ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds']"
+2025-11-09,Sunday,good,"['content ', ' good sleep ', ' walk ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' wind']"
+2025-11-08,Saturday,good,"['happy ', ' grateful ', ' good sleep ', ' friends ', ' date ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' rain']"
+2025-11-07,Friday,good,"['relaxed ', ' content ', ' good sleep ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain']"
+2025-11-06,Thursday,good,"['happy ', ' grateful ', ' good sleep ', ' friends ', ' date ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2025-11-05,Wednesday,good,"['content ', ' tired ', ' good sleep ', ' exercise ', ' walk ', ' Doctor ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2025-11-04,Tuesday,good,"['content ', ' good sleep ', ' Doctor ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' clouds ', ' rain']"
+2025-11-03,Monday,good,"['relaxed ', ' good sleep ', ' exercise ', ' walk ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' rain ', ' wind']"
+2025-11-02,Sunday,rad,"['happy ', ' grateful ', ' good sleep ', ' walk ', ' friends ', ' cleaning ', ' sunny ', ' clouds']"
+2025-11-01,Saturday,rad,"['happy ', ' grateful ', ' relaxed ', ' good sleep ', ' restaurant ', ' friends ', ' date ', ' nap ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds']"
+2025-10-31,Friday,good,"['relaxed ', ' good sleep ', ' walk ', ' family ', ' friends ', ' date ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cooking ', ' sunny ', ' wind']"
+2025-10-30,Thursday,good,"['grateful ', ' good sleep ', ' friends ', ' date ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' wind']"
+2025-10-29,Wednesday,good,"['medium sleep ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' cold']"
+2025-10-28,Tuesday,good,"['excited ', ' content ', ' good sleep ', ' friends ', ' date ', ' cleaning ', ' clouds ', ' wind ', ' cold']"
+2025-10-27,Monday,good,"['grateful ', ' good sleep ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' clouds ', ' rain ', ' cold']"
+2025-10-26,Sunday,meh,"['content ', ' good sleep ', ' friends ', ' date ', ' gardening ', ' pleasuread ', ' take a break ', ' cleaning ', ' sunny ', ' clouds']"
+2025-10-25,Saturday,good,"['grateful ', ' relaxed ', ' good sleep ', ' walk ', ' friends ', ' cleaning ', ' laundry ', ' clouds ', ' cold']"
+2025-10-24,Friday,good,"['grateful ', ' good sleep ', ' walk ', ' friends ', ' date ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' humid']"
+2025-10-23,Thursday,meh,"['tired ', ' angry ', ' sad ', ' Irritated ', ' good sleep ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' heat']"
+2025-10-22,Wednesday,good,"['content ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain']"
+2025-10-21,Tuesday,meh,"['unsure ', ' angry ', ' good sleep ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' wind']"
+2025-10-20,Monday,good,"['content ', ' good sleep ', ' walk ', ' Doctor ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' wind']"
+2025-10-19,Sunday,good,"['happy ', ' grateful ', ' bad sleep ', ' family ', ' friends ', ' date ', ' listen ', ' give gift ', ' take a break ', ' cleaning ', ' sunny ', ' wind']"
+2025-10-18,Saturday,good,"['content ', ' good sleep ', ' friends ', ' date ', ' listen ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2025-10-17,Friday,good,"['relaxed ', ' good sleep ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' humid']"
+2025-10-16,Thursday,rad,"['happy ', ' grateful ', ' good sleep ', ' walk ', ' Doctor ', ' friends ', ' date ', ' listen ', ' nap ', ' start early ', ' focus ', ' take a break ', ' laundry ', ' sunny ', ' clouds ', ' humid']"
+2025-10-15,Wednesday,good,"['tired ', ' good sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' rain']"
+2025-10-14,Tuesday,good,"['grateful ', ' good sleep ', ' drink water ', ' walk ', ' family ', ' friends ', ' date ', ' start early ', ' make list ', ' shopping ', ' sunny']"
+2025-10-13,Monday,meh,"['relaxed ', ' unsure ', ' good sleep ', ' friends ', ' date ', ' listen ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds']"
+2025-10-12,Sunday,good,"['relaxed ', ' tired ', ' medium sleep ', ' family ', ' friends ', ' date ', ' take a break ', ' clouds ', ' rain ', ' storm ', ' wind']"
+2025-10-11,Saturday,good,"['happy ', ' grateful ', ' medium sleep ', ' family ', ' friends ', ' date ', ' take a break ', ' sunny ', ' clouds ', ' wind']"
+2025-10-10,Friday,good,"['happy ', ' grateful ', ' good sleep ', ' friends ', ' date ', ' start early ', ' cleaning ', ' sunny ', ' wind ', ' heat']"
+2025-10-09,Thursday,good,"['grateful ', ' medium sleep ', ' walk ', ' friends ', ' date ', ' listen ', ' nap ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2025-10-08,Wednesday,good,"['grateful ', ' good sleep ', ' walk ', ' friends ', ' date ', ' start early ', ' focus ', ' cleaning ', ' laundry ', ' sunny ', ' wind ', ' heat']"
+2025-10-07,Tuesday,good,"['content ', ' good sleep ', ' walk ', ' listen ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' wind']"
+2025-10-06,Monday,good,"['content ', ' good sleep ', ' walk ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2025-10-05,Sunday,meh,"['unsure ', ' sad ', ' good sleep ', ' friends ', ' date ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' wind']"
+2025-10-04,Saturday,good,"['relaxed ', ' content ', ' good sleep ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' heat']"
+2025-10-03,Friday,good,"['relaxed ', ' good sleep ', ' friends ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' clouds']"
+2025-10-02,Thursday,good,"['relaxed ', ' good sleep ', ' walk ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny']"
+2025-10-01,Wednesday,meh,"['unsure ', ' sad ', ' good sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny']"
+2025-09-30,Tuesday,good,"['content ', ' good sleep ', ' drink water ', ' walk ', ' Doctor ', ' nap ', ' focus ', ' take a break ', ' sunny']"
+2025-09-29,Monday,good,"['happy ', ' good sleep ', ' walk ', ' family ', ' start early ', ' focus ', ' take a break ', ' sunny']"
+2025-09-28,Sunday,good,"['relaxed ', ' good sleep ', ' friends ', ' date ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny']"
+2025-09-27,Saturday,good,"['grateful ', ' relaxed ', ' good sleep ', ' friends ', ' date ', ' start early ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' wind']"
+2025-09-26,Friday,good,"['relaxed ', ' medium sleep ', ' walk ', ' nap ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' clouds']"
+2025-09-25,Thursday,rad,"['happy ', ' grateful ', ' good sleep ', ' Doctor ', ' restaurant ', ' friends ', ' date ', ' listen ', ' take a break ', ' cleaning ', ' sunny']"
+2025-09-24,Wednesday,good,"['happy ', ' good sleep ', ' walk ', ' friends ', ' date ', ' listen ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' cold']"
+2025-09-23,Tuesday,good,"['happy ', ' grateful ', ' good sleep ', ' family ', ' friends ', ' date ', ' listen ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds']"
+2025-09-22,Monday,good,"['happy ', ' relaxed ', ' good sleep ', ' walk ', ' Doctor ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' wind']"
+2025-09-21,Sunday,good,"['content ', ' medium sleep ', ' friends ', ' date ', ' take a break ', ' cleaning ', ' laundry ', ' clouds']"
+2025-09-20,Saturday,good,"['content ', ' good sleep ', ' friends ', ' date ', ' cleaning ', ' clouds ', ' rain ', ' storm']"
+2025-09-19,Friday,good,"['relaxed ', ' good sleep ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' storm']"
+2025-09-18,Thursday,meh,"['tired ', ' sad ', ' medium sleep ', ' walk ', ' Doctor ', ' friends ', ' date ', ' listen ', ' nap ', ' start early ', ' sunny ', ' rain ', ' humid']"
+2025-09-17,Wednesday,good,"['relaxed ', ' angry ', ' Irritated ', ' good sleep ', ' walk ', ' Doctor ', ' cleaning ', ' sunny']"
+2025-09-16,Tuesday,good,"['content ', ' good sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' sunny']"
+2025-09-15,Monday,good,"['content ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2025-09-14,Sunday,rad,"['happy ', ' good sleep ', ' walk ', ' friends ', ' start early ', ' focus ', ' take a break ', ' sunny']"
+2025-09-13,Saturday,good,"['happy ', ' good sleep ', ' walk ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds']"
+2025-09-12,Friday,meh,"['unsure ', ' medium sleep ', ' nap ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds']"
+2025-09-11,Thursday,good,"['content ', ' good sleep ', ' delivery ', ' friends ', ' date ', ' listen ', ' pleasuread ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny']"
+2025-09-10,Wednesday,meh,"['content ', ' unsure ', ' good sleep ', ' pleasuread ', ' nap ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny']"
+2025-09-09,Tuesday,meh,"['unsure ', ' good sleep ', ' friends ', ' date ', ' pleasuread ', ' nap ', ' start early ', ' sunny ', ' clouds']"
+2025-09-08,Monday,meh,"['unsure ', ' good sleep ', ' walk ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds']"
+2025-09-07,Sunday,good,"['happy ', ' good sleep ', ' friends ', ' date ', ' listen ', ' sunny ', ' wind ', ' cold']"
+2025-09-06,Saturday,good,"['happy ', ' medium sleep ', ' family ', ' listen ', ' cleaning ', ' sunny ', ' cold']"
+2025-09-05,Friday,good,"['happy ', ' good sleep ', ' walk ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' laundry ', ' sunny ', ' cold']"
+2025-09-04,Thursday,meh,"['unsure ', ' good sleep ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' cold']"
+2025-09-03,Wednesday,good,"['content ', ' good sleep ', ' walk ', ' start early ', ' focus ', ' cleaning ', ' sunny ', ' clouds ', ' rain ', ' cold']"
+2025-09-02,Tuesday,good,"['content ', ' good sleep ', ' friends ', ' date ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' cold']"
+2025-09-01,Monday,good,"['content ', ' good sleep ', ' walk ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' cold']"
+2025-08-31,Sunday,good,"['relaxed ', ' good sleep ', ' pleasuread ', ' take a break ', ' clouds ', ' rain']"
+2025-08-30,Saturday,good,"['content ', ' good sleep ', ' walk ', ' friends ', ' kindness ', ' listen ', ' give gift ', ' take a break ', ' shopping ', ' clouds ', ' wind ', ' humid']"
+2025-08-29,Friday,good,"['good sleep ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' humid']"
+2025-08-28,Thursday,good,"['grateful ', ' relaxed ', ' medium sleep ', ' friends ', ' date ', ' take a break ', ' cleaning ', ' laundry ', ' sunny']"
+2025-08-27,Wednesday,good,"['relaxed ', ' good sleep ', ' friends ', ' date ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny']"
+2025-08-26,Tuesday,good,"['content ', ' good sleep ', ' walk ', ' family ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' wind']"
+2025-08-25,Monday,meh,"['unsure ', ' sad ', ' good sleep ', ' walk ', ' make list ', ' shopping ', ' cleaning ', ' sunny ', ' wind ', ' humid']"
+2025-08-24,Sunday,good,"['relaxed ', ' good sleep ', ' walk ', ' friends ', ' date ', ' pleasuread ', ' cleaning ', ' sunny ', ' wind ', ' cold']"
+2025-08-23,Saturday,good,"['happy ', ' grateful ', ' good sleep ', ' walk ', ' friends ', ' pleasuread ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' cold ', ' humid']"
+2025-08-22,Friday,good,"['relaxed ', ' good sleep ', ' walk ', ' friends ', ' date ', ' listen ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' cold ', ' humid']"
+2025-08-21,Thursday,meh,"['unsure ', ' sad ', ' good sleep ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' humid']"
+2025-08-20,Wednesday,good,"['grateful ', ' friends ', ' date ', ' listen ', ' start early ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' wind ', ' humid']"
+2025-08-19,Tuesday,meh,"['unsure ', ' good sleep ', ' clouds ', ' rain ', ' humid']"
+2025-08-18,Monday,good,"['grateful ', ' relaxed ', ' good sleep ', ' friends ', ' date ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' humid']"
+2025-08-17,Sunday,good,"['relaxed ', ' content ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' humid']"
+2025-08-16,Saturday,rad,"['happy ', ' grateful ', ' good sleep ', ' family ', ' friends ', ' date ', ' listen ', ' start early ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' cold ', ' humid']"
+2025-08-15,Friday,good,"['content ', ' good sleep ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' cold ', ' humid']"
+2025-08-14,Thursday,good,"['grateful ', ' content ', ' good sleep ', ' walk ', ' friends ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' cold']"
+2025-08-13,Wednesday,good,"['happy ', ' grateful ', ' good sleep ', ' walk ', ' friends ', ' listen ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' cold ', ' humid']"
+2025-08-12,Tuesday,good,"['happy ', ' grateful ', ' relaxed ', ' good sleep ', ' friends ', ' date ', ' listen ', ' nap ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' humid']"
+2025-08-11,Monday,good,"['happy ', ' relaxed ', ' good sleep ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' humid']"
+2025-08-10,Sunday,good,"['grateful ', ' relaxed ', ' medium sleep ', ' friends ', ' date ', ' listen ', ' cleaning ', ' sunny ', ' cold']"
+2025-08-09,Saturday,rad,"['happy ', ' excited ', ' grateful ', ' medium sleep ', ' family ', ' friends ', ' date ', ' kindness ', ' listen ', ' focus ', ' take a break ', ' cleaning ', ' cooking ', ' sunny ', ' cold ', ' humid']"
+2025-08-08,Friday,good,"['happy ', ' tired ', ' stressed ', ' medium sleep ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' cleaning ', ' cooking ', ' sunny ', ' cold']"
+2025-08-07,Thursday,good,"['happy ', ' grateful ', ' good sleep ', ' friends ', ' date ', ' listen ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' cold ', ' humid']"
+2025-08-06,Wednesday,good,"['happy ', ' relaxed ', ' good sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' cooking ', ' sunny ', ' cold']"
+2025-08-05,Tuesday,good,"['happy ', ' grateful ', ' relaxed ', ' good sleep ', ' friends ', ' date ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' cold']"
+2025-08-04,Monday,good,"['relaxed ', ' content ', ' good sleep ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' cold']"
+2025-08-03,Sunday,rad,"['happy ', ' grateful ', ' good sleep ', ' friends ', ' date ', ' listen ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' cold ', ' humid']"
+2025-08-02,Saturday,rad,"['happy ', ' relaxed ', ' medium sleep ', ' walk ', ' friends ', ' date ', ' listen ', ' take a break ', ' sunny']"
+2025-08-01,Friday,rad,"['happy ', ' grateful ', ' good sleep ', ' friends ', ' date ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' humid']"
+2025-07-31,Thursday,good,"['grateful ', ' content ', ' good sleep ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' cold ', ' humid']"
+2025-07-30,Wednesday,good,"['content ', ' good sleep ', ' friends ', ' date ', ' start early ', ' focus ', ' cleaning ', ' laundry ', ' sunny ', ' humid']"
+2025-07-29,Tuesday,good,"['happy ', ' grateful ', ' good sleep ', ' walk ', ' family ', ' friends ', ' date ', ' start early ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' cold ', ' humid']"
+2025-07-28,Monday,good,"['grateful ', ' content ', ' medium sleep ', ' friends ', ' date ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny']"
+2025-07-27,Sunday,good,"['grateful ', ' content ', ' good sleep ', ' friends ', ' date ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' cold ', ' humid']"
+2025-07-26,Saturday,good,"['grateful ', ' content ', ' good sleep ', ' friends ', ' date ', ' cleaning ', ' clouds ', ' cold ', ' humid']"
+2025-07-25,Friday,meh,"['content ', ' angry ', ' stressed ', ' sad ', ' medium sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' clouds ', ' cold ', ' humid']"
+2025-07-24,Thursday,meh,"['content ', ' sad ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' cold ', ' humid']"
+2025-07-23,Wednesday,bad,"['stressed ', ' sad ', ' medium sleep ', ' date ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' cold']"
+2025-07-22,Tuesday,good,"['content ', ' good sleep ', ' date ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' cold ', ' humid']"
+2025-07-21,Monday,good,"['relaxed ', ' content ', ' good sleep ', ' walk ', ' meditation ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' humid']"
+2025-07-20,Sunday,meh,"['unsure ', ' bored ', ' angry ', ' good sleep ', ' nap ', ' laundry ', ' sunny ', ' clouds ', ' humid']"
+2025-07-19,Saturday,meh,"['content ', ' anxious ', ' sad ', ' medium sleep ', ' friends ', ' date ', ' listen ', ' cleaning ', ' laundry ', ' sunny ', ' cold ', ' humid']"
+2025-07-18,Friday,meh,"['happy ', ' grateful ', ' anxious ', ' angry ', ' stressed ', ' medium sleep ', ' walk ', ' family ', ' friends ', ' listen ', ' start early ', ' clouds ', ' cold ', ' humid']"
+2025-07-17,Thursday,good,"['content ', ' stressed ', ' good sleep ', ' walk ', ' stretch ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' wind ', ' cold ', ' humid']"
+2025-07-16,Wednesday,good,"['relaxed ', ' content ', ' good sleep ', ' stretch ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' cold']"
+2025-07-15,Tuesday,meh,"['content ', ' good sleep ', ' delivery ', ' friends ', ' date ', ' listen ', ' pleasuread ', ' start early ', ' take a break ', ' cleaning ', ' clouds ', ' humid']"
+2025-07-14,Monday,meh,"['angry ', ' stressed ', ' good sleep ', ' stretch ', ' friends ', ' date ', ' meditation ', ' listen ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' clouds ', ' cold ', ' humid']"
+2025-07-13,Sunday,good,"['happy ', ' relaxed ', ' good sleep ', ' drink water ', ' walk ', ' stretch ', ' meditation ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' humid']"
+2025-07-12,Saturday,rad,"['grateful ', ' content ', ' good sleep ', ' walk ', ' friends ', ' listen ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' humid']"
+2025-07-11,Friday,rad,"['happy ', ' grateful ', ' relaxed ', ' medium sleep ', ' walk ', ' friends ', ' date ', ' nap ', ' shopping ', ' cleaning ', ' sunny ', ' humid']"
+2025-07-10,Thursday,rad,"['happy ', ' grateful ', ' good sleep ', ' friends ', ' date ', ' cleaning ', ' laundry ', ' clouds ', ' cold ', ' humid']"
+2025-07-09,Wednesday,good,"['grateful ', ' tired ', ' bad sleep ', ' friends ', ' date ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' humid']"
+2025-07-08,Tuesday,bad,"['unsure ', ' anxious ', ' stressed ', ' sad ', ' medium sleep ', ' friends ', ' date ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' humid']"
+2025-07-07,Monday,good,"['content ', ' medium sleep ', ' start early ', ' focus ', ' take a break ', ' clouds']"
+2025-07-06,Sunday,good,"['happy ', ' grateful ', ' unsure ', ' good sleep ', ' friends ', ' date ', ' listen ', ' cleaning ', ' sunny ', ' clouds ', ' humid']"
+2025-07-05,Saturday,meh,"['tired ', ' stressed ', ' sad ', ' medium sleep ', ' friends ', ' date ', ' listen ', ' clouds']"
+2025-07-04,Friday,bad,"['stressed ', ' sad ', ' good sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' clouds ', ' cold ', ' humid']"
+2025-07-03,Thursday,bad,"['unsure ', ' sad ', ' good sleep ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' cold ', ' humid']"
+2025-07-02,Wednesday,good,"['content ', ' unsure ', ' sad ', ' good sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' cold']"
+2025-07-01,Tuesday,good,"['relaxed ', ' content ', ' sad ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' cold']"
+2025-06-30,Monday,meh,"['stressed ', ' sad ', ' good sleep ', ' listen ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' cold']"
+2025-06-29,Sunday,meh,"['unsure ', ' anxious ', ' stressed ', ' good sleep ', ' friends ', ' date ', ' clouds ', ' cold']"
+2025-06-28,Saturday,good,"['happy ', ' relaxed ', ' good sleep ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' cold ', ' humid']"
+2025-06-27,Friday,good,"['happy ', ' grateful ', ' stressed ', ' good sleep ', ' friends ', ' date ', ' listen ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' wind ', ' cold']"
+2025-06-26,Thursday,rad,"['happy ', ' grateful ', ' medium sleep ', ' friends ', ' date ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' cold']"
+2025-06-25,Wednesday,meh,"['unsure ', ' stressed ', ' sad ', ' medium sleep ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' wind ', ' cold']"
+2025-06-24,Tuesday,good,"['grateful ', ' content ', ' good sleep ', ' start early ', ' make list ', ' focus ', ' shopping ', ' cleaning ', ' sunny ', ' wind ', ' cold']"
+2025-06-23,Monday,good,"['content ', ' good sleep ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' wind ', ' cold']"
+2025-06-22,Sunday,good,"['happy ', ' grateful ', ' relaxed ', ' good sleep ', ' meditation ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' clouds ', ' cold ', ' humid']"
+2025-06-21,Saturday,meh,"['anxious ', ' angry ', ' stressed ', ' sad ', ' medium sleep ', ' friends ', ' date ', ' shopping ', ' cleaning ', ' laundry ', ' clouds ', ' wind ', ' humid']"
+2025-06-20,Friday,meh,"['unsure ', ' anxious ', ' good sleep ', ' friends ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' cold ', ' humid']"
+2025-06-19,Thursday,good,"['grateful ', ' content ', ' good sleep ', ' walk ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' cold']"
+2025-06-18,Wednesday,good,"['happy ', ' excited ', ' content ', ' anxious ', ' good sleep ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' cold']"
+2025-06-17,Tuesday,good,"['happy ', ' relaxed ', ' content ', ' good sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' clouds ', ' rain ', ' cold ', ' humid']"
+2025-06-16,Monday,good,"['happy ', ' grateful ', ' relaxed ', ' good sleep ', ' drink water ', ' make list ', ' focus ', ' take a break ', ' laundry ', ' clouds ', ' rain ', ' cold ', ' humid']"
+2025-06-15,Sunday,good,"['grateful ', ' content ', ' good sleep ', ' walk ', ' family ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' cold ', ' humid']"
+2025-06-14,Saturday,rad,"['happy ', ' excited ', ' relaxed ', ' good sleep ', ' friends ', ' date ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' clouds ', ' rain ', ' cold']"
+2025-06-13,Friday,meh,"['anxious ', ' angry ', ' stressed ', ' good sleep ', ' friends ', ' date ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' humid']"
+2025-06-12,Thursday,rad,"['happy ', ' excited ', ' grateful ', ' relaxed ', ' medium sleep ', ' friends ', ' date ', ' listen ', ' focus ', ' take a break ', ' sunny ', ' wind ', ' humid']"
+2025-06-11,Wednesday,rad,"['happy ', ' excited ', ' grateful ', ' content ', ' good sleep ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' sunny ', ' clouds ', ' cold ', ' humid']"
+2025-06-10,Tuesday,good,"['relaxed ', ' content ', ' good sleep ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' cold ', ' humid']"
+2025-06-09,Monday,rad,"['happy ', ' grateful ', ' tired ', ' bad sleep ', ' walk ', ' friends ', ' date ', ' listen ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' cold ', ' humid']"
+2025-06-08,Sunday,rad,"['happy ', ' grateful ', ' good sleep ', ' family ', ' friends ', ' date ', ' clouds ', ' cold ', ' humid']"
+2025-06-07,Saturday,good,"['happy ', ' grateful ', ' tired ', ' anxious ', ' good sleep ', ' walk ', ' friends ', ' shopping ', ' cleaning ', ' laundry ', ' clouds ', ' humid']"
+2025-06-06,Friday,rad,"['happy ', ' good sleep ', ' friends ', ' date ', ' listen ', ' start early ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' cold']"
+2025-06-05,Thursday,good,"['happy ', ' tired ', ' unsure ', ' good sleep ', ' walk ', ' friends ', ' date ', ' listen ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' cold ', ' humid']"
+2025-06-04,Wednesday,meh,"['tired ', ' anxious ', ' angry ', ' medium sleep ', ' walk ', ' friends ', ' date ', ' start early ', ' focus ', ' take a break ', ' clouds ', ' humid']"
+2025-06-03,Tuesday,good,"['grateful ', ' relaxed ', ' content ', ' good sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' humid']"
+2025-06-02,Monday,meh,"['content ', ' anxious ', ' angry ', ' good sleep ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' humid']"
+2025-06-01,Sunday,good,"['happy ', ' grateful ', ' good sleep ', ' walk ', ' friends ', ' date ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' cold']"
+2025-05-31,Saturday,good,"['happy ', ' grateful ', ' relaxed ', ' good sleep ', ' friends ', ' date ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' cold']"
+2025-05-30,Friday,good,"['happy ', ' grateful ', ' relaxed ', ' content ', ' good sleep ', ' exercise ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' cold ', ' humid']"
+2025-05-29,Thursday,rad,"['happy ', ' grateful ', ' good sleep ', ' walk ', ' friends ', ' date ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' cold']"
+2025-05-28,Wednesday,good,"['happy ', ' good sleep ', ' walk ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' cooking ', ' sunny ', ' clouds ', ' cold']"
+2025-05-27,Tuesday,good,"['relaxed ', ' content ', ' good sleep ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' storm ', ' cold']"
+2025-05-26,Monday,rad,"['happy ', ' excited ', ' anxious ', ' good sleep ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' clouds ', ' rain ', ' humid']"
+2025-05-25,Sunday,good,"['grateful ', ' content ', ' good sleep ', ' family ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' clouds ', ' humid']"
+2025-05-24,Saturday,rad,"['happy ', ' content ', ' good sleep ', ' walk ', ' friends ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' humid']"
+2025-05-23,Friday,good,"['grateful ', ' content ', ' medium sleep ', ' family ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' cold']"
+2025-05-22,Thursday,good,"['excited ', ' content ', ' good sleep ', ' walk ', ' friends ', ' date ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' cold']"
+2025-05-21,Wednesday,good,"['happy ', ' anxious ', ' good sleep ', ' start early ', ' make list ', ' focus ', ' shopping ', ' cleaning ', ' clouds ', ' cold ', ' humid']"
+2025-05-20,Tuesday,good,"['content ', ' unsure ', ' good sleep ', ' start early ', ' make list ', ' focus ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' cold']"
+2025-05-19,Monday,good,"['relaxed ', ' content ', ' good sleep ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' cold']"
+2025-05-18,Sunday,good,"['content ', ' good sleep ', ' family ', ' start early ', ' make list ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' wind ', ' cold']"
+2025-05-17,Saturday,good,"['grateful ', ' relaxed ', ' content ', ' good sleep ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' storm']"
+2025-05-16,Friday,good,"['grateful ', ' tired ', ' anxious ', ' good sleep ', ' family ', ' listen ', ' nap ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' storm']"
+2025-05-15,Thursday,good,"['tired ', ' anxious ', ' good sleep ', ' walk ', ' start early ', ' focus ', ' take a break ', ' clouds ', ' heat ', ' humid']"
+2025-05-14,Wednesday,good,"['happy ', ' grateful ', ' medium sleep ', ' friends ', ' date ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds']"
+2025-05-13,Tuesday,meh,"['tired ', ' stressed ', ' medium sleep ', ' walk ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' humid']"
+2025-05-12,Monday,good,"['happy ', ' grateful ', ' stressed ', ' medium sleep ', ' exercise ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' cleaning ', ' sunny ', ' clouds ', ' humid']"
+2025-05-11,Sunday,rad,"['grateful ', ' relaxed ', ' medium sleep ', ' friends ', ' date ', ' take a break ', ' cleaning ', ' sunny ', ' clouds']"
+2025-05-10,Saturday,meh,"['content ', ' unsure ', ' good sleep ', ' friends ', ' date ', ' sunny']"
+2025-05-09,Friday,meh,"['tired ', ' anxious ', ' angry ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' humid']"
+2025-05-08,Thursday,rad,"['happy ', ' grateful ', ' relaxed ', ' good sleep ', ' walk ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' humid']"
+2025-05-07,Wednesday,good,"['content ', ' good sleep ', ' friends ', ' date ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' humid']"
+2025-05-06,Tuesday,good,"['happy ', ' grateful ', ' good sleep ', ' friends ', ' date ', ' listen ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' rain ', ' humid']"
+2025-05-05,Monday,good,"['happy ', ' relaxed ', ' good sleep ', ' family ', ' meditation ', ' listen ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' clouds ', ' rain ', ' humid']"
+2025-05-04,Sunday,rad,"['happy ', ' relaxed ', ' tired ', ' medium sleep ', ' date ', ' listen ', ' clouds ', ' rain']"
+2025-05-03,Saturday,rad,"['happy ', ' grateful ', ' relaxed']"
+2025-05-02,Friday,rad,"['happy ', ' excited ', ' grateful ', ' relaxed']"
+2025-05-01,Thursday,good,"['relaxed ', ' content ', ' tired ', ' medium sleep ', ' walk ', ' date']"
+2025-04-30,Wednesday,good,"['excited ', ' content ', ' tired ', ' good sleep ', ' walk ', ' family ', ' start early ', ' make list ', ' focus ', ' cleaning']"
+2025-04-29,Tuesday,meh,"['anxious ', ' angry ', ' stressed']"
+2025-04-28,Monday,good,"['excited ', ' grateful ', ' content ', ' good sleep ', ' walk ', ' start early ', ' make list ', ' focus ', ' cleaning ', ' sunny ', ' clouds']"
+2025-04-27,Sunday,good,"['grateful ', ' relaxed ', ' content ', ' good sleep ', ' exercise ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny']"
+2025-04-26,Saturday,good,"['good sleep ', ' friends ', ' date ', ' nap ', ' take a break ', ' cleaning ', ' sunny ', ' humid']"
+2025-04-25,Friday,meh,"['content ', ' good sleep ', ' walk ', ' friends ', ' cleaning ', ' sunny ', ' clouds ', ' rain ', ' humid']"
+2025-04-24,Thursday,good,"['grateful ', ' content ', ' tired ', ' good sleep ', ' walk ', ' meditation ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' humid']"
+2025-04-23,Wednesday,good,"['content ', ' stressed ', ' good sleep ', ' meditation ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' humid']"
+2025-04-22,Tuesday,good,"['grateful ', ' relaxed ', ' content ', ' good sleep ', ' friends ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' humid']"
+2025-04-21,Monday,good,"['relaxed ', ' content ', ' good sleep ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' humid']"
+2025-04-20,Sunday,good,"['happy ', ' grateful ', ' tired ', ' medium sleep ', ' friends ', ' date ', ' nap ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' cold']"
+2025-04-19,Saturday,rad,"['happy ', ' grateful ', ' relaxed ', ' friends ', ' date ', ' start early ', ' cleaning ', ' cooking ', ' sunny ', ' clouds ', ' cold']"
+2025-04-18,Friday,rad,"['relaxed ', ' good sleep ', ' friends ', ' date ', ' start early ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2025-04-17,Thursday,meh,"['content ', ' tired ', ' anxious ', ' good sleep']"
+2025-04-16,Wednesday,good,"['content ', ' tired ', ' anxious ', ' medium sleep ', ' drink water ', ' walk ', ' family ', ' friends ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' humid']"
+2025-04-15,Tuesday,good,"['tired ', ' anxious ', ' good sleep ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' humid']"
+2025-04-14,Monday,good,"['good sleep ', ' drink water ', ' walk ', ' meditation ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' cold']"
+2025-04-13,Sunday,good,"['grateful ', ' relaxed ', ' tired ', ' good sleep ', ' walk ', ' friends ', ' date ', ' start early ', ' sunny']"
+2025-04-12,Saturday,rad,"['happy ', ' grateful ', ' relaxed ', ' good sleep ', ' friends ', ' date ', ' meditation ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' rain ', ' wind']"
+2025-04-11,Friday,rad,"['happy ', ' relaxed ', ' good sleep ', ' restaurant ', ' date ', ' shopping ', ' cleaning ', ' laundry ', ' clouds ', ' rain']"
+2025-04-10,Thursday,good,"['happy ', ' relaxed ', ' medium sleep ', ' friends ', ' date ', ' start early ', ' clouds ', ' rain ', ' humid']"
+2025-04-09,Wednesday,good,"['grateful ', ' relaxed ', ' content ', ' good sleep ', ' friends ', ' date ', ' listen ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' clouds ', ' humid']"
+2025-04-08,Tuesday,rad,"['happy ', ' relaxed ', ' date ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' clouds ', ' wind ', ' humid']"
+2025-04-07,Monday,rad,"['happy ', ' excited ', ' grateful ', ' medium sleep ', ' date ', ' listen ', ' focus ', ' take a break ', ' clouds ', ' rain']"
+2025-04-06,Sunday,rad,"['happy ', ' excited ', ' grateful ', ' good sleep ', ' date ', ' listen ', ' take a break']"
+2025-04-05,Saturday,good,"['grateful ', ' relaxed ', ' good sleep ', ' family ', ' friends ', ' start early ', ' sunny ', ' wind']"
+2025-04-04,Friday,meh,"['tired ', ' anxious ', ' good sleep ', ' start early ', ' make list ', ' shopping ', ' cleaning ', ' sunny ', ' clouds']"
+2025-04-03,Thursday,good,"['content ', ' tired ', ' good sleep ', ' walk ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' wind']"
+2025-04-02,Wednesday,good,"['grateful ', ' relaxed ', ' good sleep ', ' family ', ' make list ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds']"
+2025-04-01,Tuesday,good,"['grateful ', ' relaxed ', ' content ', ' good sleep ', ' friends ', ' start early ', ' focus ', ' take a break ', ' laundry ', ' sunny ', ' clouds']"
+2025-03-31,Monday,good,"['relaxed ', ' good sleep ', ' walk ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' cold']"
+2025-03-30,Sunday,good,"['happy ', ' excited ', ' grateful ', ' medium sleep ', ' drink water ', ' walk ', ' friends ', ' date ', ' listen ', ' sunny ', ' clouds ', ' rain ', ' heat']"
+2025-03-29,Saturday,good,"['content ', ' good sleep ', ' shopping ', ' cleaning ', ' sunny']"
+2025-03-28,Friday,good,"['excited ', ' grateful ', ' good sleep ', ' drink water ', ' walk ', ' friends ', ' meditation ', ' cleaning ', ' sunny ', ' clouds']"
+2025-03-27,Thursday,good,"['medium sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-03-26,Wednesday,good,"['unsure ', ' stressed ', ' good sleep ', ' drink water ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning']"
+2025-03-25,Tuesday,good,"['content ', ' good sleep ', ' drink water ', ' gardening ', ' focus ', ' take a break ', ' sunny ', ' clouds']"
+2025-03-24,Monday,meh,"['unsure ', ' sad ', ' good sleep ', ' drink water ', ' cleaning ', ' clouds ', ' rain']"
+2025-03-23,Sunday,good,"['relaxed ', ' content ', ' good sleep ', ' focus ', ' take a break ', ' clouds ', ' rain']"
+2025-03-22,Saturday,good,"['content ', ' good sleep ', ' family ', ' nap ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' rain ', ' humid']"
+2025-03-21,Friday,meh,"['content ', ' good sleep ', ' nap ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-03-20,Thursday,good,"['grateful ', ' good sleep ', ' friends ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-03-19,Wednesday,good,"['grateful ', ' tired ', ' medium sleep ', ' walk ', ' friends ', ' listen ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' heat']"
+2025-03-18,Tuesday,good,"['content ', ' good sleep ', ' nap ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds']"
+2025-03-17,Monday,good,"['content ', ' good sleep ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds']"
+2025-03-16,Sunday,good,"['grateful ', ' relaxed ', ' good sleep ', ' walk ', ' friends ', ' focus ', ' take a break ', ' clouds']"
+2025-03-15,Saturday,good,"['grateful ', ' family ', ' start early ', ' cleaning ', ' sunny ', ' clouds']"
+2025-03-14,Friday,meh,"['tired ', ' unsure ', ' stressed ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' rain']"
+2025-03-13,Thursday,good,"['content ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds']"
+2025-03-12,Wednesday,meh,"['angry ', ' sad ', ' good sleep ', ' sunny ', ' clouds']"
+2025-03-11,Tuesday,meh,"['content ', ' tired ', ' good sleep ', ' make list ', ' shopping ', ' clouds']"
+2025-03-10,Monday,meh,"['sad ', ' medium sleep ', ' cleaning ', ' sunny ', ' clouds']"
+2025-03-09,Sunday,bad,"['tired ', ' stressed ', ' bad sleep ', ' nap ', ' sunny ', ' clouds ', ' cold']"
+2025-03-08,Saturday,meh,"['relaxed ', ' unsure ', ' good sleep ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' wind ', ' cold']"
+2025-03-07,Friday,meh,"['tired ', ' unsure ', ' medium sleep ', ' nap ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-03-06,Thursday,meh,"['unsure ', ' angry ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-03-05,Wednesday,good,"['content ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' heat ', ' humid']"
+2025-03-04,Tuesday,meh,"['content ', ' good sleep ', ' nap ', ' shopping ', ' cleaning ', ' clouds ', ' rain']"
+2025-03-03,Monday,meh,"['unsure ', ' bored ', ' sad ', ' good sleep ', ' cleaning ', ' clouds ', ' rain ', ' storm ', ' humid']"
+2025-03-02,Sunday,meh,"['angry ', ' sad ', ' good sleep ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' storm ', ' humid']"
+2025-03-01,Saturday,good,"['grateful ', ' good sleep ', ' walk ', ' friends ', ' shopping ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-02-28,Friday,good,"['grateful ', ' medium sleep ', ' friends ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' rain ', ' storm ', ' heat ', ' humid']"
+2025-02-27,Thursday,good,"['content ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' rain ', ' humid']"
+2025-02-26,Wednesday,good,"['relaxed ', ' content ', ' good sleep ', ' walk ', ' meditation ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' rain ', ' wind ', ' humid']"
+2025-02-25,Tuesday,meh,"['stressed ', ' medium sleep ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' clouds ', ' heat ', ' humid']"
+2025-02-24,Monday,good,"['content ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' storm ', ' humid']"
+2025-02-23,Sunday,good,"['relaxed ', ' good sleep ', ' friends ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' rain ', ' heat ', ' humid']"
+2025-02-22,Saturday,meh,"['tired ', ' medium sleep ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-02-21,Friday,good,"['tired ', ' stressed ', ' family ', ' friends ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' rain ', ' storm ', ' heat ', ' humid']"
+2025-02-20,Thursday,meh,"['content ', ' good sleep ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' heat']"
+2025-02-19,Wednesday,good,"['grateful ', ' content ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' clouds']"
+2025-02-18,Tuesday,good,"['relaxed ', ' content ', ' good sleep ', ' walk ', ' start early ', ' make list ', ' take a break ', ' shopping ', ' sunny ', ' clouds ', ' wind ', ' cold']"
+2025-02-17,Monday,good,"['content ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' wind ', ' heat']"
+2025-02-16,Sunday,meh,"['angry ', ' sad ', ' good sleep ', ' walk ', ' take a break ', ' laundry ', ' sunny ', ' clouds ', ' rain ', ' humid']"
+2025-02-15,Saturday,good,"['grateful ', ' good sleep ', ' walk ', ' friends ', ' take a break ', ' sunny ', ' clouds ', ' wind ', ' humid']"
+2025-02-14,Friday,meh,"['bored ', ' desperate ', ' good sleep ', ' friends ', ' clouds ', ' rain ', ' wind']"
+2025-02-13,Thursday,good,"['content ', ' good sleep ', ' make list ', ' shopping ', ' cleaning ', ' sunny ', ' clouds']"
+2025-02-12,Wednesday,good,"['grateful ', ' good sleep ', ' walk ', ' friends ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' rain']"
+2025-02-11,Tuesday,good,"['content ', ' good sleep ', ' friends ', ' focus ', ' take a break ', ' rain ', ' storm ', ' wind']"
+2025-02-10,Monday,meh,"['anxious ', ' angry ', ' medium sleep ', ' start early ', ' make list ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-02-09,Sunday,good,"['content ', ' good sleep ', ' drink water ', ' walk ', ' focus ', ' take a break ', ' sunny ', ' rain ', ' wind ', ' humid']"
+2025-02-08,Saturday,good,"['content ', ' good sleep ', ' drink water ', ' friends ', ' listen ', ' shopping ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-02-07,Friday,meh,"['unsure ', ' stressed ', ' sad ', ' good sleep ', ' family ', ' start early ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-02-06,Thursday,meh,"['grateful ', ' anxious ', ' angry ', ' stressed ', ' desperate ', ' medium sleep ', ' walk ', ' friends ', ' meditation ', ' cleaning ', ' sunny ', ' clouds ', ' wind ', ' humid']"
+2025-02-05,Wednesday,meh,"['stressed ', ' medium sleep ', ' clouds ', ' rain ', ' storm']"
+2025-02-04,Tuesday,meh,"['unsure ', ' good sleep ', ' cleaning ', ' sunny ', ' clouds ', ' rain ', ' heat ', ' humid']"
+2025-02-03,Monday,meh,"['content ', ' good sleep ', ' friends ', ' shopping ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-02-02,Sunday,good,"['relaxed ', ' good sleep ', ' take a break ', ' sunny ', ' heat ', ' humid']"
+2025-02-01,Saturday,good,"['relaxed ', ' friends ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' heat ', ' humid']"
+2025-01-31,Friday,good,"['good sleep ', ' walk ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' wind ', ' heat']"
+2025-01-30,Thursday,meh,"['sad ', ' good sleep ', ' walk ', ' cleaning ', ' laundry ', ' sunny ', ' wind ', ' heat']"
+2025-01-29,Wednesday,good,"['relaxed ', ' good sleep ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-01-28,Tuesday,meh,"['angry ', ' sad ', ' good sleep ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-01-27,Monday,meh,"['angry ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' rain ', ' heat ', ' humid']"
+2025-01-26,Sunday,good,"['relaxed ', ' content ', ' good sleep ', ' friends ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-01-25,Saturday,good,"['relaxed ', ' content ', ' walk ', ' friends ', ' take a break ', ' sunny ', ' heat']"
+2025-01-24,Friday,rad,"['relaxed ', ' good sleep ', ' drink water ', ' take a break ', ' sunny ', ' heat']"
+2025-01-23,Thursday,good,"['relaxed ', ' medium sleep ', ' sunny ', ' heat']"
+2025-01-22,Wednesday,rad,"['relaxed ', ' good sleep ', ' sunny ', ' heat']"
+2025-01-21,Tuesday,good,"['relaxed ', ' content ', ' good sleep ', ' walk ', ' listen ', ' make list ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' wind']"
+2025-01-20,Monday,good,"['content ', ' medium sleep ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' wind']"
+2025-01-19,Sunday,good,"['relaxed ', ' good sleep ', ' meditation ', ' take a break ', ' rain ', ' storm']"
+2025-01-18,Saturday,good,"['relaxed ', ' good sleep ', ' drink water ', ' pleasuread ', ' make list ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' heat ', ' humid']"
+2025-01-17,Friday,good,"['grateful ', ' content ', ' good sleep ', ' pleasuread ', ' focus ', ' take a break ', ' sunny ', ' wind ', ' heat']"
+2025-01-16,Thursday,good,"['content ', ' good sleep ', ' meditation ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' heat']"
+2025-01-15,Wednesday,good,"['content ', ' good sleep ', ' drink water ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' heat']"
+2025-01-14,Tuesday,good,"['relaxed ', ' content ', ' good sleep ', ' drink water ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' wind ', ' heat']"
+2025-01-13,Monday,good,"['relaxed ', ' content ', ' good sleep ', ' drink water ', ' meditation ', ' take a break ', ' cleaning ', ' sunny ', ' wind ', ' heat']"
+2025-01-12,Sunday,good,"['relaxed ', ' good sleep ', ' walk ', ' friends ', ' listen ', ' sunny ', ' wind ', ' heat']"
+2025-01-11,Saturday,meh,"['unsure ', ' sad ', ' medium sleep ', ' drink water ', ' family ', ' friends ', ' start early ', ' cleaning ', ' sunny ', ' wind']"
+2025-01-10,Friday,rad,"['grateful ', ' relaxed ', ' good sleep ', ' drink water ', ' friends ', ' listen ', ' take a break ', ' shopping ', ' sunny ', ' clouds ', ' wind ', ' heat']"
+2025-01-09,Thursday,good,"['grateful ', ' relaxed ', ' good sleep ', ' drink water ', ' gardening ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' wind']"
+2025-01-08,Wednesday,good,"['grateful ', ' relaxed ', ' good sleep ', ' drink water ', ' meditation ', ' make list ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' wind ', ' heat']"
+2025-01-07,Tuesday,good,"['content ', ' anxious ', ' good sleep ', ' drink water ', ' walk ', ' meditation ', ' gardening ', ' focus ', ' take a break ', ' sunny ', ' wind']"
+2025-01-06,Monday,good,"['grateful ', ' relaxed ', ' good sleep ', ' drink water ', ' walk ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' wind']"
+2025-01-05,Sunday,good,"['relaxed ', ' good sleep ', ' drink water ', ' meditation ', ' focus ', ' take a break ', ' sunny ', ' clouds']"
+2025-01-04,Saturday,good,"['grateful ', ' relaxed ', ' good sleep ', ' drink water ', ' walk ', ' meditation ', ' make list ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds']"
+2025-01-03,Friday,good,"['relaxed ', ' good sleep ', ' drink water ', ' gardening ', ' take a break ', ' cleaning ', ' sunny ', ' clouds']"
+2025-01-02,Thursday,good,"['relaxed ', ' good sleep ', ' drink water ', ' walk ', ' meditation ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' wind']"
+2025-01-01,Wednesday,good,"['grateful ', ' medium sleep ', ' drink water ', ' family ', ' friends ', ' sunny ', ' clouds ', ' rain ', ' storm ', ' heat']"
+2024-12-31,Tuesday,meh,"['unsure ', ' medium sleep ', ' family ', ' shopping ', ' cleaning ', ' cooking ', ' sunny ', ' heat']"
+2024-12-30,Monday,good,"['content ', ' good sleep ', ' gardening ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' wind']"
+2024-12-29,Sunday,good,"['grateful ', ' relaxed ', ' good sleep ', ' walk ', ' friends ', ' laundry ', ' sunny ', ' clouds']"
+2024-12-28,Saturday,good,"['content ', ' unsure ', ' good sleep ', ' drink water ', ' take a break ', ' cleaning ', ' sunny']"
+2024-12-27,Friday,good,"['happy ', ' relaxed ', ' good sleep ', ' drink water ', ' meditation ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' wind']"
+2024-12-26,Thursday,good,"['relaxed ', ' good sleep ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds']"
+2024-12-25,Wednesday,good,"['grateful ', ' relaxed ', ' good sleep ', ' take a break ', ' sunny ', ' clouds ', ' cold']"
+2024-12-24,Tuesday,good,"['relaxed ', ' good sleep ', ' take a break ', ' cleaning ', ' laundry']"
+2024-12-23,Monday,good,"['content ', ' good sleep ', ' drink water ', ' walk ', ' family ', ' start early ', ' make list ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' wind ', ' heat']"
+2024-12-22,Sunday,good,"['grateful ', ' good sleep ', ' walk ', ' friends ', ' sunny ', ' clouds ', ' wind']"
+2024-12-21,Saturday,good,"['tired ', ' good sleep ', ' shopping ', ' cleaning ', ' clouds ', ' wind ', ' cold']"
+2024-12-20,Friday,meh,"['content ', ' stressed ', ' medium sleep ', ' sunny ', ' clouds ', ' wind ', ' heat ', ' humid']"
+2024-12-19,Thursday,meh,"['content ', ' tired ', ' drink water ', ' walk ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' heat ', ' humid']"
+2024-12-18,Wednesday,good,"['content ', ' good sleep ', ' drink water ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2024-12-17,Tuesday,good,"['grateful ', ' tired ', ' medium sleep ', ' drink water ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' clouds ', ' wind']"
+2024-12-16,Monday,good,"['relaxed ', ' content ', ' good sleep ', ' drink water ', ' start early ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' wind']"
+2024-12-15,Sunday,good,"['grateful ', ' unsure ', ' good sleep ', ' drink water ', ' walk ', ' friends ', ' listen ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2024-12-14,Saturday,good,"['grateful ', ' relaxed ', ' good sleep ', ' drink water ', ' family ', ' listen ', ' gardening ', ' make list ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2024-12-13,Friday,meh,"['content ', ' good sleep ', ' drink water ', ' start early ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' heat']"
+2024-12-12,Thursday,meh,"['unsure ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' wind ', ' heat']"
+2024-12-11,Wednesday,good,"['relaxed ', ' content ', ' good sleep ', ' drink water ', ' meditation ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' wind']"
+2024-12-10,Tuesday,good,"['relaxed ', ' good sleep ', ' meditation ', ' listen ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' wind']"
+2024-12-09,Monday,good,"['content ', ' good sleep ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds']"
+2024-12-08,Sunday,good,"['grateful ', ' relaxed ', ' good sleep ', ' walk ', ' friends ', ' give gift ', ' take a break ', ' sunny ', ' wind ', ' cold']"
+2024-12-07,Saturday,good,"['relaxed ', ' content ', ' good sleep ', ' meditation ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' wind']"
+2024-12-06,Friday,good,"['relaxed ', ' content ', ' good sleep ', ' drink water ', ' family ', ' meditation ', ' make list ', ' focus ', ' shopping ', ' cleaning ', ' sunny ', ' wind ', ' heat']"
+2024-12-05,Thursday,meh,"['unsure ', ' anxious ', ' medium sleep ', ' drink water ', ' start early ', ' make list ', ' cleaning ', ' heat ', ' humid']"
+2024-12-04,Wednesday,good,"['content ', ' medium sleep ', ' friends ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' wind']"
+2024-12-03,Tuesday,good,"['relaxed ', ' content ', ' good sleep ', ' walk ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' wind']"
+2024-12-02,Monday,good,"['relaxed ', ' content ', ' good sleep ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' wind']"
+2024-12-01,Sunday,good,"['relaxed ', ' good sleep ', ' take a break ', ' cleaning ', ' laundry ', ' clouds ', ' rain ', ' storm ', ' wind ', ' humid']"
+2024-11-30,Saturday,good,"['relaxed ', ' tired ', ' good sleep ', ' take a break ', ' shopping ', ' sunny ', ' clouds ', ' wind']"
+2024-11-29,Friday,good,"['grateful ', ' medium sleep ', ' walk ', ' family ', ' friends ', ' listen ', ' shopping ', ' sunny ', ' humid']"
+2024-11-28,Thursday,good,"['grateful ', ' good sleep ', ' fast food ', ' friends ', ' start early ', ' focus ', ' sunny ', ' rain ', ' storm']"
+2024-11-27,Wednesday,good,"['tired ', ' medium sleep ', ' family ', ' listen ', ' start early ', ' focus ', ' sunny ', ' clouds ', ' rain ', ' storm ', ' heat ', ' humid']"
+2024-11-26,Tuesday,good,"['good sleep ', ' walk ', ' family ', ' listen ', ' start early ', ' focus']"
+2024-11-25,Monday,good,"['grateful ', ' good sleep ', ' walk ', ' start early ', ' focus ', ' heat']"
+2024-11-24,Sunday,good,"['medium sleep ', ' listen ', ' gardening ', ' take a break']"
+2024-11-23,Saturday,good,"['grateful ', ' good sleep ', ' take a break ', ' shopping ', ' cleaning']"
+2024-11-22,Friday,good,"['relaxed ', ' good sleep ', ' drink water ', ' walk ', ' friends ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' wind']"
+2024-11-21,Thursday,good,"['relaxed ', ' content ', ' good sleep ', ' drink water ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2024-11-20,Wednesday,good,"['grateful ', ' relaxed ', ' good sleep ', ' walk ', ' friends ', ' listen ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' wind']"
+2024-11-19,Tuesday,good,"['relaxed ', ' content ', ' good sleep ', ' drink water ', ' gardening ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2024-11-18,Monday,good,"['content ', ' good sleep ', ' walk ', ' family ', ' start early ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2024-11-17,Sunday,good,"['content ', ' good sleep ', ' drink water ', ' friends ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' clouds ', ' rain ', ' wind ', ' cold']"
+2024-11-16,Saturday,good,"['content ', ' good sleep ', ' drink water ', ' make list ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' heat']"
+2024-11-15,Friday,good,"['grateful ', ' relaxed ', ' medium sleep ', ' friends ', ' meditation ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' heat']"
+2024-11-14,Thursday,good,"['relaxed ', ' good sleep ', ' walk ', ' meditation ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' sunny']"
+2024-11-13,Wednesday,good,"['content ', ' medium sleep ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' wind']"
+2024-11-12,Tuesday,good,"['relaxed ', ' content ', ' good sleep ', ' focus ', ' take a break ', ' sunny ', ' wind']"
+2024-11-11,Monday,meh,"['content ', ' good sleep ', ' walk ', ' meditation ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2024-11-10,Sunday,good,"['relaxed ', ' content ', ' good sleep ', ' drink water ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' rain ', ' wind ', ' heat']"
+2024-11-09,Saturday,good,"['content ', ' good sleep ', ' walk ', ' meditation ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' wind']"
+2024-11-08,Friday,good,"['relaxed ', ' good sleep ', ' stretch ', ' friends ', ' meditation ', ' gardening ', ' focus ', ' take a break ', ' sunny ', ' wind']"
+2024-11-07,Thursday,good,"['relaxed ', ' content ', ' good sleep ', ' gardening ', ' focus ', ' take a break ', ' sunny ', ' wind']"
+2024-11-06,Wednesday,good,"['relaxed ', ' good sleep ', ' drink water ', ' stretch ', ' meditation ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' wind']"
+2024-11-05,Tuesday,meh,"['content ', ' medium sleep ', ' drink water ', ' stretch ', ' meditation ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' wind']"
+2024-11-04,Monday,bad,"['tired ', ' stressed ', ' desperate ', ' medium sleep ', ' walk ', ' start early ', ' focus ', ' take a break ', ' rain ', ' storm ', ' wind']"
+2024-11-03,Sunday,good,"['grateful ', ' relaxed ', ' good sleep ', ' drink water ', ' meditation ', ' gardening ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' wind']"
+2024-11-02,Saturday,good,"['relaxed ', ' content ', ' good sleep ', ' walk ', ' friends ', ' focus ', ' take a break ', ' clouds ', ' rain']"
+2024-11-01,Friday,good,"['content ', ' good sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' wind ', ' heat ', ' humid']"
+2024-10-31,Thursday,good,"['relaxed ', ' content ', ' good sleep ', ' drink water ', ' friends ', ' gardening ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny']"
+2024-10-30,Wednesday,good,"['content ', ' good sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' heat']"
+2024-10-29,Tuesday,good,"['relaxed ', ' good sleep ', ' gardening ', ' focus ', ' take a break ', ' sunny']"
+2024-10-28,Monday,meh,"['bored ', ' good sleep ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' wind']"
+2024-10-27,Sunday,good,"['grateful ', ' relaxed ', ' good sleep ', ' friends ', ' gardening ', ' laundry ', ' sunny ', ' wind']"
+2024-10-26,Saturday,good,"['grateful ', ' good sleep ', ' family ', ' cleaning ', ' laundry ', ' sunny']"
+2024-10-25,Friday,good,"['content ', ' good sleep ', ' meditation ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' rain ', ' cold']"
+2024-10-24,Thursday,meh,"['anxious ', ' stressed ', ' good sleep ', ' friends ', ' meditation ', ' listen ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' cold']"
+2024-10-23,Wednesday,meh,"['stressed ', ' medium sleep ', ' start early ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' storm']"
+2024-10-22,Tuesday,meh,"['anxious ', ' sad ', ' good sleep ', ' gardening ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' wind ', ' heat']"
+2024-10-21,Monday,bad,"['tired ', ' sad ', ' good sleep ', ' focus ', ' take a break ', ' sunny ', ' heat ', ' humid']"
+2024-10-20,Sunday,meh,"['bored ', ' good sleep ', ' meditation ', ' gardening ', ' cleaning ', ' sunny ', ' cold']"
+2024-10-19,Saturday,good,"['relaxed ', ' good sleep ', ' meditation ', ' gardening ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' heat']"
+2024-10-18,Friday,meh,"['unsure ', ' medium sleep ', ' drink water ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning']"
+2024-10-17,Thursday,good,"['grateful ', ' medium sleep ', ' drink water ', ' family ', ' gardening ', ' focus ', ' take a break ', ' laundry ', ' sunny']"
+2024-10-16,Wednesday,good,"['content ', ' medium sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny']"
+2024-10-15,Tuesday,meh,"['tired ', ' anxious ', ' medium sleep ', ' drink water ', ' focus ', ' take a break ', ' sunny ', ' clouds']"
+2024-10-14,Monday,bad,"['tired ', ' stressed ', ' sad ', ' bad sleep ', ' start early ', ' clouds ', ' rain']"
+2024-10-13,Sunday,meh,"['tired ', ' anxious ', ' stressed ', ' medium sleep ', ' drink water ', ' listen ', ' gardening ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds']"
+2024-10-12,Saturday,good,"['relaxed ', ' good sleep ', ' gardening ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' rain']"
+2024-10-11,Friday,rad,"['grateful ', ' good sleep ', ' drink water ', ' walk ', ' family ', ' friends ', ' listen ', ' sunny ', ' wind ', ' heat']"
+2024-10-10,Thursday,rad,"['happy ', ' grateful ', ' family ', ' friends ', ' start early ', ' take a break ', ' sunny ', ' clouds ', ' wind ', ' humid']"
+2024-10-09,Wednesday,good,"['grateful ', ' good sleep ', ' walk ', ' friends ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2024-10-08,Tuesday,good,"['relaxed ', ' content ', ' good sleep ', ' walk ', ' meditation ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' clouds']"
+2024-10-07,Monday,meh,"['medium sleep ', ' walk ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' clouds']"
+2024-10-06,Sunday,good,"['relaxed ', ' good sleep ', ' family ', ' meditation ', ' listen ', ' start early ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' wind']"
+2024-10-05,Saturday,good,"['grateful ', ' good sleep ', ' walk ', ' friends ', ' listen ', ' gardening ', ' sunny ', ' wind']"
+2024-10-04,Friday,good,"['grateful ', ' good sleep ', ' friends ', ' meditation ', ' listen ', ' gardening ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' wind']"
+2024-10-03,Thursday,good,"['relaxed ', ' good sleep ', ' gardening ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' cold']"
+2024-10-02,Wednesday,good,"['content ', ' good sleep ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' cold']"
+2024-10-01,Tuesday,good,"['content ', ' walk ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' cold']"
+2024-09-30,Monday,meh,"['unsure ', ' bored ', ' good sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' storm']"
+2024-09-29,Sunday,good,"['content ', ' good sleep ', ' family ', ' listen ', ' give gift ', ' gardening ', ' start early ', ' take a break ', ' cleaning ', ' sunny ', ' wind ', ' heat']"
+2024-09-28,Saturday,good,"['relaxed ', ' content ', ' good sleep ', ' exercise ', ' gardening ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' wind']"
+2024-09-27,Friday,meh,"['unsure ', ' good sleep ', ' drink water ', ' walk ', ' family ', ' listen ', ' focus ', ' take a break ', ' sunny ', ' wind']"
+2024-09-26,Thursday,good,"['relaxed ', ' good sleep ', ' family ', ' gardening ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' wind']"
+2024-09-25,Wednesday,good,"['grateful ', ' content ', ' tired ', ' medium sleep ', ' walk ', ' friends ', ' listen ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' wind']"
+2024-09-24,Tuesday,good,"['grateful ', ' relaxed ', ' good sleep ', ' exercise ', ' no meat ', ' friends ', ' gardening ', ' start early ', ' focus ', ' take a break ', ' sunny']"
+2024-09-23,Monday,meh,"['tired ', ' anxious ', ' angry ', ' sad ', ' good sleep ', ' walk ', ' friends ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny']"
+2024-09-22,Sunday,good,"['grateful ', ' family ', ' friends ', ' listen ', ' gardening ', ' take a break ', ' cleaning ', ' laundry']"
+2024-09-21,Saturday,good,"['relaxed ', ' good sleep ', ' drink water ', ' gardening ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds']"
+2024-09-20,Friday,good,"['unsure ', ' good sleep ', ' exercise ', ' friends ', ' meditation ', ' listen ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny']"
+2024-09-19,Thursday,good,"['relaxed ', ' content ', ' good sleep ', ' drink water ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' wind']"
+2024-09-18,Wednesday,good,"['content ', ' good sleep ', ' meditation ', ' gardening ', ' start early ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' wind ', ' heat']"
+2024-09-17,Tuesday,good,"['grateful ', ' relaxed ', ' medium sleep ', ' exercise ', ' gardening ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' heat']"
+2024-09-16,Monday,meh,"['tired ', ' anxious ', ' good sleep ', ' drink water ', ' walk ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' heat']"
+2024-09-15,Sunday,good,"['grateful ', ' relaxed ', ' family ', ' meditation ', ' listen ', ' gardening ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' wind']"
+2024-09-14,Saturday,good,"['grateful ', ' good sleep ', ' walk ', ' family ', ' listen ', ' start early ', ' take a break ', ' cleaning ', ' sunny']"
+2024-09-13,Friday,good,"['grateful ', ' relaxed ', ' good sleep ', ' walk ', ' meditation ', ' gardening ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' clouds']"
+2024-09-12,Thursday,good,"['grateful ', ' good sleep ', ' friends ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' wind']"
+2024-09-11,Wednesday,good,"['relaxed ', ' content ', ' drink water ', ' meditation ', ' gardening ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning']"
+2024-09-10,Tuesday,meh,"['good sleep ', ' drink water ', ' focus ', ' take a break ', ' cleaning ', ' clouds']"
+2024-09-09,Monday,good,"['grateful ', ' relaxed ', ' good sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' clouds']"
+2024-09-08,Sunday,good,"['grateful ', ' good sleep ', ' drink water ', ' walk ', ' friends ', ' cleaning ', ' sunny']"
+2024-09-07,Saturday,good,"['grateful ', ' relaxed ', ' gardening ', ' start early ', ' take a break ', ' cleaning ', ' sunny']"
+2024-09-06,Friday,good,"['content ', ' good sleep ', ' walk ', ' meditation ', ' make list ', ' take a break ', ' cleaning ', ' sunny ', ' wind']"
+2024-09-05,Thursday,meh,"['content ', ' good sleep ', ' drink water ', ' walk ', ' focus ', ' take a break ', ' sunny ', ' clouds']"
+2024-09-04,Wednesday,good,"['relaxed ', ' content ', ' good sleep ', ' gardening ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' sunny']"
+2024-09-03,Tuesday,good,"['relaxed ', ' medium sleep ', ' walk ', ' friends ', ' meditation ', ' gardening ', ' start early ', ' take a break ', ' cleaning ', ' laundry ', ' sunny']"
+2024-09-02,Monday,meh,"['content ', ' drink water ', ' walk ', ' family ', ' start early ', ' make list ', ' focus ', ' shopping ', ' sunny ', ' clouds ', ' cold ', ' humid']"
+2024-09-01,Sunday,meh,"['grateful ', ' sad ', ' good sleep ', ' walk ', ' friends ', ' shopping ', ' cleaning ', ' laundry ', ' clouds ', ' cold']"
+2024-08-31,Saturday,good,"['relaxed ', ' content ', ' good sleep ', ' friends ', ' listen ', ' start early ', ' make list ', ' focus ', ' take a break ', ' rain ', ' storm ', ' wind ', ' cold']"
+2024-08-30,Friday,good,"['grateful ', ' relaxed ', ' content ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' cold']"
+2024-08-29,Thursday,good,"['relaxed ', ' content ', ' good sleep ', ' walk ', ' friends ', ' kindness ', ' gardening ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2024-08-28,Wednesday,good,"['grateful ', ' sad ', ' good sleep ', ' walk ', ' friends ', ' kindness ', ' gardening ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' heat ', ' cold ', ' humid']"
+2024-08-27,Tuesday,meh,"['unsure ', ' good sleep ', ' drink water ', ' walk ', ' meditation ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' cold']"
+2024-08-26,Monday,meh,"['stressed ', ' sad ', ' good sleep ', ' walk ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' cold']"
+2024-08-25,Sunday,good,"['content ', ' good sleep ', ' walk ', ' friends ', ' listen ', ' start early ', ' focus ', ' take a break ', ' clouds ', ' cold ', ' humid']"
+2024-08-24,Saturday,good,"['grateful ', ' relaxed ', ' good sleep ', ' drink water ', ' walk ', ' friends ', ' meditation ', ' gardening ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' cold']"
+2024-08-23,Friday,meh,"['content ', ' good sleep ', ' meditation ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' cold']"
+2024-08-22,Thursday,good,"['content ', ' good sleep ', ' meditation ', ' gardening ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' storm ', ' wind ', ' cold']"
+2024-08-21,Wednesday,meh,"['anxious ', ' stressed ', ' sad ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' cold']"
+2024-08-20,Tuesday,meh,"['tired ', ' anxious ', ' medium sleep ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' clouds ', ' wind ', ' cold']"
+2024-08-19,Monday,good,"['grateful ', ' good sleep ', ' friends ', ' listen ', ' gardening ', ' start early ', ' make list ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' wind ', ' cold']"
+2024-08-18,Sunday,good,"['relaxed ', ' content ', ' good sleep ', ' drink water ', ' make list ', ' focus ', ' take a break ', ' clouds ', ' cold']"
+2024-08-17,Saturday,good,"['grateful ', ' family ', ' cleaning ', ' sunny ', ' clouds ', ' cold']"
+2024-08-16,Friday,good,"['content ', ' good sleep ', ' walk ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' cold']"
+2024-08-15,Thursday,good,"['content ', ' good sleep ', ' walk ', ' meditation ', ' start early ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' wind ', ' heat']"
+2024-08-14,Wednesday,good,"['relaxed ', ' content ', ' good sleep ', ' listen ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' clouds']"
+2024-08-13,Tuesday,good,"['relaxed ', ' content ', ' good sleep ', ' walk ', ' meditation ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' wind ', ' cold']"
+2024-08-12,Monday,good,"['relaxed ', ' content ', ' good sleep ', ' drink water ', ' walk ', ' meditation ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' cold']"
+2024-08-11,Sunday,good,"['grateful ', ' relaxed ', ' content ', ' good sleep ', ' family ', ' take a break ', ' laundry ', ' sunny ', ' wind ', ' cold']"
+2024-08-10,Saturday,rad,"['grateful ', ' relaxed ', ' medium sleep ', ' friends ', ' take a break ', ' cleaning ', ' sunny ', ' cold']"
+2024-08-09,Friday,good,"['grateful ', ' stressed ', ' good sleep ', ' start early ', ' focus ', ' cleaning ', ' sunny ', ' cold']"
+2024-08-08,Thursday,meh,"['content ', ' bad sleep ', ' family ', ' start early ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' wind ', ' cold']"
+2024-08-07,Wednesday,good,"['content ', ' good sleep ', ' walk ', ' friends ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds']"
+2024-08-06,Tuesday,meh,"['unsure ', ' good sleep ', ' meditation ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' storm']"
+2024-08-05,Monday,good,"['relaxed ', ' unsure ', ' good sleep ', ' walk ', ' friends ', ' start early ', ' make list ', ' take a break ', ' shopping ', ' clouds ', ' humid']"
+2024-08-04,Sunday,good,"['grateful ', ' content ', ' unsure ', ' anxious ', ' stressed ', ' sad ', ' medium sleep ', ' friends ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' cold']"
+2024-08-03,Saturday,good,"['grateful ', ' relaxed ', ' good sleep ', ' drink water ', ' walk ', ' friends ', ' listen ', ' gardening ', ' start early ', ' take a break ', ' sunny ', ' clouds ', ' rain ', ' cold']"
+2024-08-02,Friday,good,"['content ', ' tired ', ' medium sleep ', ' walk ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' heat ', ' humid']"
+2024-08-01,Thursday,good,"['relaxed ', ' content ', ' good sleep ', ' drink water ', ' walk ', ' meditation ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' clouds ', ' heat']"
+2024-07-31,Wednesday,good,"['relaxed ', ' good sleep ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' clouds']"
+2024-07-30,Tuesday,good,"['relaxed ', ' content ', ' good sleep ', ' meditation ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' cold']"
+2024-07-29,Monday,good,"['grateful ', ' good sleep ', ' drink water ', ' walk ', ' meditation ', ' laundry ', ' sunny ', ' cold']"
+2024-07-28,Sunday,good,"['relaxed ', ' content ', ' good sleep ', ' meditation ', ' take a break ', ' laundry ', ' sunny ', ' cold']"
+2024-07-27,Saturday,good,"['grateful ', ' relaxed ', ' good sleep ', ' drink water ', ' friends ', ' listen ', ' shopping ', ' laundry ', ' sunny']"
+2024-07-26,Friday,meh,"['drink water ', ' family ', ' friends ', ' start early ', ' focus']"
+2024-07-25,Thursday,good,"['content ', ' tired ', ' anxious ', ' medium sleep ', ' walk ', ' friends ', ' start early ', ' focus ', ' cleaning ', ' sunny']"
+2024-07-24,Wednesday,meh,"['tired ', ' anxious ', ' stressed ', ' good sleep ', ' walk ', ' family ', ' start early ', ' cleaning ', ' clouds ', ' rain ', ' humid']"
+2024-07-23,Tuesday,meh,"['stressed ', ' sad ', ' good sleep ', ' walk ', ' family ', ' start early ', ' cleaning ', ' clouds ', ' humid']"
+2024-07-22,Monday,good,"['content ', ' good sleep ', ' walk ', ' listen ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' cold']"
+2024-07-21,Sunday,good,"['grateful ', ' relaxed ', ' content ', ' good sleep ', ' drink water ', ' walk ', ' stretch ', ' family ', ' meditation ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' cold']"
+2024-07-20,Saturday,good,"['relaxed ', ' content ', ' good sleep ', ' drink water ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' cold']"
+2024-07-19,Friday,good,"['relaxed ', ' content ', ' good sleep ', ' walk ', ' make list ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' cold']"
+2024-07-18,Thursday,good,"['grateful ', ' relaxed ', ' content ', ' medium sleep ', ' walk ', ' friends ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds']"
+2024-07-17,Wednesday,good,"['grateful ', ' relaxed ', ' good sleep ', ' walk ', ' friends ', ' listen ', ' start early ', ' focus ', ' take a break ', ' laundry ', ' sunny ', ' clouds']"
+2024-07-16,Tuesday,meh,"['unsure ', ' good sleep ', ' focus ', ' take a break ', ' sunny ', ' clouds']"
+2024-07-15,Monday,good,"['content ', ' good sleep ', ' friends ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' cold']"
+2024-07-14,Sunday,good,"['relaxed ', ' content ', ' good sleep ', ' walk ', ' family ', ' meditation ', ' listen ', ' take a break ', ' sunny ', ' cold']"
+2024-07-13,Saturday,good,"['grateful ', ' relaxed ', ' good sleep ', ' friends ', ' listen ', ' make list ', ' take a break ', ' sunny ', ' cold']"
+2024-07-12,Friday,meh,"['content ', ' tired ', ' medium sleep ', ' walk ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' cold']"
+2024-07-11,Thursday,meh,"['angry ', ' stressed ', ' medium sleep ', ' walk ', ' start early ', ' focus ', ' sunny ', ' cold']"
+2024-07-10,Wednesday,good,"['grateful ', ' good sleep ', ' walk ', ' family ', ' friends ', ' listen ', ' start early ', ' take a break ', ' sunny ', ' cold']"
+2024-07-09,Tuesday,good,"['grateful ', ' relaxed ', ' content ', ' good sleep ', ' walk ', ' friends ', ' meditation ', ' listen ', ' take a break ', ' sunny ', ' clouds ', ' wind ', ' cold']"
+2024-07-08,Monday,meh,"['tired ', ' unsure ', ' good sleep ', ' family ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' cold']"
+2024-07-07,Sunday,good,"['relaxed ', ' content ', ' good sleep ', ' family ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' cold']"
+2024-07-06,Saturday,good,"['grateful ', ' relaxed ', ' good sleep ', ' walk ', ' friends ', ' meditation ', ' make list ', ' take a break ', ' sunny ', ' clouds ', ' cold']"
+2024-07-05,Friday,good,"['content ', ' good sleep ', ' family ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' cold']"
+2024-07-04,Thursday,good,"['content ', ' tired ', ' stressed ', ' good sleep ', ' start early ', ' focus ', ' sunny ', ' wind ', ' cold']"
+2024-07-03,Wednesday,good,"['content ', ' good sleep ', ' drink water ', ' walk ', ' friends ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds ', ' cold']"
+2024-07-02,Tuesday,good,"['content ', ' good sleep ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' laundry ', ' sunny ', ' cold']"
+2024-07-01,Monday,meh,"['tired ', ' unsure ', ' anxious ', ' sad ', ' good sleep ', ' medium sleep ', ' start early ', ' focus ', ' sunny ', ' clouds ', ' cold']"
+2024-06-30,Sunday,good,"['relaxed ', ' content ', ' unsure ', ' good sleep ', ' family ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' cold']"
+2024-06-29,Saturday,good,"['content ', ' good sleep ', ' walk ', ' family ', ' start early ', ' shopping ', ' cleaning ', ' sunny ', ' cold']"
+2024-06-28,Friday,good,"['content ', ' good sleep ', ' exercise ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds']"
+2024-06-27,Thursday,meh,"['content ', ' medium sleep ', ' walk ', ' focus ', ' take a break ', ' sunny ', ' clouds']"
+2024-06-26,Wednesday,good,"['content ', ' medium sleep ', ' walk ', ' start early ', ' focus ', ' take a break ', ' sunny']"
+2024-06-25,Tuesday,good,"['relaxed ', ' good sleep ', ' friends ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' clouds ', ' cold']"
+2024-06-24,Monday,good,"['relaxed ', ' good sleep ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' cold']"
+2024-06-23,Sunday,good,"['relaxed ', ' good sleep ', ' exercise ', ' meditation ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' cold']"
+2024-06-22,Saturday,good,"['content ', ' good sleep ', ' drink water ', ' walk ', ' meditation ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' cold']"
+2024-06-21,Friday,good,"['relaxed ', ' medium sleep ', ' walk ', ' make list ', ' take a break ', ' shopping ', ' cleaning ', ' clouds ', ' rain']"
+2024-06-20,Thursday,meh,"['stressed ', ' good sleep ', ' friends ', ' give gift ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds']"
+2024-06-19,Wednesday,meh,"['angry ', ' stressed ', ' medium sleep ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' rain']"
+2024-06-18,Tuesday,good,"['relaxed ', ' content ', ' medium sleep ', ' drink water ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' clouds ', ' rain']"
+2024-06-17,Monday,good,"['relaxed ', ' content ', ' good sleep ', ' exercise ', ' drink water ', ' walk ', ' focus ', ' take a break ', ' laundry ', ' sunny']"
+2024-06-16,Sunday,good,"['relaxed ', ' tired ', ' good sleep ', ' make list ', ' focus ', ' take a break ', ' clouds']"
+2024-06-15,Saturday,good,"['content ', ' tired ', ' medium sleep ', ' family ', ' listen ', ' sunny']"
+2024-06-14,Friday,good,"['grateful ', ' tired ', ' good sleep ', ' walk ', ' friends ', ' listen ', ' start early ', ' make list ', ' take a break ', ' shopping ', ' clouds']"
+2024-06-13,Thursday,good,"['grateful ', ' tired ', ' medium sleep ', ' walk ', ' start early ', ' focus ', ' clouds ', ' heat']"
+2024-06-12,Wednesday,good,"['grateful ', ' content ', ' good sleep ', ' exercise ', ' friends ', ' listen ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' clouds']"
+2024-06-11,Tuesday,bad,"['tired ', ' anxious ', ' stressed ', ' sad ', ' desperate ', ' medium sleep ', ' start early ', ' focus ', ' take a break ', ' clouds ', ' cold']"
+2024-06-10,Monday,meh,"['tired ', ' anxious ', ' stressed ', ' sad ', ' medium sleep ', ' family ', ' cleaning ', ' sunny']"
+2024-06-09,Sunday,good,"['content ', ' good sleep ', ' walk ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' heat']"
+2024-06-08,Saturday,good,"['relaxed ', ' content ', ' good sleep ', ' exercise ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' heat']"
+2024-06-07,Friday,good,"['tired ', ' unsure ', ' good sleep ', ' take a break ', ' clouds']"
+2024-06-06,Thursday,meh,"['tired ', ' unsure ', ' anxious ', ' stressed ', ' medium sleep ', ' walk ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' sunny ', ' clouds']"
+2024-06-05,Wednesday,good,"['content ', ' good sleep ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' clouds ', ' rain ', ' cold']"
+2024-06-04,Tuesday,bad,"['stressed ', ' good sleep ', ' exercise ', ' friends ', ' make list ', ' take a break ', ' shopping ', ' sunny ', ' cold']"
+2024-06-03,Monday,meh,"['tired ', ' unsure ', ' sad ', ' good sleep ', ' walk ', ' start early ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' cold']"
+2024-06-02,Sunday,good,"['relaxed ', ' content ', ' tired ', ' medium sleep ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' cold']"
+2024-06-01,Saturday,meh,"['tired ', ' unsure ', ' sad ', ' good sleep ', ' walk ', ' friends ', ' take a break ', ' shopping ', ' sunny']"
+2024-05-31,Friday,meh,"['unsure ', ' sad ', ' medium sleep ', ' walk ', ' family ', ' start early ', ' take a break ', ' clouds']"
+2024-05-30,Thursday,good,"['tired ', ' medium sleep ', ' walk ', ' start early ', ' focus ', ' take a break ', ' laundry ', ' sunny ', ' clouds']"
+2024-05-29,Wednesday,good,"['content ', ' medium sleep ', ' walk ', ' start early ', ' focus ', ' take a break ', ' clouds']"
+2024-05-28,Tuesday,good,"['content ', ' good sleep ', ' exercise ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' clouds']"
+2024-05-27,Monday,good,"['relaxed ', ' content ', ' good sleep ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' cold']"
+2024-05-26,Sunday,good,"['content ', ' unsure ', ' anxious ', ' sad ', ' sleep early ', ' good sleep ', ' exercise ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' cold']"
+2024-05-25,Saturday,good,"['relaxed ', ' medium sleep ', ' walk ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' cold']"
+2024-05-24,Friday,good,"['relaxed ', ' good sleep ', ' friends ', ' listen ', ' make list ', ' shopping ', ' cleaning ', ' sunny ', ' cold']"
+2024-05-23,Thursday,meh,"['content ', ' unsure ', ' medium sleep ', ' exercise ', ' drink water ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' clouds']"
+2024-05-22,Wednesday,meh,"['tired ', ' unsure ', ' anxious ', ' medium sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain']"
+2024-05-21,Tuesday,meh,"['unsure ', ' medium sleep ', ' focus ', ' take a break ', ' clouds']"
+2024-05-20,Monday,good,"['content ', ' good sleep ', ' exercise ', ' drink water ', ' start early ', ' focus ', ' take a break']"
+2024-05-19,Sunday,good,"['content ', ' focus ', ' take a break ', ' laundry']"
+2024-05-18,Saturday,good,"['grateful ', ' content ', ' good sleep ', ' exercise ', ' walk ', ' focus ', ' take a break ', ' shopping ', ' laundry ', ' sunny ', ' cold']"
+2024-05-17,Friday,good,"['content ', ' good sleep ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds']"
+2024-05-16,Thursday,meh,"['content ', ' medium sleep ', ' walk ', ' start early ', ' focus ', ' sunny ', ' clouds ', ' wind']"
+2024-05-15,Wednesday,good,"['content ', ' good sleep ', ' start early ', ' focus ', ' take a break ', ' shopping']"
+2024-05-14,Tuesday,good,"['content ', ' medium sleep ', ' exercise ', ' focus ', ' take a break ', ' shopping ', ' sunny']"
+2024-05-13,Monday,good,"['content ', ' medium sleep ', ' focus ', ' take a break ', ' sunny ', ' cold']"
+2024-05-12,Sunday,good,"['grateful ', ' good sleep ', ' make list ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' cold']"
+2024-05-11,Saturday,meh,"['unsure ', ' medium sleep ', ' walk ', ' family ', ' listen ', ' start early ', ' sunny ', ' clouds']"
+2024-05-10,Friday,good,"['grateful ', ' content ', ' good sleep ', ' walk ', ' friends ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' clouds']"
+2024-05-09,Thursday,good,"['content ', ' good sleep ', ' drink water ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny']"
+2024-05-08,Wednesday,good,"['grateful ', ' content ', ' medium sleep ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' clouds ', ' wind']"
+2024-05-07,Tuesday,meh,"['tired ', ' unsure ', ' good sleep ', ' drink water ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' clouds ', ' rain']"
+2024-05-06,Monday,meh,"['content ', ' good sleep ', ' drink water ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain']"
+2024-05-05,Sunday,meh,"['unsure ', ' sad ', ' good sleep ', ' walk ', ' friends ', ' focus ', ' take a break ', ' clouds ', ' rain']"
+2024-05-04,Saturday,good,"['grateful ', ' good sleep ', ' family ', ' friends ', ' listen ', ' take a break ', ' clouds']"
+2024-05-03,Friday,good,"['grateful ', ' content ', ' medium sleep ', ' walk ', ' friends ', ' make list ', ' take a break ', ' shopping ', ' cleaning ', ' sunny']"
+2024-05-02,Thursday,meh,"['tired ', ' stressed ', ' medium sleep ', ' walk ', ' start early ', ' focus ', ' sunny']"
+2024-05-01,Wednesday,good,"['grateful ', ' good sleep ', ' walk ', ' friends ', ' listen ', ' take a break ', ' cleaning ', ' clouds ', ' wind']"
+2024-04-30,Tuesday,meh,"['content ', ' stressed ', ' medium sleep ', ' focus ', ' take a break ', ' clouds ', ' rain']"
+2024-04-29,Monday,good,"['relaxed ', ' content ', ' good sleep ', ' drink water ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds ', ' rain ', ' wind']"
+2024-04-28,Sunday,good,"['grateful ', ' relaxed ', ' content ', ' good sleep ', ' drink water ', ' walk ', ' stretch ', ' focus ', ' take a break ', ' cleaning ', ' sunny']"
+2024-04-27,Saturday,good,"['relaxed ', ' content ', ' good sleep ', ' drink water ', ' walk ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' clouds']"
+2024-04-26,Friday,good,"['grateful ', ' content ', ' good sleep ', ' friends ', ' focus ', ' take a break ', ' clouds ', ' rain']"
+2024-04-25,Thursday,good,"['grateful ', ' good sleep ', ' friends ', ' start early ', ' make list ', ' focus ', ' take a break ', ' clouds ', ' rain']"
+2024-04-24,Wednesday,good,"['content ', ' medium sleep ', ' drink water ', ' start early ', ' focus ', ' take a break ', ' cleaning']"
+2024-04-23,Tuesday,meh,"['content ', ' sad ', ' good sleep ', ' walk ', ' listen ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds']"
+2024-04-22,Monday,meh,"['unsure ', ' good sleep ', ' drink water ', ' walk ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' clouds ', ' rain']"
+2024-04-21,Sunday,meh,"['content ', ' good sleep ', ' make list ', ' cleaning ', ' laundry ', ' clouds ', ' rain']"
+2024-04-20,Saturday,good,"['relaxed ', ' content ', ' good sleep ', ' walk ', ' friends ', ' gardening ', ' make list ', ' take a break ', ' shopping ', ' cleaning ', ' sunny ', ' clouds']"
+2024-04-19,Friday,good,"['grateful ', ' sleep early ', ' good sleep ', ' family ', ' listen ', ' take a break ', ' sunny ', ' wind']"
+2024-04-18,Thursday,good,"['content ', ' medium sleep ', ' drink water ', ' walk ', ' listen ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' wind']"
+2024-04-17,Wednesday,good,"['unsure ', ' anxious ', ' angry ', ' sad ', ' sleep early ', ' good sleep ', ' drink water ', ' walk ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' wind']"
+2024-04-16,Tuesday,good,"['relaxed ', ' good sleep ', ' drink water ', ' family ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' clouds ', ' rain ', ' wind']"
+2024-04-15,Monday,meh,"['unsure ', ' good sleep ', ' drink water ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' clouds ', ' rain ', ' wind']"
+2024-04-14,Sunday,good,"['relaxed ', ' good sleep ', ' drink water ', ' friends ', ' make list ', ' focus ', ' take a break ', ' clouds ', ' rain']"
+2024-04-13,Saturday,good,"['relaxed ', ' good sleep ', ' drink water ', ' family ', ' make list ', ' focus ', ' take a break ', ' clouds ', ' rain']"
+2024-04-12,Friday,good,"['content ', ' good sleep ', ' drink water ', ' friends ', ' listen ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain']"
+2024-04-11,Thursday,meh,"['tired ', ' medium sleep ', ' drink water ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' laundry ', ' clouds']"
+2024-04-10,Wednesday,meh,"['content ', ' good sleep ', ' drink water ', ' start early ', ' make list ', ' focus ', ' take a break ', ' clouds']"
+2024-04-09,Tuesday,good,"['relaxed ', ' content ', ' medium sleep ', ' drink water ', ' walk ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' heat']"
+2024-04-08,Monday,good,"['relaxed ', ' good sleep ', ' drink water ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' sunny']"
+2024-04-07,Sunday,good,"['relaxed ', ' good sleep ', ' drink water ', ' walk ', ' start early ', ' make list ', ' focus ', ' take a break ', ' cleaning ', ' sunny']"
+2024-04-06,Saturday,good,"['content ', ' good sleep ', ' drink water ', ' gardening ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' sunny']"
+2024-04-05,Friday,meh,"['tired ', ' bad sleep ', ' drink water ', ' walk ', ' stretch ', ' start early ', ' take a break ', ' shopping ', ' cleaning ', ' sunny']"
+2024-04-04,Thursday,meh,"['angry ', ' good sleep ', ' focus ', ' sunny']"
+2024-04-03,Wednesday,meh,"['stressed ', ' bad sleep ', ' start early ', ' focus ', ' take a break ', ' rain']"
+2024-04-02,Tuesday,good,"['content ', ' good sleep ', ' drink water ', ' walk ', ' start early ', ' focus ', ' take a break ', ' shopping ', ' cleaning ', ' sunny']"
+2024-04-01,Monday,good,"['content ', ' medium sleep ', ' walk ', ' friends ', ' listen ', ' make list ', ' focus ', ' take a break ', ' clouds ', ' rain']"
+2024-03-31,Sunday,good,"['grateful ', ' good sleep ', ' family ', ' listen ', ' start early ', ' take a break ', ' clouds']"
+2024-03-30,Saturday,good,"['grateful ', ' medium sleep ', ' friends ', ' listen ', ' start early ', ' cleaning ', ' sunny ', ' heat']"
+2024-03-29,Friday,good,"['grateful ', ' good sleep ', ' drink water ', ' friends ', ' listen ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' clouds']"
+2024-03-28,Thursday,good,"['content ', ' good sleep ', ' drink water ', ' walk ', ' start early ', ' focus ', ' take a break ', ' sunny']"
+2024-03-27,Wednesday,good,"['grateful ', ' good sleep ', ' listen ', ' start early ', ' focus ', ' take a break ', ' sunny ', ' wind']"
+2024-03-26,Tuesday,good,"['grateful ', ' good sleep ', ' walk ', ' friends ', ' listen ', ' focus ', ' take a break ', ' laundry ', ' sunny']"
+2024-03-25,Monday,meh,"['content ', ' medium sleep ', ' start early ', ' focus ', ' shopping ', ' laundry ', ' sunny ', ' wind']"
+2024-03-24,Sunday,good,"['grateful ', ' good sleep ', ' walk ', ' friends ', ' listen ', ' take a break ', ' sunny ', ' heat']"
+2024-03-23,Saturday,good,"['content ', ' good sleep ', ' drink water ', ' walk ', ' family ', ' take a break ', ' sunny ', ' wind']"
+2024-03-22,Friday,good,"['content ', ' good sleep ', ' focus ', ' take a break ', ' sunny']"
+2024-03-21,Thursday,good,"['grateful ', ' content ', ' good sleep ', ' drink water ', ' walk ', ' friends ', ' gardening ', ' focus ', ' take a break ', ' sunny ', ' clouds']"
+2024-03-20,Wednesday,good,"['content ', ' good sleep ', ' friends ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' storm ', ' wind']"
+2024-03-19,Tuesday,meh,"['content ', ' good sleep ', ' focus ', ' take a break ', ' shopping ', ' laundry ', ' clouds ', ' heat']"
+2024-03-18,Monday,good,"['grateful ', ' content ', ' good sleep ', ' drink water ', ' walk ', ' family ', ' start early ', ' take a break ', ' sunny ', ' clouds ', ' rain ', ' wind ', ' heat']"
+2024-03-17,Sunday,good,"['content ', ' good sleep ', ' drink water ', ' friends ', ' listen ', ' sunny ', ' clouds ', ' wind']"
+2024-03-16,Saturday,meh,"['unsure ', ' bored ', ' angry ', ' good sleep ', ' walk ', ' family ', ' clouds ', ' rain ', ' heat']"
+2024-03-15,Friday,good,"['content ', ' medium sleep ', ' walk ', ' friends ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' heat']"
+2024-03-14,Thursday,meh,"['content ', ' good sleep ', ' shopping']"
+2024-03-13,Wednesday,good,"['content ', ' good sleep ', ' take a break ', ' clouds ', ' rain ', ' storm']"
+2024-03-12,Tuesday,bad,"['anxious ', ' stressed ', ' sad ', ' good sleep ', ' friends ', ' focus ', ' take a break ', ' shopping ', ' rain ', ' storm ', ' wind']"
+2024-03-11,Monday,meh,"['unsure ', ' bored ', ' focus ', ' take a break ', ' rain ', ' storm']"
+2024-03-10,Sunday,good,"['content ', ' good sleep ', ' drink water ', ' focus ', ' take a break ', ' cleaning ', ' laundry ', ' clouds ', ' wind']"
+2024-03-09,Saturday,meh,"['unsure ', ' bored ', ' anxious ', ' medium sleep ', ' drink water ', ' walk ', ' focus ', ' take a break ', ' sunny ', ' heat']"
+2024-03-08,Friday,good,"['content ', ' good sleep ', ' shopping ', ' cleaning ', ' clouds ', ' rain ', ' wind']"
+2024-03-07,Thursday,meh,"['tired ', ' sad ', ' medium sleep ', ' drink water ', ' walk ', ' no meat ', ' listen ', ' focus ', ' take a break ', ' sunny ', ' heat']"
+2024-03-06,Wednesday,meh,"['tired ', ' good sleep ', ' make list ', ' focus ', ' cleaning ', ' sunny']"
+2024-03-05,Tuesday,good,"['relaxed ', ' content ', ' good sleep ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' wind']"
+2024-03-04,Monday,good,"['grateful ', ' content ', ' good sleep ', ' walk ', ' family ', ' start early ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' clouds']"
+2024-03-03,Sunday,meh,"['stressed ', ' bad sleep ', ' drink water ', ' family ', ' sunny']"
+2024-03-02,Saturday,good,"['grateful ', ' content ', ' medium sleep ', ' drink water ', ' walk ', ' family ', ' friends ', ' take a break ', ' clouds ', ' rain ', ' heat']"
+2024-03-01,Friday,bad,"['anxious ', ' stressed ', ' sad ', ' medium sleep ', ' walk ', ' start early ', ' cleaning ', ' clouds ', ' heat']"
+2024-02-29,Thursday,good,"['relaxed ', ' medium sleep ', ' friends ', ' take a break ', ' sunny ', ' wind ', ' heat']"
+2024-02-28,Wednesday,meh,"['anxious ', ' sad ', ' good sleep ', ' drink water ', ' walk ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' heat']"
+2024-02-27,Tuesday,meh,"['stressed ', ' medium sleep ', ' drink water ', ' start early ', ' shopping ', ' sunny ', ' heat']"
+2024-02-26,Monday,good,"['relaxed ', ' content ', ' good sleep ', ' eat healthy ', ' make list ', ' take a break ', ' shopping ', ' cleaning ', ' clouds ', ' rain']"
+2024-02-25,Sunday,good,"['content ', ' good sleep ', ' eat healthy ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' wind']"
+2024-02-24,Saturday,good,"['relaxed ', ' medium sleep ', ' drink water ', ' make list ', ' focus ', ' take a break ', ' clouds ', ' wind']"
+2024-02-23,Friday,good,"['grateful ', ' content ', ' medium sleep ', ' family ', ' listen ', ' take a break ', ' sunny ', ' clouds ', ' heat']"
+2024-02-22,Thursday,good,"['unsure ', ' medium sleep ', ' friends ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' clouds ', ' heat']"
+2024-02-21,Wednesday,good,"['relaxed ', ' content ', ' medium sleep ', ' friends ', ' listen ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' wind ', ' heat']"
+2024-02-20,Tuesday,bad,"['stressed ', ' sad ', ' desperate ', ' medium sleep ', ' family ', ' focus ', ' take a break ', ' laundry ', ' sunny ', ' clouds ', ' heat']"
+2024-02-19,Monday,meh,"['anxious ', ' sad ', ' good sleep ', ' make list ', ' take a break ', ' clouds ', ' heat']"
+2024-02-18,Sunday,meh,"['anxious ', ' sad ', ' medium sleep ', ' gardening ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' rain ', ' heat']"
+2024-02-17,Saturday,good,"['content ', ' good sleep ', ' drink water ', ' walk ', ' gardening ', ' focus ', ' take a break ', ' sunny ', ' wind']"
+2024-02-16,Friday,good,"['grateful ', ' content ', ' good sleep ', ' walk ', ' friends ', ' listen ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' wind']"
+2024-02-15,Thursday,meh,"['anxious ', ' stressed ', ' sad ', ' medium sleep ', ' family ', ' listen ', ' start early ', ' sunny ', ' clouds ', ' wind']"
+2024-02-14,Wednesday,bad,"['anxious ', ' angry ', ' stressed ', ' sad ', ' good sleep ', ' walk ', ' start early ', ' sunny ', ' clouds ', ' wind']"
+2024-02-13,Tuesday,meh,"['content ', ' anxious ', ' good sleep ', ' walk ', ' friends ', ' make list ', ' take a break ', ' shopping ', ' laundry ', ' sunny']"
+2024-02-12,Monday,good,"['relaxed ', ' content ', ' medium sleep ', ' focus ', ' take a break ', ' clouds ', ' rain ', ' wind']"
+2024-02-11,Sunday,good,"['relaxed ', ' content ', ' good sleep ', ' focus ', ' take a break ', ' sunny ', ' heat']"
+2024-02-10,Saturday,good,"['relaxed ', ' content ', ' good sleep ', ' stretch ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' rain ', ' storm ', ' heat']"
+2024-02-09,Friday,meh,"['anxious ', ' stressed ', ' sad ', ' desperate ', ' medium sleep ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' clouds ', ' heat']"
+2024-02-08,Thursday,good,"['grateful ', ' relaxed ', ' anxious ', ' stressed ', ' friends ', ' give gift ', ' take a break ', ' laundry ', ' clouds ', ' rain ', ' heat']"
+2024-02-07,Wednesday,meh,"['anxious ', ' stressed ', ' sad ', ' medium sleep ', ' focus ', ' take a break ', ' laundry ', ' sunny ', ' clouds ', ' heat']"
+2024-02-06,Tuesday,bad,"['anxious ', ' angry ', ' sad ', ' desperate ', ' good sleep ', ' walk ', ' focus ', ' take a break ', ' sunny ', ' rain ', ' storm ', ' wind ', ' heat']"
+2024-02-05,Monday,good,"['grateful ', ' content ', ' stressed ', ' good sleep ', ' drink water ', ' stretch ', ' friends ', ' listen ', ' start early ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' wind ', ' heat']"
+2024-02-04,Sunday,meh,"['anxious ', ' stressed ', ' sad ', ' good sleep ', ' walk ', ' stretch ', ' make list ', ' take a break ', ' laundry ', ' sunny ', ' clouds ', ' wind']"
+2024-02-03,Saturday,good,"['relaxed ', ' content ', ' medium sleep ', ' stretch ', ' gardening ', ' make list ', ' focus ', ' take a break ', ' sunny ', ' heat']"
+2024-02-02,Friday,good,"['content ', ' medium sleep ', ' drink water ', ' friends ', ' focus ', ' take a break ', ' sunny ', ' heat']"
+2024-02-01,Thursday,meh,"['grateful ', ' anxious ', ' stressed ', ' sad ', ' medium sleep ', ' drink water ', ' friends ', ' sunny ', ' heat']"
+2024-01-31,Wednesday,meh,"['content ', ' anxious ', ' stressed ', ' good sleep ', ' take a break ', ' sunny ', ' heat']"
+2024-01-30,Tuesday,bad,"['tired ', ' angry ', ' sad ', ' desperate ', ' medium sleep ', ' drink water ', ' friends ', ' listen ', ' take a break ', ' sunny ', ' heat']"
+2024-01-29,Monday,good,"['content ', ' anxious ', ' stressed ', ' desperate ', ' bad sleep ', ' walk ', ' stretch ', ' take a break ', ' sunny ', ' wind ', ' heat']"
+2024-01-28,Sunday,meh,"['anxious ', ' sad ', ' desperate ', ' good sleep ', ' gardening ', ' focus ', ' take a break ', ' sunny ', ' wind ', ' heat']"
+2024-01-27,Saturday,good,"['relaxed ', ' content ', ' medium sleep ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' wind ', ' heat']"
+2024-01-26,Friday,good,"['content ', ' good sleep ', ' drink water ', ' family ', ' gardening ', ' focus ', ' take a break ', ' sunny ', ' heat']"
+2024-01-25,Thursday,meh,"['anxious ', ' angry ', ' stressed ', ' sad ', ' desperate ', ' good sleep ', ' walk ', ' make list ', ' focus ', ' shopping ', ' sunny ', ' wind ', ' heat']"
+2024-01-24,Wednesday,good,"['relaxed ', ' good sleep ', ' kindness ', ' focus ', ' take a break ', ' sunny ', ' wind']"
+2024-01-23,Tuesday,meh,"['anxious ', ' good sleep ', ' walk ', ' family ', ' listen ', ' start early ', ' take a break ', ' sunny ', ' wind']"
+2024-01-22,Monday,meh,"['anxious ', ' angry ', ' sad ', ' good sleep ', ' walk ', ' sunny ', ' wind']"
+2024-01-21,Sunday,meh,"['bored ', ' sad ', ' desperate ', ' good sleep ', ' stretch ', ' cleaning ', ' sunny ', ' wind']"
+2024-01-20,Saturday,meh,"['anxious ', ' stressed ', ' sad ', ' good sleep ', ' make list ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' wind']"
+2024-01-19,Friday,meh,"['content ', ' anxious ', ' medium sleep ', ' stretch ', ' make list ', ' take a break ', ' shopping ', ' cleaning ', ' laundry ', ' sunny ', ' wind']"
+2024-01-18,Thursday,good,"['content ', ' anxious ', ' medium sleep ', ' focus ', ' take a break ', ' clouds ', ' wind ', ' heat']"
+2024-01-17,Wednesday,good,"['content ', ' anxious ', ' medium sleep ', ' drink water ', ' walk ', ' family ', ' focus ', ' take a break ', ' shopping ', ' sunny ', ' wind']"
+2024-01-16,Tuesday,good,"['content ', ' medium sleep ', ' walk ', ' family ', ' focus ', ' take a break ', ' cleaning ', ' clouds ', ' rain ', ' wind']"
+2024-01-15,Monday,good,"['content ', ' sad ', ' good sleep ', ' drink water ', ' walk ', ' kindness ', ' focus ', ' take a break ', ' cleaning ', ' sunny ', ' wind ', ' heat']"
+2024-01-14,Sunday,meh,"['relaxed ', ' sad ', ' desperate ', ' good sleep ', ' drink water ', ' walk ', ' sunny ', ' heat']"
+2024-01-13,Saturday,meh,"['sad ', ' desperate ', ' medium sleep ', ' meditation ', ' make list ', ' take a break ', ' shopping ', ' sunny ', ' clouds ', ' wind']"
+2024-01-12,Friday,bad,"['anxious ', ' sad ', ' good sleep ', ' make list ', ' take a break ', ' cleaning ', ' sunny ', ' clouds ', ' wind']"
+2024-01-11,Thursday,bad,"['anxious ', ' sad ', ' medium sleep ', ' drink water ', ' take a break ', ' sunny ', ' clouds ', ' wind']"
+2024-01-10,Wednesday,meh,"['content ', ' medium sleep ', ' drink water ', ' family ', ' focus ', ' take a break ', ' sunny ', ' rain ', ' wind ', ' heat']"
+2024-01-09,Tuesday,good,"['content ', ' anxious ', ' medium sleep ', ' drink water ', ' walk ', ' homemade ', ' friends ', ' take a break ', ' laundry ', ' sunny ', ' clouds ', ' heat']"
+2024-01-08,Monday,meh,"['content ', ' sad ', ' desperate ', ' good sleep ', ' drink water ', ' start early ', ' make list ', ' take a break ', ' laundry ', ' sunny ', ' heat']"
+2024-01-07,Sunday,bad,"['tired ', ' stressed ', ' sad ', ' desperate ', ' medium sleep ', ' take a break ', ' sunny ', ' rain ', ' storm ', ' heat']"
+2024-01-06,Saturday,bad,"['anxious ', ' angry ', ' stressed ', ' sad ', ' desperate ', ' good sleep ', ' family ', ' start early ', ' clouds ', ' heat']"
+2024-01-05,Friday,good,"['content ', ' medium sleep ', ' drink water ', ' gardening ', ' take a break ', ' laundry ', ' sunny ', ' wind ', ' heat']"
+2024-01-04,Thursday,meh,"['content ', ' unsure ', ' sad ', ' good sleep ', ' eat healthy ', ' start early ', ' take a break ', ' cleaning ', ' sunny ', ' wind ', ' heat']"
+2024-01-03,Wednesday,meh,"['content ', ' stressed ', ' sad ', ' good sleep ', ' eat healthy ', ' start early ', ' make list ', ' take a break ', ' shopping ', ' laundry ', ' sunny ', ' clouds ', ' wind']"
+2024-01-02,Tuesday,meh,"['tired ', ' anxious ', ' angry ', ' sad ', ' good sleep ', ' make list ', ' focus ', ' take a break ', ' laundry ', ' sunny ', ' clouds ', ' wind']"
+2024-01-01,Monday,meh,"['tired ', ' anxious ', ' sad ', ' desperate ', ' good sleep ', ' drink water ', ' make list ', ' take a break ', ' laundry ', ' sunny ', ' clouds ', ' wind']"
+2023-12-31,Sunday,meh,"['anxious ', ' sad ', ' desperate ', ' good sleep ', ' eat healthy ', ' meditation ', ' take a break ', ' sunny ', ' clouds ', ' wind']"
+2023-12-30,Saturday,meh,"['anxious ', ' stressed ', ' sad ', ' desperate ', ' good sleep ', ' meditation ', ' take a break ', ' sunny ', ' wind']"
+2023-12-29,Friday,good,"['relaxed ', ' content ', ' good sleep ', ' walk ', ' kindness ', ' take a break ', ' shopping ', ' sunny ', ' wind']"
+2023-12-28,Thursday,good,"['content ', ' good sleep ', ' eat healthy ', ' drink water ', ' meditation ', ' take a break ', ' sunny ', ' clouds ', ' rain']"
+2023-12-27,Wednesday,meh,"['unsure ', ' anxious ', ' sad ', ' desperate ', ' good sleep ', ' sunny']"
+2023-12-26,Tuesday,meh,"['content ', ' anxious ', ' stressed ', ' good sleep ', ' eat healthy ', ' start early ', ' focus ', ' take a break ', ' sunny']"
+2023-12-25,Monday,good,"['content ', ' anxious ', ' good sleep ', ' meditation ', ' make list ', ' sunny ', ' clouds ', ' wind']"
+2023-12-24,Sunday,good,"['relaxed ', ' content ', ' good sleep ', ' meditation ', ' start early ', ' focus ', ' take a break ', ' clouds ', ' rain']"
+2023-12-23,Saturday,meh,"['anxious ', ' angry ', ' stressed ', ' sad ', ' desperate ', ' medium sleep ', ' drink water ', ' family ', ' heat']"
+2023-12-22,Friday,good,"['grateful ', ' content ', ' sad ', ' medium sleep ', ' drink water ', ' restaurant ', ' family ', ' friends ', ' listen ', ' take a break ', ' heat']"
+2023-12-21,Thursday,meh,"['unsure ', ' bored ', ' anxious ', ' stressed ', ' drink water ', ' homemade ', ' focus ', ' shopping ', ' sunny']"
+2023-12-20,Wednesday,meh,"['bored ', ' anxious ', ' angry ', ' sad ', ' good sleep ', ' eat healthy ', ' homemade ', ' no meat ', ' sunny']"
