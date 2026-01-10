@@ -148,9 +148,16 @@ micro_df = pd.DataFrame(
     index=df.index
 )
 
+micro_df.columns = micro_df.columns.str.strip().str.lower()
 
-micro_df.to_csv("data/moods_microacts.csv", index=False)
+micro_df = micro_df.groupby(micro_df.columns, axis=1).max()
 
-print("Multilabelled activities df saved to data/moods_cleaned.csv")
+
+#micro_df.to_csv("data/moods_microacts.csv", index=False)
+
+#print("Multilabelled activities df saved to data/moods_cleaned.csv")
+
+print(micro_df.head())
+print(micro_df.info())
 
 
