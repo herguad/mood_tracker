@@ -20,3 +20,13 @@ JOIN moods m2
   ON date(m1.full_date, '+1 day') = m2.full_date
 GROUP BY mood_today, mood_next_day
 ORDER BY transitions DESC;
+
+-- Mood counts per weekday
+CREATE VIEW IF NOT EXISTS mood_weekday AS
+SELECT 
+    weekday,  -- 0 = Sunday ... 6 = Saturday
+    mood,
+    COUNT(*) AS mood_count
+FROM moods
+GROUP BY weekday, mood
+ORDER BY weekday;
