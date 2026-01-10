@@ -158,10 +158,17 @@ micro_df = micro_df.groupby(micro_df.columns, axis=1).max()
 
 #micro_df.to_csv("data/moods_microacts.csv", index=False)
 
-#print("Multilabelled activities df saved to data/moods_cleaned.csv")
+print("Multilabelled activities df saved micro_df")
 
-print(micro_df.head())
+#print(micro_df.head())
 print(micro_df.info())
 
+#Merge dfs
+result_cross = df.merge(micro_df,left_index=True,right_index=True)
+#print(len(result_cross))
+print("Multilabelled activities df saved micro_df")
 
+# Introduce macro_df removing 'activities' column.
+macro_mood= result_cross.drop("activities",axis=1)
+print(macro_mood.head())
 
