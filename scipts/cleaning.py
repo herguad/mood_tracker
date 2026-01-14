@@ -155,9 +155,6 @@ micro_df.columns = micro_df.columns.str.strip().str.lower()
 
 micro_df = micro_df.groupby(micro_df.columns, axis=1).max()
 
-
-#micro_df.to_csv("data/moods_microacts.csv", index=False)
-
 print("Multilabelled activities df saved micro_df")
 
 #print(micro_df.head())
@@ -166,11 +163,15 @@ print(micro_df.info())
 #Merge dfs
 result_cross = df.merge(micro_df,left_index=True,right_index=True)
 #print(len(result_cross))
-print("Multilabelled activities df saved micro_df")
 
 # Introduce macro_df removing 'activities' column.
 macro_mood= result_cross.drop("activities",axis=1)
 print(macro_mood.head())
+
+macro_mood.to_csv("data/moods_features.csv", index=False)
+
+print("Multilabelled activities df saved moods_features")
+
 
 import sqlite3
 
@@ -181,5 +182,3 @@ df = pd.read_csv("data/moods_cleaned.csv")
 df.to_sql("moods", conn, if_exists="append", index=False)
 
 conn.close()
-
-
