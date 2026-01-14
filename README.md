@@ -39,3 +39,39 @@ As a result, the analysis focuses on categorical mood patterns, temporal dynamic
 
 2. Are some moods rare?
 
+- Plots:
+
+1. Mood counts
+
+## Activity structure
+- Questions:
+
+1. Which activities dominate?
+
+2. How sparse is the matrix?
+
+3. Are some activities redundant?
+
+- Plots:
+
+1. Column sums
+
+2. Heatmap of correlations
+
+3. Co-occurrence counts
+
+## Mood × Activity interaction
+
+- Questions:
+
+1. Which activities co-occur with which moods?
+
+2. Are some moods activity-driven?
+
+3. Is there separation potential for clustering?
+
+- Plots:
+
+1. Heatmap (mood vs activity)
+
+2. Conditional probabilities
