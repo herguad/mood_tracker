@@ -75,3 +75,10 @@ As a result, the analysis focuses on categorical mood patterns, temporal dynamic
 1. Heatmap (mood vs activity)
 
 2. Conditional probabilities
+
+### ----------------------------------------------------
+- Python (notebook) → EDA + plots
+
+- R → optional deeper stats or contrasts
+
+- SQL → sanity checks, time-based aggregates
