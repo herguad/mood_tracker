@@ -1,0 +1,1 @@
+Activities are derived features generated in the analysis pipeline and are not stored in the database.
