@@ -8,7 +8,7 @@ from sklearn.preprocessing import MultiLabelBinarizer
 # Load raw data
 df = pd.read_csv("data/raw_mood.csv")
 
-print(df.columns)
+#print(df.columns)
 
 # Standardize column names
 df.columns = [c.strip().lower() for c in df.columns]
@@ -29,6 +29,8 @@ def normalize_mood(m):
 
 df["mood"] = df["mood"].apply(normalize_mood)
 
+df["weekday"] = pd.to_datetime(df["full_date"]).dt.day_name()
+
 # Clean notes if present
 if "note" in df.columns:
     def clean_text(t):
@@ -40,14 +42,13 @@ if "note" in df.columns:
         return t.strip()
     df["note"] = df["note"].apply(clean_text)
 
-############################################### Optional: clean intensity if present
-if "intensity" in df.columns:
-    df["intensity"] = pd.to_numeric(df["intensity"], errors="coerce").fillna(0).astype(int)
 
 # Remove NaN columns and subdivide 'activities' into 8 categories: emotions,sleep, health, social, better me, productivity, chores and weather.
 
 # 1. Drop unwanted columns
 df = df.drop(columns=["date", "time", "scales", "note_title", "note"], errors="ignore")
+
+print(df.head())
 
 # 2. Ensure 'activities' column contains actual lists
 print(type(df.activities))

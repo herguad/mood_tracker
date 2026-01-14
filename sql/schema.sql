@@ -20,16 +20,5 @@ FROM moods
 GROUP BY weekday, mood
 ORDER BY weekday;
 
--- 4. Optional: a view for 7-day rolling average of intensity
--- (only works if intensity exists, but shows SQL skills)
-CREATE VIEW IF NOT EXISTS mood_rolling7 AS
-SELECT
-    date,
-    AVG(intensity) OVER (
-        ORDER BY date
-        ROWS BETWEEN 6 PRECEDING AND CURRENT ROW
-    ) AS avg_intensity_7d
-FROM moods;
-
 
 --- After loading cleaned CSV into SQLite or PostgreSQL: queries.sql
