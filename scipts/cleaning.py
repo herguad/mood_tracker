@@ -179,6 +179,8 @@ conn = sqlite3.connect("data/moods.db")
 
 df = pd.read_csv("data/moods_cleaned.csv")
 
-df.to_sql("moods", conn, if_exists="append", index=False)
+df_db = df.drop(columns=["weekday", "activities"])
+
+df_db.to_sql("moods", conn, if_exists="append", index=False)
 
 conn.close()

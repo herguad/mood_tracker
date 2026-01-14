@@ -3,8 +3,6 @@ CREATE TABLE IF NOT EXISTS moods (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     full_date TEXT NOT NULL,       -- stored as ISO date (YYYY-MM-DD)
     mood TEXT NOT NULL,       -- categorical mood label
-    intensity INTEGER,        -- optional mood strength (e.g., 1-5 or 1-10)
-    note TEXT,                -- optional free-text note
     created_at TEXT DEFAULT CURRENT_TIMESTAMP
 );
 
