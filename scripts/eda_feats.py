@@ -1,10 +1,10 @@
 import pandas as pd
 import matplotlib.pyplot as plt  
 
-df = pd.read_csv("data/moods_features.csv")
+df_feats = pd.read_csv("data/moods_features.csv")
 
-df.info()
-df.describe(include="all")
+df_feats.info()
+df_feats.describe(include="all")
 
 #Time coverage 
 df = pd.read_csv("data/moods_cleaned.csv")
@@ -72,6 +72,19 @@ plt.show()
 
 
 #Activity frequency (SB)
+print(df_feats.columns)
 
-
+activities_cols= ['angry', 'anxious', 'bad sleep',
+       'bored', 'cleaning', 'clouds', 'cold', 'content', 'cooking', 'date',
+       'delivery', 'desperate', 'doctor', 'drink water', 'eat healthy',
+       'excited', 'exercise', 'family', 'fast food', 'focus', 'friends',
+       'gardening', 'give gift', 'good sleep', 'grateful', 'happy', 'heat',
+       'homemade', 'humid', 'irritated', 'kindness', 'laundry', 'listen',
+       'make list', 'meditation', 'medium sleep', 'nap', 'no meat',
+       'pleasuread', 'rain', 'relaxed', 'restaurant', 'sad', 'shopping',
+       'sleep early', 'start early', 'storm', 'stressed', 'stretch', 'sunny',
+       'take a break', 'tired', 'unsure', 'walk', 'wind']
+#print("\nSums of activities columns: ")
+#print(col_sums)
 #Heatmaps 
+
