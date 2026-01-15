@@ -15,6 +15,8 @@ Raw data is cleaned in Python, stored normalized in SQL, and enriched analytical
 The dataset does not include a continuous or ordinal measure of mood intensity.
 As a result, the analysis focuses on categorical mood patterns, temporal dynamics, and activity context rather than affect strength.
 
+Exploratory plots were implemented using Matplotlib for structural time-based visualizations and Seaborn for categorical and distributional analyses
+
 ## Temporal structure (always first)
 
 - Questions:
