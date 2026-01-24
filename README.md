@@ -29,9 +29,9 @@ Exploratory plots were implemented using Matplotlib for structural time-based vi
 
 - Plots:
 
-1. Entries per week/month
+1. *Entries per week/month*
 
-2. Rolling counts
+2. **Rolling counts**
 
 ## Mood distribution
 
