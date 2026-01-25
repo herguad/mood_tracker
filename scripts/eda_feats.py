@@ -102,7 +102,21 @@ plt.xticks(rotation=90)
 plt.tight_layout()
 plt.show()
 
-#print("\nSums of activities columns: ")
-#print(col_sums)
+#Activity frequency in %
+n_entries = len(df_feats)
+activity_pct = (activity_counts / n_entries) * 100
+
+plt.figure(figsize=(10, 5))
+plt.bar(activity_pct.index, activity_pct.values)
+
+plt.title("Activity Frequency (% of Mood Entries)")
+plt.xlabel("Activity")
+plt.ylabel("Percentage of Entries")
+
+plt.xticks(rotation=90)
+plt.tight_layout()
+plt.show()
+
+
 #Heatmaps 
 
