@@ -120,3 +120,28 @@ plt.show()
 
 #Heatmaps 
 
+#Mood vs Activity normalized 
+heatmap_df = df_feats[["mood"] + list(acts.columns)]
+
+#For each mood, what fraction of entries include each activity?
+
+mood_activity = heatmap_df.groupby("mood").mean()
+
+top_activities = activity_counts.head(15).index
+mood_activity = mood_activity[top_activities]
+
+import seaborn as sns
+
+plt.figure(figsize=(12, 6))
+sns.heatmap(
+    mood_activity,
+    cmap="viridis",
+    cbar_kws={"label": "Activity Presence Rate"}
+)
+
+plt.title("Mood × Activity Presence Rate")
+plt.xlabel("Activity")
+plt.ylabel("Mood")
+
+plt.tight_layout()
+plt.show()
