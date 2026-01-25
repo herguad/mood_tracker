@@ -92,6 +92,7 @@ grouping decisions
 
 2. Conditional probabilities
 
+clustering mood entries based on their activity profiles
 ### ----------------------------------------------------
 - Python (notebook) → EDA + plots
 
