@@ -72,6 +72,7 @@ plt.show()
 
 
 #Activity frequency (SB)
+#Which activities dominate the dataset?
 print(df_feats.columns)
 
 activities_cols= ['angry', 'anxious', 'bad sleep',
@@ -84,6 +85,23 @@ activities_cols= ['angry', 'anxious', 'bad sleep',
        'pleasuread', 'rain', 'relaxed', 'restaurant', 'sad', 'shopping',
        'sleep early', 'start early', 'storm', 'stressed', 'stretch', 'sunny',
        'take a break', 'tired', 'unsure', 'walk', 'wind']
+
+
+acts= df_feats.iloc[:,4:]
+
+activity_counts = acts.sum().sort_values(ascending=False)
+
+plt.figure(figsize=(10, 5))
+plt.bar(activity_counts.index, activity_counts.values, color="green")
+
+plt.title("Activity Frequency Across Mood Entries")
+plt.xlabel("Activity")
+plt.ylabel("Number of Entries")
+
+plt.xticks(rotation=90)
+plt.tight_layout()
+plt.show()
+
 #print("\nSums of activities columns: ")
 #print(col_sums)
 #Heatmaps 
