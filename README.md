@@ -93,6 +93,9 @@ grouping decisions
 2. Conditional probabilities
 
 clustering mood entries based on their activity profiles
+each row is: one mood entry represented as a binary vector of activities
+
+
 ### ----------------------------------------------------
 - Python (notebook) → EDA + plots
 
