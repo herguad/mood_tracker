@@ -29,9 +29,9 @@ Exploratory plots were implemented using Matplotlib for structural time-based vi
 
 - Plots:
 
-1. *Entries per week/month*
+1. Entries per week/month
 
-2. **Rolling counts**
+2. Rolling counts
 
 ## Mood distribution
 
@@ -62,6 +62,7 @@ Exploratory plots were implemented using Matplotlib for structural time-based vi
 
 3. Co-occurrence counts
 
+
 ## Mood × Activity interaction
 
 - Questions:
@@ -75,6 +76,19 @@ Exploratory plots were implemented using Matplotlib for structural time-based vi
 - Plots:
 
 1. Heatmap (mood vs activity)
+“---- is relatively more common when mood = X”
+
+“------ share similar activity profiles”
+
+“------------ do not differentiate moods”
+
+Motivates:
+
+clustering
+
+dimensionality reduction
+
+grouping decisions
 
 2. Conditional probabilities
 
