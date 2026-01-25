@@ -94,7 +94,7 @@ grouping decisions
 
 clustering mood entries based on their activity profiles
 each row is: one mood entry represented as a binary vector of activities
-
+Mood labels were excluded from the clustering input and used only post hoc to interpret cluster composition.
 
 ### ----------------------------------------------------
 - Python (notebook) → EDA + plots
