@@ -97,6 +97,8 @@ each row is: one mood entry represented as a binary vector of activities
 Mood labels were excluded from the clustering input and used only post hoc to interpret cluster composition.
 
 Because data (df_micro) is binary and sparse, better choices for distance measurement are: cosine8(pattern similarity) , Jaccard (presence/absence similarity) or Hamming (exact mismatches count).
+
+Pairwise Jaccard distances were computed between mood entries based on binary activity profiles, capturing similarity in activity context.
 ### ----------------------------------------------------
 - Python (notebook) → EDA + plots
 
