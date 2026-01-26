@@ -61,10 +61,22 @@ plt.show()
 
 ### 5 gaps at > 4.0 distance 9/10 gaps at 3.5.
 
-#Fine-grained clustering: activity patterns
+#Fine-grained clustering: activity patternsr
 
+clusters_fine = fcluster(Z, t=3.5, criterion="distance")
 
 #Coarse clustering:broad behavioural modes
 
+clusters_coarse = fcluster(Z, t=4.2, criterion="distance")
 
+#Attach clusters back to the data
 
+df_clusters = df_micro.copy()
+df_clusters["cluster_fine"] = clusters_fine
+df_clusters["cluster_coarse"] = clusters_coarse
+
+#Cluster sizes
+df_clusters["cluster_fine"].value_counts()
+df_clusters["cluster_coarse"].value_counts()
+
+#Mood distribution per cluster
