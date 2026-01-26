@@ -116,8 +116,40 @@ Many clusters are still relatively cohesive
 This cut yields many clusters, but some are already merging fast
 
 - 0.9 < X < 1, Y = 4
+
 3–4 macro clusters
 High-level lifestyle modes
+Most merges happen above 0.75
+There are clear plateaus
+No chaotic “ladder effect”
+
+Cluster sizes:
+very large  (e.g. (495))
+
+medium  (71), (27)
+
+very small (2), (3), (4)
+
+Observed:
+
+cluster_main → 3 clusters: 744, 2, 2
+
+cluster_coarse → 2 clusters: 748, 2
+
+
+A. Almost all observations form one dense behavioral mass
+B. A handful of observations are extremely isolated
+C. These isolated observations are not merging with the rest until very high distances
+
+-->  behavioral rarity.
+
+Those 2–4 observations are ne
+
+Entries with very few activities, or unique combinations or activities never co-occurring elsewherear-completely disjoint from everything else.
+
+Hierarchical clustering revealed a highly dominant activity pattern encompassing ~99% of observations, alongside a small number of rare, behaviorally isolated profiles. These were treated separately to prevent distortion of the core clustering structure.
+
+After isolating rare activity profiles, hierarchical clustering of the core dataset revealed a well-structured hierarchy with most stable merges occurring between Jaccard distances of 0.7 and 0.8. This range was selected to extract interpretable clusters representing recurring activity patterns.
 ### ----------------------------------------------------
 - Python (notebook) → EDA + plots
 
