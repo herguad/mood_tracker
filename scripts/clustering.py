@@ -1,6 +1,9 @@
 import pandas as pd
 import numpy as np
 from sklearn.metrics import pairwise_distances
+from scipy.cluster.hierarchy import linkage
+from scipy.cluster.hierarchy import dendrogram
+import matplotlib.pyplot as plt
 #from sklearn.decomposition import PCA
 #from sklearn.cluster import KMeans
 #from sklearn.preprocessing import StandardScaler
@@ -25,9 +28,17 @@ print(jaccard_dist_matrix.min(), jaccard_dist_matrix.max())
 
 
 #perform linkage
-#from scipy.cluster.hierarchy import linkage
 
-#Z = linkage(jaccard_dist_matrix,method="average")
-
+Z = linkage(jaccard_dist_matrix,method="average")
 
 #inspect dendrogram
+
+plt.figure(figsize=(12, 6))
+dendrogram(Z,no_labels=True,color_threshold=None)
+
+plt.title("Hierarchical Clustering Dendrogram (Jaccard Distance)")
+plt.xlabel("Mood entries")
+plt.ylabel("Distance")
+
+plt.tight_layout()
+plt.show()
