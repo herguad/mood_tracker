@@ -82,7 +82,7 @@ df_clusters["cluster_coarse"] = clusters_coarse
 print(df_clusters["cluster_main"].value_counts()) 
 print(df_clusters["cluster_coarse"].value_counts()) 
 
-#Label rare activity profiles
+########Label rare activity profiles
 
 cluster_counts = pd.Series(clusters_main).value_counts()
 rare_clusters = cluster_counts[cluster_counts < 5].index
