@@ -61,11 +61,11 @@ plt.show()
 
 ### 5 gaps at > 4.0 distance 9/10 gaps at 3.5.
 
-#Fine-grained clustering: activity patternsr
+#Fine-grained clustering: activity patterns
 
 clusters_fine = fcluster(Z, t=3.5, criterion="distance")
 
-#Coarse clustering:broad behavioural modes
+#Coarse clustering: broad behavioural modes
 
 clusters_coarse = fcluster(Z, t=4.2, criterion="distance")
 
