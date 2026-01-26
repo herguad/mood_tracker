@@ -30,7 +30,7 @@ print(jaccard_dist_matrix.min(), jaccard_dist_matrix.max())
 
 #perform linkage
 
-Z = linkage(jaccard_dist_matrix,method="average")
+Z = linkage(X, method="average", metric="jaccard")
 
 #inspect dendrogram
 
@@ -76,7 +76,7 @@ df_clusters["cluster_fine"] = clusters_fine
 df_clusters["cluster_coarse"] = clusters_coarse
 
 #Cluster sizes
-df_clusters["cluster_fine"].value_counts()
-df_clusters["cluster_coarse"].value_counts()
+print(df_clusters["cluster_fine"].value_counts())
+print(df_clusters["cluster_coarse"].value_counts())
 
 #Mood distribution per cluster

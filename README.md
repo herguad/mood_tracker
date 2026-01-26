@@ -99,6 +99,18 @@ Mood labels were excluded from the clustering input and used only post hoc to in
 Because data (df_micro) is binary and sparse, better choices for distance measurement are: cosine8(pattern similarity) , Jaccard (presence/absence similarity) or Hamming (exact mismatches count).
 
 Pairwise Jaccard distances were computed between mood entries based on binary activity profiles, capturing similarity in activity context.
+
+Hierarchical clustering was performed using average linkage with Jaccard distance computed directly within the linkage procedure, ensuring correct handling of binary multi-label activity data.
+
+Observations 
+
+At distance X, Y number of clusters remaining if we cut at X
+
+- 0.8 < X < 0.93, Y = 6
+
+- 0.8 < X < 0.85, Y = 3
+
+- 0.9 < X < 1, Y = 4
 ### ----------------------------------------------------
 - Python (notebook) → EDA + plots
 
