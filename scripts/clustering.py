@@ -42,3 +42,18 @@ plt.ylabel("Distance")
 
 plt.tight_layout()
 plt.show()
+
+#Plot truncated for more precision
+plt.figure(figsize=(12, 6))
+dendrogram(
+    Z,
+    truncate_mode="lastp",
+    p=30,
+    show_leaf_counts=True
+)
+
+plt.title("Truncated Dendrogram (Top 30 Clusters)")
+plt.ylabel("Distance")
+
+plt.tight_layout()
+plt.show()
