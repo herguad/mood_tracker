@@ -3,6 +3,7 @@ import numpy as np
 from sklearn.metrics import pairwise_distances
 from scipy.cluster.hierarchy import linkage
 from scipy.cluster.hierarchy import dendrogram
+from scipy.cluster.hierarchy import fcluster
 import matplotlib.pyplot as plt
 #from sklearn.decomposition import PCA
 #from sklearn.cluster import KMeans
@@ -57,3 +58,13 @@ plt.ylabel("Distance")
 
 plt.tight_layout()
 plt.show()
+
+### 5 gaps at > 4.0 distance 9/10 gaps at 3.5.
+
+#Fine-grained clustering: activity patterns
+
+
+#Coarse clustering:broad behavioural modes
+
+
+
