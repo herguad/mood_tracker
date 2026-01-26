@@ -106,11 +106,18 @@ Observations
 
 At distance X, Y number of clusters remaining if we cut at X
 
-- 0.8 < X < 0.93, Y = 6
+- 0.8 < X < 0.93, Y = 5-7
+most stable region. Merges slow down
+Clusters are internally coherent, externally distinct
 
-- 0.8 < X < 0.85, Y = 3
+- 0.8 < X < 0.85, Y = 8-10
+Fine-grained behavioral contexts
+Many clusters are still relatively cohesive
+This cut yields many clusters, but some are already merging fast
 
 - 0.9 < X < 1, Y = 4
+3–4 macro clusters
+High-level lifestyle modes
 ### ----------------------------------------------------
 - Python (notebook) → EDA + plots
 
