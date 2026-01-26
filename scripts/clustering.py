@@ -142,17 +142,18 @@ clusters_main = fcluster(Z_core, t=0.75, criterion="distance")
 clusters_coarse = fcluster(Z_core, t=0.82, criterion="distance")
 
 # Check no clusters are <10 observations and no cluster
-# No cluster dominates > 45%50% 
-pd.Series(clusters_main).value_counts().sort_values(ascending=False)
+# Check no cluster dominates > 45%50% 
+validate_s= pd.Series(clusters_main).value_counts().sort_values(ascending=False)
+print(validate_s)
 
 #Attach clusters back to the data
 
-df_clusters = df_micro.copy()
+df_clusters = df_micro.loc[mask_core].copy()
+
 df_clusters["cluster_main"] = clusters_main
 df_clusters["cluster_coarse"] = clusters_coarse
 
-#Cluster sizes
-print(df_clusters["cluster_main"].value_counts()) 
-print(df_clusters["cluster_coarse"].value_counts()) 
+#print(type(df_clusters["cluster_main"]))
 
-#Mood distribution per cluster
+print(df_clusters["cluster_main"].value_counts())
+
