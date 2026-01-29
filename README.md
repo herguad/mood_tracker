@@ -17,7 +17,7 @@ As a result, the analysis focuses on categorical mood patterns, temporal dynamic
 
 Exploratory plots were implemented using Matplotlib for structural time-based visualizations and Seaborn for categorical and distributional analyses
 
-## Temporal structure (always first)
+## Temporal structure
 
 - Questions:
 
