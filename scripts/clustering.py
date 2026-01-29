@@ -155,5 +155,5 @@ df_clusters["cluster_coarse"] = clusters_coarse
 
 #print(type(df_clusters["cluster_main"]))
 
-print(df_clusters["cluster_main"].value_counts())
+print(df_clusters["cluster_main"].value_counts()) 
 
