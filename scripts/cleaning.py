@@ -141,11 +141,6 @@ print("Cleaning complete. Cleaned file saved to data/moods_cleaned.csv")
 # 3. Create the 8 new columns
 activity_columns = ["emotions", "sleep", "health", "social", "better_me", "productivity", "chores", "weather"]
 
-print(df["activities"].head())
-print(type(df["activities"].iloc[0]))
-
-
-
 ################################################# 
 # Create the micro-activity binary columns for ML methods.
 
