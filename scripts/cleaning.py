@@ -21,6 +21,10 @@ df["full_date"] = pd.to_datetime(df["full_date"], errors="coerce")
 # Drop rows with invalid or missing mood/date
 df = df.dropna(subset=["full_date", "mood"])
 
+# Identify structural break to later nalyze as separate cohort.
+CUTOFF = "2026-02-01"
+df["period"] = np.where(df["full_date"] < CUTOFF, "pre", "post")
+
 # Normalize mood text (remove emojis, lowercase, strip)
 def normalize_mood(m):
     m = m.lower().strip()
