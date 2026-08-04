@@ -66,18 +66,6 @@ print(df.activities[6])
 # ast package, try/except ast.literal_eval(x), except return [i.strip() for i in x.split(",")]
 #df["activities"] = df["activities"].apply(parse_list)
 
-
-# Save cleaned dataset
-df.to_csv("data/moods_cleaned.csv", index=False)
-
-print("Cleaning complete. Cleaned file saved to data/moods_cleaned.csv")
-
-# 3. Create the 8 new columns
-activity_columns = ["emotions", "sleep", "health", "social", "better_me", "productivity", "chores", "weather"]
-
-print(df["activities"].head())
-print(type(df["activities"].iloc[0]))
-
 #Clean trailing spaces in decomposed micro_activities column names. Normalize.
 df["activities"] = df["activities"].apply(
     lambda lst: [
@@ -87,7 +75,6 @@ df["activities"] = df["activities"].apply(
         for item in lst
     ]
 )
-
 
 # Map labels into the 8 categories.
 mapping = {
@@ -143,6 +130,22 @@ mapping = {
     "humid":"weather"
 }
 
+# Macro category per activity list (multi-label)
+df["macro_activities"] = df["activities"].apply(lambda lst: sorted({mapping[a] for a in lst if a in mapping}))
+
+# Save cleaned dataset
+df.to_csv("data/moods_cleaned.csv", index=False)
+
+print("Cleaning complete. Cleaned file saved to data/moods_cleaned.csv")
+
+# 3. Create the 8 new columns
+activity_columns = ["emotions", "sleep", "health", "social", "better_me", "productivity", "chores", "weather"]
+
+print(df["activities"].head())
+print(type(df["activities"].iloc[0]))
+
+
+
 ################################################# 
 # Create the micro-activity binary columns for ML methods.
 
@@ -175,7 +178,6 @@ print(macro_mood.head())
 macro_mood.to_csv("data/moods_features.csv", index=False)
 
 print("Multilabelled activities df saved moods_features")
-
 
 print(macro_mood.shape)
 print(macro_mood.columns.value_counts())
