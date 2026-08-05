@@ -167,8 +167,9 @@ micro_df = pd.DataFrame(
 )
 
 micro_df.columns = micro_df.columns.str.strip().str.lower()
+micro_df = micro_df.T.groupby(level=0).max().T
 
-micro_df = micro_df.groupby(micro_df.columns, axis=1).max()
+print("micro_df created:", micro_df.shape)
 
 # Binarize macro categories the same way
 mlb_macro = MultiLabelBinarizer()
@@ -177,7 +178,7 @@ macro_df = pd.DataFrame( mlb_macro.fit_transform(df["macro_activities"]),
                         index=df.index
                        )
 
-print("Multilabelled activities df saved micro_df")
+print("macro_df created:", macro_df.shape)
 
 # Merge dfs: micro AND macro binary columns both join df
 result_cross = df.merge(micro_df, left_index=True, right_index=True)
