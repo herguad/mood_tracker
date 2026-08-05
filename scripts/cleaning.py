@@ -21,6 +21,10 @@ df["full_date"] = pd.to_datetime(df["full_date"], errors="coerce")
 # Drop rows with invalid or missing mood/date
 df = df.dropna(subset=["full_date", "mood"])
 
+# Identify structural break to later nalyze as separate cohort.
+CUTOFF = "2026-02-01"
+df["period"] = np.where(df["full_date"] < CUTOFF, "pre", "post")
+
 # Normalize mood text (remove emojis, lowercase, strip)
 def normalize_mood(m):
     m = m.lower().strip()
@@ -58,22 +62,6 @@ df['activities']=df['activities'].str.split('|')
 print(type(df.activities[5]))
 print(df.activities[6])
 
-# Ensure 'activities' column contains actual list with a parse_list() using 2 if loops isna, isinstance(x,str), 
-# ast package, try/except ast.literal_eval(x), except return [i.strip() for i in x.split(",")]
-#df["activities"] = df["activities"].apply(parse_list)
-
-
-# Save cleaned dataset
-df.to_csv("data/moods_cleaned.csv", index=False)
-
-print("Cleaning complete. Cleaned file saved to data/moods_cleaned.csv")
-
-# 3. Create the 8 new columns
-activity_columns = ["emotions", "sleep", "health", "social", "better_me", "productivity", "chores", "weather"]
-
-print(df["activities"].head())
-print(type(df["activities"].iloc[0]))
-
 #Clean trailing spaces in decomposed micro_activities column names. Normalize.
 df["activities"] = df["activities"].apply(
     lambda lst: [
@@ -83,7 +71,6 @@ df["activities"] = df["activities"].apply(
         for item in lst
     ]
 )
-
 
 # Map labels into the 8 categories.
 mapping = {
@@ -139,6 +126,22 @@ mapping = {
     "humid":"weather"
 }
 
+# Macro category per activity list (multi-label)
+df["macro_activities"] = df["activities"].apply(lambda lst: sorted({mapping[a] for a in lst if a in mapping}))
+
+# Check for any activities not covered by the mapping
+all_activities = {item for sublist in df["activities"] for item in sublist}
+unmapped = sorted(all_activities - mapping.keys())
+print(f"Unmapped activities ({len(unmapped)}):", unmapped)
+
+# Save cleaned dataset
+df.to_csv("data/moods_cleaned.csv", index=False)
+
+print("Cleaning complete. Cleaned file saved to data/moods_cleaned.csv")
+
+# 3. Create the 8 new columns
+activity_columns = ["emotions", "sleep", "health", "social", "better_me", "productivity", "chores", "weather"]
+
 ################################################# 
 # Create the micro-activity binary columns for ML methods.
 
@@ -156,22 +159,31 @@ micro_df.columns = micro_df.columns.str.strip().str.lower()
 
 micro_df = micro_df.groupby(micro_df.columns, axis=1).max()
 
+# Binarize macro categories the same way
+mlb_macro = MultiLabelBinarizer()
+macro_df = pd.DataFrame( mlb_macro.fit_transform(df["macro_activities"]),
+                        columns=mlb_macro.classes_,
+                        index=df.index
+                       )
+
 print("Multilabelled activities df saved micro_df")
 
-#print(micro_df.info())
+# Merge dfs: micro AND macro binary columns both join df
+result_cross = df.merge(micro_df, left_index=True, right_index=True)
+result_cross = result_cross.merge(macro_df, left_index=True, right_index=True)
 
-# Merge dfs
-result_cross = df.merge(micro_df,left_index=True,right_index=True)
 #print(len(result_cross))
 
-# Introduce macro_df removing 'activities' column.
-macro_mood= result_cross.drop("activities",axis=1)
+# Introduce macro_df:
+# Drop the two list-form columns now that both are binarized —
+# "activities" (micro) and "macro_activities" (macro) are redundant once expanded. 
+
+macro_mood = result_cross.drop(columns=["activities", "macro_activities"])
 print(macro_mood.head())
 
 macro_mood.to_csv("data/moods_features.csv", index=False)
 
 print("Multilabelled activities df saved moods_features")
-
 
 print(macro_mood.shape)
 print(macro_mood.columns.value_counts())

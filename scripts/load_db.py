@@ -11,8 +11,8 @@ df = pd.read_csv("data/moods_cleaned.csv")
 df_db = df.drop(columns=["weekday", "activities"])
 
 # Load into database
-df_db.to_sql("moods", conn, if_exists="append", index=False)
+# Replace instead of append, so re-running this script doesn't duplicate rows
+df_db.to_sql("moods", conn, if_exists="replace", index=False)
 
 conn.close()
-
 print("Data successfully loaded into moods.db")

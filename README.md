@@ -93,8 +93,12 @@ grouping decisions
 2. Conditional probabilities
 
 clustering mood entries based on their activity profiles
+
 each row is: one mood entry represented as a binary vector of activities
+
 Mood labels were excluded from the clustering input and used only post hoc to interpret cluster composition.
+
+Features were engineered at two levels of granularity and used the coarser one to interpret the finer one.
 
 Because data (df_micro) is binary and sparse, better choices for distance measurement are: cosine8(pattern similarity) , Jaccard (presence/absence similarity) or Hamming (exact mismatches count).
 
@@ -138,19 +142,22 @@ cluster_coarse → 2 clusters: 748, 2
 
 
 A. Almost all observations form one dense behavioral mass
+
 B. A handful of observations are extremely isolated
+
 C. These isolated observations are not merging with the rest until very high distances
 
 -->  behavioral rarity.
 
-Those 2–4 observations are ne
 
 Entries with very few activities, or unique combinations or activities never co-occurring elsewherear-completely disjoint from everything else.
 
 Hierarchical clustering revealed a highly dominant activity pattern encompassing ~99% of observations, alongside a small number of rare, behaviorally isolated profiles. These were treated separately to prevent distortion of the core clustering structure.
 
 After isolating rare activity profiles, hierarchical clustering of the core dataset revealed a well-structured hierarchy with most stable merges occurring between Jaccard distances of 0.7 and 0.8. This range was selected to extract interpretable clusters representing recurring activity patterns.
+
 ### ----------------------------------------------------
+
 - Python (notebook) → EDA + plots
 
 - R → optional deeper stats or contrasts
