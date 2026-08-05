@@ -129,6 +129,11 @@ mapping = {
 # Macro category per activity list (multi-label)
 df["macro_activities"] = df["activities"].apply(lambda lst: sorted({mapping[a] for a in lst if a in mapping}))
 
+# Check for any activities not covered by the mapping
+all_activities = {item for sublist in df["activities"] for item in sublist}
+unmapped = sorted(all_activities - mapping.keys())
+print(f"Unmapped activities ({len(unmapped)}):", unmapped)
+
 # Save cleaned dataset
 df.to_csv("data/moods_cleaned.csv", index=False)
 
