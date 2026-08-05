@@ -158,16 +158,26 @@ micro_df.columns = micro_df.columns.str.strip().str.lower()
 
 micro_df = micro_df.groupby(micro_df.columns, axis=1).max()
 
+# Binarize macro categories the same way
+mlb_macro = MultiLabelBinarizer()
+macro_df = pd.DataFrame( mlb_macro.fit_transform(df["macro_activities"]),
+                        columns=mlb_macro.classes_,
+                        index=df.index
+                       )
+
 print("Multilabelled activities df saved micro_df")
 
-#print(micro_df.info())
+# Merge dfs: micro AND macro binary columns both join df
+result_cross = df.merge(micro_df, left_index=True, right_index=True)
+result_cross = result_cross.merge(macro_df, left_index=True, right_index=True)
 
-# Merge dfs
-result_cross = df.merge(micro_df,left_index=True,right_index=True)
 #print(len(result_cross))
 
-# Introduce macro_df removing 'activities' column.
-macro_mood= result_cross.drop("activities",axis=1)
+# Introduce macro_df:
+# Drop the two list-form columns now that both are binarized —
+# "activities" (micro) and "macro_activities" (macro) are redundant once expanded. 
+
+macro_mood = result_cross.drop(columns=["activities", "macro_activities"]
 print(macro_mood.head())
 
 macro_mood.to_csv("data/moods_features.csv", index=False)
