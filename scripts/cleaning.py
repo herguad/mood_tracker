@@ -177,7 +177,7 @@ result_cross = result_cross.merge(macro_df, left_index=True, right_index=True)
 # Drop the two list-form columns now that both are binarized —
 # "activities" (micro) and "macro_activities" (macro) are redundant once expanded. 
 
-macro_mood = result_cross.drop(columns=["activities", "macro_activities"]
+macro_mood = result_cross.drop(columns=["activities", "macro_activities"])
 print(macro_mood.head())
 
 macro_mood.to_csv("data/moods_features.csv", index=False)
