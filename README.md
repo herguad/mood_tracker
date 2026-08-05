@@ -15,6 +15,7 @@ Raw data is cleaned in Python, stored normalized in SQL, and enriched analytical
 The dataset does not include a continuous or ordinal measure of mood intensity.
 As a result, the analysis focuses on categorical mood patterns, temporal dynamics, and activity context rather than affect strength.
 
+
 Exploratory plots were implemented using Matplotlib for structural time-based visualizations and Seaborn for categorical and distributional analyses
 
 ## Temporal structure
@@ -99,6 +100,8 @@ each row is: one mood entry represented as a binary vector of activities
 Mood labels were excluded from the clustering input and used only post hoc to interpret cluster composition.
 
 Features were engineered at two levels of granularity and used the coarser one to interpret the finer one.
+
+Food-related tags were infrequently logged and folded into the health category.
 
 Because data (df_micro) is binary and sparse, better choices for distance measurement are: cosine8(pattern similarity) , Jaccard (presence/absence similarity) or Hamming (exact mismatches count).
 
