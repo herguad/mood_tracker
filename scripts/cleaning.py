@@ -62,10 +62,6 @@ df['activities']=df['activities'].str.split('|')
 print(type(df.activities[5]))
 print(df.activities[6])
 
-# Ensure 'activities' column contains actual list with a parse_list() using 2 if loops isna, isinstance(x,str), 
-# ast package, try/except ast.literal_eval(x), except return [i.strip() for i in x.split(",")]
-#df["activities"] = df["activities"].apply(parse_list)
-
 #Clean trailing spaces in decomposed micro_activities column names. Normalize.
 df["activities"] = df["activities"].apply(
     lambda lst: [
