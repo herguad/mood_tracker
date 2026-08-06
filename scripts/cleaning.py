@@ -113,6 +113,7 @@ mapping = {
     "family": "social",
     "date": "social",
     "meditation": "better_me",
+    "craft": "better_me",
     "kindness": "better_me",
     "listen": "better_me",
     "give gift": "better_me", #normalize?
