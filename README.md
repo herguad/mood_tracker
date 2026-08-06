@@ -101,7 +101,7 @@ Mood labels were excluded from the clustering input and used only post hoc to in
 
 Features were engineered at two levels of granularity and used the coarser one to interpret the finer one.
 
-Food-related tags were infrequently logged and folded into the health category.
+Food-related tags were infrequently logged and folded into the health category. "Craft" micro activity was infrequently logged and folded into an existing category ("Better me") rather than treated as a standalone signal
 
 Because data (df_micro) is binary and sparse, better choices for distance measurement are: cosine8(pattern similarity) , Jaccard (presence/absence similarity) or Hamming (exact mismatches count).
 
