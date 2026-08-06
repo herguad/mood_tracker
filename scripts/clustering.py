@@ -160,3 +160,8 @@ print(cluster_sizes)
 
 coarse_sizes = df_clusters["cluster_coarse"].value_counts().sort_values(ascending=False)
 print(coarse_sizes)
+
+activity_cols = df_micro.columns.tolist()
+
+print (df_clusters[df_clusters["cluster_main"] == 2][activity_cols].sum().sort_values(ascending=False).head(10))
+
