@@ -158,3 +158,5 @@ df_clusters["cluster_coarse"] = clusters_coarse
 cluster_sizes = df_clusters["cluster_main"].value_counts().sort_values(ascending=False)
 print(cluster_sizes)
 
+coarse_sizes = df_clusters["cluster_coarse"].value_counts().sort_values(ascending=False)
+print(coarse_sizes)
