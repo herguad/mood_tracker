@@ -40,3 +40,20 @@ gaps = np.diff(merge_heights)
 top_gap_idx = np.argsort(gaps)[::-1][:10]
 for i in sorted(top_gap_idx):
     print(f"Gap of {gaps[i]:.4f} between merge distance {merge_heights[i]:.4f} and {merge_heights[i+1]:.4f}")
+
+# Pick cuts based on gap analysis output
+# Main clustering: narrow behavioural modes
+# Coarse clustering: broad behavioural modes
+
+clusters_main = fcluster(Z, t=0.85, criterion="distance")
+clusters_coarse = fcluster(Z, t=0.95, criterion="distance")
+
+#Attach clusters back to the data
+
+df_clusters = df_micro.copy()
+df_clusters["cluster_main"] = clusters_main
+df_clusters["cluster_coarse"] = clusters_coarse
+
+#Cluster sizes
+print(df_clusters["cluster_main"].value_counts()) 
+print(df_clusters["cluster_coarse"].value_counts()) 
