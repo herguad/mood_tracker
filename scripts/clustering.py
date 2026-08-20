@@ -166,3 +166,5 @@ activity_cols = df_micro.columns.tolist()
 
 print(df_clusters[df_clusters["cluster_main"] == 2][activity_cols].sum().sort_values(ascending=False).head(10))
 print(df_clusters[df_clusters["cluster_coarse"] == 2][activity_cols].sum().sort_values(ascending=False).head(10))
+
+print(df_micro.sum(axis=1).describe())

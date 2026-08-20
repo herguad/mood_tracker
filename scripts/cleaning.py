@@ -172,6 +172,8 @@ micro_df = micro_df.T.groupby(level=0).max().T
 
 print("micro_df created:", micro_df.shape)
 
+micro_df.to_csv("data/moods_microacts.csv", index=False)
+
 # Binarize macro categories the same way
 mlb_macro = MultiLabelBinarizer()
 macro_df = pd.DataFrame( mlb_macro.fit_transform(df["macro_activities"]),
