@@ -1,168 +1,90 @@
-# Initial EDA and cleaning
+# Mood Tracker — Data Analysis & ML Project
 
-## General structure
+A personal daily mood-tracking dataset (Daylio export), analyzed to demonstrate data cleaning, EDA, and unsupervised ML skills across Python, SQL, and R.
 
-- cleaning.py → produces moods_cleaned.csv
+## Pipeline overview
 
-- load_db.py → loads facts into SQLite
+```
+data/raw_mood.csv
+      │
+      ▼
+scripts/cleaning.py  ──────►  data/moods_cleaned.csv
+      │                       data/moods_microacts.csv   (binary micro-activity matrix)
+      │                       data/moods_features.csv    (micro + macro binary columns)
+      ▼
+scripts/load_db.py  ───────►  data/moods.db (SQLite)
+      │
+      ▼
+notebooks/EDA_mood_t.ipynb  ─►  EDA plots, hierarchical clustering
+scripts/clustering.py       ─►  standalone clustering script (mirrors notebook)
+scripts/analysis.R          ─►  optional deeper stats / contrasts
+```
 
-- features.ipynb / analysis.R → built features & models
+`load_db.py` fully replaces the `moods` table on each run (`if_exists="replace"`), so it always mirrors the current `moods_cleaned.csv` rather than accumulating duplicate rows across re-runs.
 
-Raw data is cleaned in Python, stored normalized in SQL, and enriched analytically downstream.
+Activities are derived, multi-label features generated during cleaning — not stored in the raw database.
 
-'Activities' are derived features generated in the analysis pipeline and therefore not stored in the database.
+The dataset has no continuous or ordinal mood-intensity measure, so analysis focuses on categorical mood patterns, temporal dynamics, and activity context rather than affect strength.
 
-The dataset does not include a continuous or ordinal measure of mood intensity.
-As a result, the analysis focuses on categorical mood patterns, temporal dynamics, and activity context rather than affect strength.
+## Activity categories: micro vs. macro
 
+Each logged activity is captured at two levels of granularity:
 
-Exploratory plots were implemented using Matplotlib for structural time-based visualizations and Seaborn for categorical and distributional analyses
+- **Micro** — the individual activity tags as logged (e.g. `gardening`, `call_mom`, `medium sleep`).
+- **Macro** — 8 broader categories each micro-activity is mapped into: `emotions`, `sleep`, `health`, `social`, `better_me`, `productivity`, `chores`, `weather`.
 
-## Temporal structure
+Macro categories exist for **narrative and interpretability**, not for clustering — they're used to summarize and explain findings (e.g. "this cluster skews toward health + social") rather than as the feature space for the unsupervised model itself, where the finer-grained micro-activities are used instead.
 
-- Questions:
+Two infrequently-logged tag groups were folded into an existing macro category rather than kept as sparse standalone signals:
+- Food-related tags (`eat healthy`, `fast food`, `restaurant`, `homemade`, `no meat`, `delivery`) → folded into `health`.
+- `craft` (logged only briefly, in January) → folded into `better_me`.
 
-1. How long is the tracking period?
+Both are noted here rather than treated as meaningful findings on their own, given how little signal they carry.
 
-2. Are there gaps?
+## Temporal segmentation
 
-3. Is frequency stable?
+A `period` column splits entries into `pre` / `post` around a fixed cutoff (2026-02-01), marking a personal loss experienced in early 2026. This is treated as an objective structural break in the time series, analyzed as a separate cohort — not blended into a single trend line, which would misrepresent both periods.
 
-- Plots:
+## Clustering methodology
 
-1. Entries per week/month
+**Feature space.** Clustering is performed on **behavioral micro-activities only**. Two categories of tags are deliberately excluded from the clustering input (though retained in the full dataset for post-hoc interpretation):
+- **Weather** (`sunny`, `clouds`, `rain`, etc.) — an environmental condition, not a behavior; including it would let two unrelated days appear artificially similar just by sharing weather.
+- **Emotions** (`content`, `stressed`, `grateful`, etc.) — a granular, multi-select echo of the same signal as the held-out `mood` field. Including it would risk circular interpretation (a cluster "explained" by an emotion that was itself a clustering input).
 
-2. Rolling counts
+This mirrors the original design principle — mood held out, used only to interpret clusters afterward — applied consistently to anything that functions as a proxy for mood, not just the `mood` field itself.
 
-## Mood distribution
+**Distance metric.** Because the activity matrix is binary and sparse, Jaccard distance was chosen over cosine or Hamming, as it best captures presence/absence similarity without being dominated by shared absences.
 
-- Questions:
+**Linkage & cut height.** Average-linkage hierarchical clustering, with cut heights chosen from the linkage matrix's own merge-distance gaps (largest jumps between consecutive merge heights) rather than arbitrary thresholds — this keeps small changes in the cut height from changing the resulting clusters.
 
-1. Are moods balanced?
+- `cluster_main` at t = 0.85 (inside a real gap in the merge distances)
+- `cluster_coarse` at t = 0.95 (inside the widest gap, near the root)
 
-2. Are some moods rare?
+## Findings
 
-- Plots:
+Hierarchical clustering on behavioral activity profiles revealed one dominant, high-frequency behavioral mode (n≈939, ~98% of entries) alongside five small, behaviorally distinct clusters (ranging from 1 to 7 entries). `cluster_coarse` collapses almost entirely into a single group, indicating the small clusters are genuinely rare outliers rather than a second broad lifestyle mode.
 
-1. Mood counts
+The dominant cluster is characterized by routine, low-intensity activities: taking breaks, adequate sleep, focused work, cleaning, and social contact with friends.
 
-## Activity structure
-- Questions:
+The small clusters were cross-referenced against calendar dates for interpretability:
+- One 7-entry cluster (characterized by poor sleep, stress, and low mood tags) aligns with several personally significant dates — anniversaries and a bereavement — though not all entries in this cluster have a confirmed explanation.
+- Two smaller clusters, both linked by seasonal weather tags (heat/humidity or rain/low sleep), largely correspond to summer and winter periods respectively; several entries also coincide with scheduled appointments, which may confound the apparent weather effect and cannot be fully disentangled with the data as currently structured.
+- One 3-entry cluster and the single-entry cluster do not share a clear common thread beyond isolated, atypical days.
 
-1. Which activities dominate?
+## Known limitations
 
-2. How sparse is the matrix?
+- Small clusters (n ≤ 7) are not statistically robust findings — they're best read as "notable individual days," not stable behavioral profiles.
+- Appointment-type events (e.g. therapy sessions) are not currently logged as a taggable activity, so their apparent association with certain clusters could only be identified manually and cannot yet be tested systematically.
+- Weather/appointment confounding in some clusters cannot be resolved without additional data.
 
-3. Are some activities redundant?
+## Tooling split
 
-- Plots:
+- Python (notebook + scripts) — cleaning, EDA, plotting, clustering
+- R (`analysis.R`) — optional deeper statistical contrasts
+- SQL (via `moods.db`) — sanity checks, time-based aggregates
 
-1. Column sums
+## Next steps
 
-2. Heatmap of correlations
-
-3. Co-occurrence counts
-
-
-## Mood × Activity interaction
-
-- Questions:
-
-1. Which activities co-occur with which moods?
-
-2. Are some moods activity-driven?
-
-3. Is there separation potential for clustering?
-
-- Plots:
-
-1. Heatmap (mood vs activity)
-“---- is relatively more common when mood = X”
-
-“------ share similar activity profiles”
-
-“------------ do not differentiate moods”
-
-Motivates:
-
-clustering
-
-dimensionality reduction
-
-grouping decisions
-
-2. Conditional probabilities
-
-clustering mood entries based on their activity profiles
-
-each row is: one mood entry represented as a binary vector of activities
-
-Mood labels were excluded from the clustering input and used only post hoc to interpret cluster composition.
-
-Features were engineered at two levels of granularity and used the coarser one to interpret the finer one.
-
-Food-related tags were infrequently logged and folded into the health category. "Craft" micro activity was infrequently logged and folded into an existing category ("Better me") rather than treated as a standalone signal
-
-Because data (df_micro) is binary and sparse, better choices for distance measurement are: cosine8(pattern similarity) , Jaccard (presence/absence similarity) or Hamming (exact mismatches count).
-
-Pairwise Jaccard distances were computed between mood entries based on binary activity profiles, capturing similarity in activity context.
-
-Hierarchical clustering was performed using average linkage with Jaccard distance computed directly within the linkage procedure, ensuring correct handling of binary multi-label activity data.
-
-Observations 
-
-At distance X, Y number of clusters remaining if we cut at X
-
-- 0.8 < X < 0.93, Y = 5-7
-most stable region. Merges slow down
-Clusters are internally coherent, externally distinct
-
-- 0.8 < X < 0.85, Y = 8-10
-Fine-grained behavioral contexts
-Many clusters are still relatively cohesive
-This cut yields many clusters, but some are already merging fast
-
-- 0.9 < X < 1, Y = 4
-
-3–4 macro clusters
-High-level lifestyle modes
-Most merges happen above 0.75
-There are clear plateaus
-No chaotic “ladder effect”
-
-Cluster sizes:
-very large  (e.g. (495))
-
-medium  (71), (27)
-
-very small (2), (3), (4)
-
-Observed:
-
-cluster_main → 3 clusters: 744, 2, 2
-
-cluster_coarse → 2 clusters: 748, 2
-
-
-A. Almost all observations form one dense behavioral mass
-
-B. A handful of observations are extremely isolated
-
-C. These isolated observations are not merging with the rest until very high distances
-
--->  behavioral rarity.
-
-
-Entries with very few activities, or unique combinations or activities never co-occurring elsewherear-completely disjoint from everything else.
-
-Hierarchical clustering revealed a highly dominant activity pattern encompassing ~99% of observations, alongside a small number of rare, behaviorally isolated profiles. These were treated separately to prevent distortion of the core clustering structure.
-
-After isolating rare activity profiles, hierarchical clustering of the core dataset revealed a well-structured hierarchy with most stable merges occurring between Jaccard distances of 0.7 and 0.8. This range was selected to extract interpretable clusters representing recurring activity patterns.
-
-### ----------------------------------------------------
-
-- Python (notebook) → EDA + plots
-
-- R → optional deeper stats or contrasts
-
-- SQL → sanity checks, time-based aggregates
+- Regenerate the dataset with the full raw-data export (through present day) once ready.
+- Fix the macro/micro column mixing in EDA activity-frequency and heatmap plots.
+- Re-run the pipeline end-to-end with the `period` segmentation applied and compare pre/post cohorts.
