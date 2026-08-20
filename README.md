@@ -1,4 +1,4 @@
-# Mood Tracker —+ Data Analysis & ML Project
+# Mood Tracker —> Data Analysis & ML Project
 
 A personal daily mood-tracking dataset (Daylio export), analyzed to demonstrate data cleaning, EDA, and unsupervised ML skills across Python, SQL, and R.
 
