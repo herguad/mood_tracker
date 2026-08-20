@@ -69,3 +69,19 @@ for label in sorted(df_clusters["cluster_main"].unique()):
     print(subset[activity_cols].sum().sort_values(ascending=False).head(10))
 
 print(df_clusters[df_clusters["cluster_main"] == df_clusters["cluster_main"].value_counts().idxmin()])
+
+# Bring back dates to inspect outlier cluster against period of time.
+df_dates = pd.read_csv("data/moods_cleaned.csv")
+
+# Confirm row counts match between relevant dfs
+print(len(df_dates), len(df_micro))
+
+# Check dates
+cluster3_idx = df_clusters[df_clusters["cluster_main"] == 3].index
+print(df_dates.loc[cluster3_idx, "full_date"])
+
+for cluster_label in [2, 4]:
+    idx = df_clusters[df_clusters["cluster_main"] == cluster_label].index
+    print(f"\n=== cluster_main {cluster_label} dates ===")
+    print(df_dates.loc[idx, "full_date"])
+
