@@ -57,3 +57,15 @@ df_clusters["cluster_coarse"] = clusters_coarse
 #Cluster sizes
 print(df_clusters["cluster_main"].value_counts()) 
 print(df_clusters["cluster_coarse"].value_counts()) 
+
+# Examine relevant (main) clusters and identify top activities in each
+
+activity_cols = [c for c in df_micro.columns if c not in ["cluster_main", "cluster_coarse"]]
+
+for label in sorted(df_clusters["cluster_main"].unique()):
+    subset = df_clusters[df_clusters["cluster_main"] == label]
+    n = len(subset)
+    print(f"\n=== cluster_main {label} (n={n}) ===")
+    print(subset[activity_cols].sum().sort_values(ascending=False).head(10))
+
+print(df_clusters[df_clusters["cluster_main"] == df_clusters["cluster_main"].value_counts().idxmin()])
