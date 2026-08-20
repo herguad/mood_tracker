@@ -22,7 +22,7 @@ scripts/analysis.R          ─►  optional deeper stats / contrasts
 
 `load_db.py` fully replaces the `moods` table on each run (`if_exists="replace"`), so it always mirrors the current `moods_cleaned.csv` rather than accumulating duplicate rows across re-runs.
 
-Activities are derived, multi-label features generated during cleaning — not stored in the raw database.
+Activities are derived, multi-label features generated during cleaning (not stored in the raw database).
 
 The dataset has no continuous or ordinal mood-intensity measure, so analysis focuses on categorical mood patterns, temporal dynamics, and activity context rather than affect strength.
 
@@ -30,8 +30,8 @@ The dataset has no continuous or ordinal mood-intensity measure, so analysis foc
 
 Each logged activity is captured at two levels of granularity:
 
-- **Micro** — the individual activity tags as logged (e.g. `gardening`, `call_mom`, `medium sleep`).
-- **Macro** — 8 broader categories each micro-activity is mapped into: `emotions`, `sleep`, `health`, `social`, `better_me`, `productivity`, `chores`, `weather`.
+- **Micro** : the individual activity tags as logged (e.g. `gardening`, `call_mom`, `medium sleep`).
+- **Macro** : 8 broader categories each micro-activity is mapped into: `emotions`, `sleep`, `health`, `social`, `better_me`, `productivity`, `chores`, `weather`.
 
 Macro categories exist for **narrative and interpretability**, not for clustering — they're used to summarize and explain findings (e.g. "this cluster skews toward health + social") rather than as the feature space for the unsupervised model itself, where the finer-grained micro-activities are used instead.
 
@@ -48,8 +48,8 @@ A `period` column splits entries into `pre` / `post` around a fixed cutoff (2026
 ## Clustering methodology
 
 **Feature space.** Clustering is performed on **behavioral micro-activities only**. Two categories of tags are deliberately excluded from the clustering input (though retained in the full dataset for post-hoc interpretation):
-- **Weather** (`sunny`, `clouds`, `rain`, etc.) — an environmental condition, not a behavior; including it would let two unrelated days appear artificially similar just by sharing weather.
-- **Emotions** (`content`, `stressed`, `grateful`, etc.) — a granular, multi-select echo of the same signal as the held-out `mood` field. Including it would risk circular interpretation (a cluster "explained" by an emotion that was itself a clustering input).
+- **Weather** (`sunny`, `clouds`, `rain`, etc.) : an environmental condition, not a behavior; including it would let two unrelated days appear artificially similar just by sharing weather.
+- **Emotions** (`content`, `stressed`, `grateful`, etc.) : a granular, multi-select echo of the same signal as the held-out `mood` field. Including it would risk circular interpretation (a cluster "explained" by an emotion that was itself a clustering input).
 
 This mirrors the original design principle — mood held out, used only to interpret clusters afterward — applied consistently to anything that functions as a proxy for mood, not just the `mood` field itself.
 
