@@ -45,20 +45,9 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 
-#Mood counts
+#Mood counts in %
 mood_counts = df["mood"].value_counts()
 
-plt.figure(figsize=(8, 4))
-plt.bar(mood_counts.index, mood_counts.values)
-
-plt.title("Mood Frequency Distribution")
-plt.xlabel("Mood")
-plt.ylabel("Number of Entries")
-
-plt.tight_layout()
-plt.show()
-
-# In %
 mood_pct = mood_counts / mood_counts.sum() * 100
 
 plt.figure(figsize=(8, 4))
@@ -109,23 +98,11 @@ plt.xticks(rotation=90)
 plt.tight_layout()
 plt.show()
 
-#Macro-activity frequency
-plt.figure(figsize=(10, 5))
-plt.bar(macro_counts.index, macro_counts.values, color="mediumvioletred")
-
-plt.title("Macro-activity Frequency across Mood Entries")
-plt.xlabel("Macro Activity")
-plt.ylabel("Number of Entries")
-
-plt.xticks(rotation=90)
-plt.tight_layout()
-plt.show()
-
 #Macro-activity frequency in %
 macro_pct = (macro_counts / n_entries) * 100
 
 plt.figure(figsize=(10, 5))
-plt.bar(macro_pct.index, macro_pct.values)
+plt.bar(macro_pct.index, macro_pct.values,color="darkorchid")
 
 plt.title("Macro-activity Frequency (% of Mood Entries)")
 plt.xlabel("Macro Activity")
