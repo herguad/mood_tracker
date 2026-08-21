@@ -1,12 +1,13 @@
 import pandas as pd
-import matplotlib.pyplot as plt  
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 df_feats = pd.read_csv("data/moods_features.csv")
 
 df_feats.info()
 df_feats.describe(include="all")
 
-#Time coverage 
+#Time coverage
 df = pd.read_csv("data/moods_cleaned.csv")
 
 df["full_date"] = pd.to_datetime(df["full_date"])
@@ -71,46 +72,63 @@ plt.tight_layout()
 plt.show()
 
 
-#Activity frequency (SB)
-#Which activities dominate the dataset?
-print(df_feats.columns)
+#Activity frequency
+#Which activities dominate the dataset? Split micro vs. macro so they don't mix in the same plot.
 
-activities_cols= ['angry', 'anxious', 'bad sleep',
-       'bored', 'cleaning', 'clouds', 'cold', 'content', 'cooking', 'date',
-       'delivery', 'desperate', 'doctor', 'drink water', 'eat healthy',
-       'excited', 'exercise', 'family', 'fast food', 'focus', 'friends',
-       'gardening', 'give gift', 'good sleep', 'grateful', 'happy', 'heat',
-       'homemade', 'humid', 'irritated', 'kindness', 'laundry', 'listen',
-       'make list', 'meditation', 'medium sleep', 'nap', 'no meat',
-       'pleasuread', 'rain', 'relaxed', 'restaurant', 'sad', 'shopping',
-       'sleep early', 'start early', 'storm', 'stressed', 'stretch', 'sunny',
-       'take a break', 'tired', 'unsure', 'walk', 'wind']
+macro_cols = ["emotions", "sleep", "health", "social", "better_me", "productivity", "chores", "weather"]
+micro_cols = [c for c in df_feats.columns if c not in macro_cols and c not in ["mood", "full_date", "period", "weekday"]]
 
+micro_counts = df_feats[micro_cols].sum().sort_values(ascending=False)
+macro_counts = df_feats[macro_cols].sum().sort_values(ascending=False)
 
-acts= df_feats.iloc[:,4:]
+n_entries = len(df_feats)
 
-activity_counts = acts.sum().sort_values(ascending=False)
-
+#Micro-activity frequency
 plt.figure(figsize=(10, 5))
-plt.bar(activity_counts.index, activity_counts.values, color="green")
+plt.bar(micro_counts.index, micro_counts.values, color="green")
 
-plt.title("Activity Frequency Across Mood Entries")
-plt.xlabel("Activity")
+plt.title("Micro-activity Frequency across Mood Entries")
+plt.xlabel("Micro Activity")
 plt.ylabel("Number of Entries")
 
 plt.xticks(rotation=90)
 plt.tight_layout()
 plt.show()
 
-#Activity frequency in %
-n_entries = len(df_feats)
-activity_pct = (activity_counts / n_entries) * 100
+#Micro-activity frequency in %
+micro_pct = (micro_counts / n_entries) * 100
 
 plt.figure(figsize=(10, 5))
-plt.bar(activity_pct.index, activity_pct.values)
+plt.bar(micro_pct.index, micro_pct.values)
 
-plt.title("Activity Frequency (% of Mood Entries)")
-plt.xlabel("Activity")
+plt.title("Micro-activity Frequency (% of Mood Entries)")
+plt.xlabel("Micro Activity")
+plt.ylabel("Percentage of Entries")
+
+plt.xticks(rotation=90)
+plt.tight_layout()
+plt.show()
+
+#Macro-activity frequency
+plt.figure(figsize=(10, 5))
+plt.bar(macro_counts.index, macro_counts.values, color="mediumvioletred")
+
+plt.title("Macro-activity Frequency across Mood Entries")
+plt.xlabel("Macro Activity")
+plt.ylabel("Number of Entries")
+
+plt.xticks(rotation=90)
+plt.tight_layout()
+plt.show()
+
+#Macro-activity frequency in %
+macro_pct = (macro_counts / n_entries) * 100
+
+plt.figure(figsize=(10, 5))
+plt.bar(macro_pct.index, macro_pct.values)
+
+plt.title("Macro-activity Frequency (% of Mood Entries)")
+plt.xlabel("Macro Activity")
 plt.ylabel("Percentage of Entries")
 
 plt.xticks(rotation=90)
@@ -118,29 +136,41 @@ plt.tight_layout()
 plt.show()
 
 
-#Heatmaps 
+#Heatmaps
 
-#Mood vs Activity normalized 
-heatmap_df = df_feats[["mood"] + list(acts.columns)]
-
-#For each mood, what fraction of entries include each activity?
-
-mood_activity = heatmap_df.groupby("mood").mean()
-
-top_activities = activity_counts.head(15).index
-mood_activity = mood_activity[top_activities]
-
-import seaborn as sns
+#Mood vs Micro-activity, normalized — top 15 micro activities only, for readability
+heatmap_micro_df = df_feats[["mood"] + micro_cols]
+mood_micro = heatmap_micro_df.groupby("mood").mean()
+top_micro = micro_counts.head(15).index
+mood_micro = mood_micro[top_micro]
 
 plt.figure(figsize=(12, 6))
 sns.heatmap(
-    mood_activity,
+    mood_micro,
     cmap="viridis",
     cbar_kws={"label": "Activity Presence Rate"}
 )
 
-plt.title("Mood × Activity Presence Rate")
-plt.xlabel("Activity")
+plt.title("Mood vs Micro-activity Presence Rate")
+plt.xlabel("Micro Activity")
+plt.ylabel("Mood")
+
+plt.tight_layout()
+plt.show()
+
+#Mood vs Macro-activity, normalized — all 8 categories, no truncation needed
+heatmap_macro_df = df_feats[["mood"] + macro_cols]
+mood_macro = heatmap_macro_df.groupby("mood").mean()
+
+plt.figure(figsize=(10, 6))
+sns.heatmap(
+    mood_macro,
+    cmap="viridis",
+    cbar_kws={"label": "Activity Presence Rate"}
+)
+
+plt.title("Mood vs Macro-activity Presence Rate")
+plt.xlabel("Macro Activity")
 plt.ylabel("Mood")
 
 plt.tight_layout()
