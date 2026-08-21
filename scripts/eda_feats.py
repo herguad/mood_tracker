@@ -180,3 +180,11 @@ plt.show()
 # Check that the sample size is skewing the average towards extremes.
 
 print(mood_counts)
+
+#Check borderline moods ("rad" and "bad") against timeline.
+df_bad_rad = df[df["mood"].isin(["bad", "rad"])].sort_values("full_date")
+print(df_bad_rad[["full_date", "mood"]])
+
+# Quick visual: are they concentrated in certain months, or scattered throughout?
+df_bad_rad["month"] = df_bad_rad["full_date"].dt.to_period("M")
+print(df_bad_rad.groupby(["month", "mood"]).size().unstack(fill_value=0))

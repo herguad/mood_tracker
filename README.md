@@ -43,7 +43,9 @@ Both are noted here rather than treated as meaningful findings on their own, giv
 
 ## Temporal segmentation
 
-A `period` column splits entries into `pre` / `post` around a fixed cutoff (2026-02-01), marking a personal loss experienced in early 2026. This is treated as an objective structural break in the time series, analyzed as a separate cohort — not blended into a single trend line, which would misrepresent both periods.
+A `period` column splits entries into `pre` / `post` around a fixed cutoff (2026-02-01), marking a personal loss experienced in early 2026. This is treated as an objective structural break in the time series, analyzed as a separate cohort (not blended into a single trend line, which would misrepresent both periods).
+
+A sustained period of high-mood entries ("rad") coincides with a positive personal life event. This pattern ends abruptly and is followed by a shift toward low-mood entries ("bad") coinciding with a separate, significant negative life event. Both transitions align closely enough in time to be more than coincidental, despite the small absolute entry counts for these mood categories.
 
 ## Clustering methodology
 
