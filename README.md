@@ -90,5 +90,4 @@ The small clusters were cross-referenced against calendar dates for interpretabi
 ## Next steps
 
 - Regenerate the dataset with the full raw-data export (through present day) once ready.
-- Fix the macro/micro column mixing in EDA activity-frequency and heatmap plots.
 - Re-run the pipeline end-to-end with the `period` segmentation applied and compare pre/post cohorts.
