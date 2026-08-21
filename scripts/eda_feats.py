@@ -175,3 +175,8 @@ plt.ylabel("Mood")
 
 plt.tight_layout()
 plt.show()
+
+# In the behavioural heatmap, "awful" shows no gradient values.
+# Check that the sample size is skewing the average towards extremes.
+
+print(mood_counts)

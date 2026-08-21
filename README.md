@@ -76,6 +76,8 @@ The small clusters were cross-referenced against calendar dates for interpretabi
 - Small clusters (n ≤ 7) are not statistically robust findings — they're best read as "notable individual days," not stable behavioral profiles.
 - Appointment-type events (e.g. therapy sessions) are not currently logged as a taggable activity, so their apparent association with certain clusters could only be identified manually and cannot yet be tested systematically.
 - Weather/appointment confounding in some clusters cannot be resolved without additional data.
+- The mood scale is heavily imbalanced: "good" (n=550) and "meh" (n=321) account for the large majority of entries, while "bad" (n=42), "rad" (n=43), and especially "awful" (n=3) are comparatively rare. 
+- Heatmap rows and cluster interpretations involving underrepresented moods (particularly "awful") should be read as illustrative of individual entries rather than statistically stable patterns.
 
 ## Tooling split
 
