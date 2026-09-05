@@ -3,6 +3,9 @@ import numpy as np
 from sklearn.metrics import pairwise_distances
 from scipy.cluster.hierarchy import linkage, dendrogram, fcluster
 import matplotlib.pyplot as plt
+import os
+
+os.makedirs("imgs", exist_ok=True)
 
 df_micro = pd.read_csv("data/moods_microacts.csv")
 

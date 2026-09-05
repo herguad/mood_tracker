@@ -1,6 +1,9 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import os
+
+os.makedirs("imgs", exist_ok=True)
 
 df_feats = pd.read_csv("data/moods_features.csv")
 
