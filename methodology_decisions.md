@@ -64,4 +64,13 @@ A working record of technical/methodological issues found in this project and th
 
 **Fix:** added back the missing `clusters_main = fcluster(Z_core, ...)` line.
 
+
 **Takeaway:** when re-deriving one of two parallel variables (e.g. main/coarse, fine/broad), explicitly re-check both — a script that "runs" isn't the same as a script that's internally consistent; a shape/length mismatch is one of the few bugs Python will catch for you, but a silently-stale-but-same-shape variable often won't be caught at all.
+
+## 9. Cluster labels are not stable identifiers across re-runs
+
+**Problem:** after refreshing the raw data (~30 new entries) and re-running `clustering.py`, the same behavioral group that was previously `cluster_main == 3` (the grief/anniversary-linked cluster) came back as `cluster_main == 2` — same 7 dates, same activity profile, different integer label. Code that referenced a specific cluster number directly (e.g. `df_clusters["cluster_main"] == 3`) silently pointed at the wrong group after re-running.
+
+**Fix:** stopped referencing cluster numbers directly anywhere in the script. Replaced with a loop that iterates over all present cluster labels and prints each one's activity profile and dates, so clusters are always re-identified by their actual content, not by an assumed number.
+
+**Takeaway:** `fcluster` (and clustering algorithms generally) assign group labels arbitrarily — the same integer can point to a completely different group between runs, even on very similar data. Any code or written interpretation that says "cluster 3 means X" needs to be re-verified after every re-run, not assumed to still hold. Writing analysis code as a loop over "whatever clusters exist" rather than hardcoded labels avoids this trap entirely.
