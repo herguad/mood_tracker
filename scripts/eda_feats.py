@@ -26,6 +26,7 @@ plt.xlabel("Date")
 plt.ylabel("Number of Entries")
 
 plt.tight_layout()
+plt.savefig("imgs/coverage_over_time.png", dpi=150)
 plt.show()
 
 
@@ -43,6 +44,7 @@ plt.ylabel("Number of Entries")
 plt.legend()
 
 plt.tight_layout()
+plt.savefig("imgs/coverage_over_time_rolling.png", dpi=150)
 plt.show()
 
 #Mood counts
@@ -56,6 +58,7 @@ plt.xlabel("Mood")
 plt.ylabel("Number of Entries")
 
 plt.tight_layout()
+plt.savefig("imgs/mood_frequency.png", dpi=150)
 plt.show()
 
 
@@ -91,6 +94,7 @@ plt.ylabel("Number of Entries")
 
 plt.xticks(rotation=90)
 plt.tight_layout()
+plt.savefig("imgs/behavioral_micro_freq.png", dpi=150)
 plt.show()
 
 #Weather micro-activity frequency
@@ -103,6 +107,7 @@ plt.ylabel("Number of Entries")
 
 plt.xticks(rotation=90)
 plt.tight_layout()
+plt.savefig("imgs/weather_freq.png", dpi=150)
 plt.show()
 
 #Emotion micro-activity frequency
@@ -115,6 +120,7 @@ plt.ylabel("Number of Entries")
 
 plt.xticks(rotation=90)
 plt.tight_layout()
+plt.savefig("imgs/emotion_freq.png", dpi=150)
 plt.show()
 
 #Macro-activity frequency
@@ -127,6 +133,7 @@ plt.ylabel("Number of Entries")
 
 plt.xticks(rotation=90)
 plt.tight_layout()
+plt.savefig("imgs/macro_freq.png", dpi=150)
 plt.show()
 
 
@@ -152,6 +159,7 @@ plt.xlabel("Micro Activity")
 plt.ylabel("Mood")
 
 plt.tight_layout()
+plt.savefig("imgs/mood_x_behavioral_heatmap.png", dpi=150)
 plt.show()
 
 #Mood vs Macro-activity, normalized: all 8 categories
@@ -174,6 +182,7 @@ plt.xlabel("Macro Activity")
 plt.ylabel("Mood")
 
 plt.tight_layout()
+plt.savefig("imgs/mood_x_macro_heatmap.png", dpi=150)
 plt.show()
 
 # In the behavioural heatmap, "awful" shows no gradient values.
