@@ -69,7 +69,8 @@ Hierarchical clustering on behavioral activity profiles revealed one dominant, h
 The dominant cluster is characterized by routine, low-intensity activities: taking breaks, adequate sleep, focused work, cleaning, and social contact with friends.
 
 The small clusters were cross-referenced against calendar dates for interpretability:
-- One 7-entry cluster (characterized by poor sleep, stress, and low mood tags) aligns with several personally significant dates — anniversaries and a bereavement — though not all entries in this cluster have a confirmed explanation.
+- One 7-entry cluster (characterized by poor sleep, stress, and low mood tags) aligns with several personally significant dates — anniversaries and a bereavement — though not all entries in this cluster have a confirmed explanation. This finding was confirmed to be stable after a subsequent raw-data refresh (~30 additional entries, ~3% growth): the same cluster reappeared with an identical activity profile and the same 7 dates, despite receiving a different (arbitrary) cluster label on re-run. 
+- The overall cluster structure — one dominant behavioral mode plus a small number of distinct outlier profiles — was likewise stable in size and composition; only the smallest clusters (n≤4) showed some turnover between runs, consistent with them representing individually atypical days rather than recurring behavioral types.
 - Two smaller clusters, both linked by seasonal weather tags (heat/humidity or rain/low sleep), largely correspond to summer and winter periods respectively; several entries also coincide with scheduled appointments, which may confound the apparent weather effect and cannot be fully disentangled with the data as currently structured.
 - One 3-entry cluster and the single-entry cluster do not share a clear common thread beyond isolated, atypical days.
 
