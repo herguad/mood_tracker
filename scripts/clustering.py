@@ -26,13 +26,17 @@ plt.figure(figsize=(12, 6))
 dendrogram(Z, no_labels=True, color_threshold=None)
 plt.title("Hierarchical Clustering Dendrogram (Jaccard Distance)")
 plt.xlabel("Mood entries"); plt.ylabel("Distance")
-plt.tight_layout(); plt.show()
+plt.tight_layout()
+plt.savefig("outputs/dendrogram_full.png", dpi=150)
+plt.show()
 
 plt.figure(figsize=(12, 6))
 dendrogram(Z, truncate_mode="lastp", p=30, show_leaf_counts=True)
 plt.title("Truncated Dendrogram (Top 30 Clusters)")
 plt.ylabel("Distance")
-plt.tight_layout(); plt.show()
+plt.tight_layout()
+plt.savefig("outputs/dendrogram_truncated.png", dpi=150)
+plt.show()
 
 # Gap analysis — run BEFORE picking any cut height
 merge_heights = Z[:, 2]
