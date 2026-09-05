@@ -84,11 +84,7 @@ df_dates = pd.read_csv("data/moods_cleaned.csv")
 print(len(df_dates), len(df_micro))
 
 # Check dates
-cluster3_idx = df_clusters[df_clusters["cluster_main"] == 3].index
-print(df_dates.loc[cluster3_idx, "full_date"])
-
-for cluster_label in [2, 4]:
-    idx = df_clusters[df_clusters["cluster_main"] == cluster_label].index
-    print(f"\n=== cluster_main {cluster_label} dates ===")
+for label in sorted(df_clusters["cluster_main"].unique()):
+    idx = df_clusters[df_clusters["cluster_main"] == label].index
+    print(f"\n=== cluster_main {label} dates (n={len(idx)}) ===")
     print(df_dates.loc[idx, "full_date"])
-
