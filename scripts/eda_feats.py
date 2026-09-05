@@ -21,6 +21,9 @@ daily_counts = (
       .rename("entries")
 )
 
+full_range = pd.date_range(daily_counts.index.min(), daily_counts.index.max(), freq="D")
+daily_counts = daily_counts.reindex(full_range, fill_value=0)
+
 plt.figure(figsize=(12, 4))
 plt.plot(daily_counts.index, daily_counts.values)
 
