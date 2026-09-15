@@ -77,6 +77,15 @@ The three small clusters were cross-referenced against calendar dates for interp
 - A 7-entry cluster linked by seasonal weather tags (heat/humidity or clouds/tiredness) largely corresponds to summer and winter periods; several entries also coincide with scheduled appointments, which may confound the apparent weather effect and cannot be fully disentangled with the data as currently structured.
 - A 3-entry cluster (happy, relaxed, grateful) corresponds to a short run of consecutive days shortly after a positive personal life event. Notably, this cluster remains distinct even at the broadest tested resolution (`cluster_coarse`), while every other small cluster merges into the dominant mode at that resolution — suggesting these days are unusually behaviorally distinct rather than a borderline case. This aligns with a separately observed pattern of high-mood ("rad") entries concentrated in the months following the same event.
 
+### Pre/post period comparison
+
+Aggregating mood and activity data by `period` (pre: n=774, post: n=226) confirms the pattern already suggested by individual date cross-referencing:
+
+- **Mood distribution shifted sharply.** "Good" dropped from ~65% of entries (pre) to ~29% (post); "meh" more than doubled (~26% → ~63%); "rad" (the top of the mood scale), present in ~5% of pre-period entries, does not appear at all post; "bad" roughly doubled (~3% → ~7%); "awful" appears only in the post period. Every mood category shifted in the expected direction with no exceptions.
+- **Overall activity structure remained comparatively stable.** Most macro-activity categories (emotions, sleep, weather, productivity, chores) shifted only slightly between periods. Two categories moved more notably: `social` activity increased (~46% → ~61%), while `health`-related activity decreased (~50% → ~42%) — suggesting the post-period was marked more by leaning toward social contact than by withdrawal, alongside some reduction in self-care-related activity.
+
+**Caveat:** the "post" period (n=226) is considerably smaller than "pre" (n=774) — roughly one-quarter the size — reflecting that it covers a few months rather than the multi-year pre-period span. Percentages account for this size difference, but the smaller absolute sample means post-period figures should be read as indicative of a real, evident shift rather than as precisely estimated rates.
+
 ## Known limitations
 
 - Small clusters (n ≤ 7) are not statistically robust findings — they're best read as "notable individual days," not stable behavioral profiles.
