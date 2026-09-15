@@ -80,6 +80,7 @@ The three small clusters were cross-referenced against calendar dates for interp
 ## Known limitations
 
 - Small clusters (n ≤ 7) are not statistically robust findings — they're best read as "notable individual days," not stable behavioral profiles.
+- Cluster labels assigned by the algorithm are arbitrary and not stable across re-runs on updated data; all cluster-based findings in this document are anchored to activity profiles and specific dates, not label numbers (see methodology log for detail).
 - Appointment-type events (e.g. therapy sessions) are not currently logged as a taggable activity, so their apparent association with certain clusters could only be identified manually and cannot yet be tested systematically.
 - Weather/appointment confounding in some clusters cannot be resolved without additional data.
 - The mood scale is heavily imbalanced: "good" (n=550) and "meh" (n=321) account for the large majority of entries, while "bad" (n=42), "rad" (n=43), and especially "awful" (n=3) are comparatively rare. 
