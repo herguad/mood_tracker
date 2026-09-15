@@ -94,5 +94,4 @@ The three small clusters were cross-referenced against calendar dates for interp
 
 ## Next steps
 
-- Regenerate the dataset with the full raw-data export (through present day) once ready.
 - Re-run the pipeline end-to-end with the `period` segmentation applied and compare pre/post cohorts.
