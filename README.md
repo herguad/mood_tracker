@@ -67,15 +67,15 @@ Cluster labels assigned by the clustering algorithm are arbitrary integers that 
 
 ## Findings
 
-Hierarchical clustering on behavioral activity profiles revealed one dominant, high-frequency behavioral mode (n≈939, ~98% of entries) alongside five small, behaviorally distinct clusters (ranging from 1 to 7 entries). `cluster_coarse` collapses almost entirely into a single group, indicating the small clusters are genuinely rare outliers rather than a second broad lifestyle mode.
+Hierarchical clustering on behavioral activity profiles (`cluster_main`, the primary reporting tier) revealed one dominant, high-frequency behavioral mode (n=983, ~98% of entries) alongside three small, behaviorally distinct clusters. This structure was confirmed stable across a full raw-data refresh (990 → 1000 entries): the dominant cluster and each small cluster's composition, activity profile, and member dates remained consistent, with only the finest-resolution tier showing minor turnover — consistent with very small clusters representing individually atypical days rather than recurring behavioral types.
 
 The dominant cluster is characterized by routine, low-intensity activities: taking breaks, adequate sleep, focused work, cleaning, and social contact with friends.
 
-The small clusters were cross-referenced against calendar dates for interpretability:
-- One 7-entry cluster (characterized by poor sleep, stress, and low mood tags) aligns with several personally significant dates — anniversaries and a bereavement — though not all entries in this cluster have a confirmed explanation. This finding was confirmed to be stable after a subsequent raw-data refresh (~30 additional entries, ~3% growth): the same cluster reappeared with an identical activity profile and the same 7 dates, despite receiving a different (arbitrary) cluster label on re-run. 
-- The overall cluster structure — one dominant behavioral mode plus a small number of distinct outlier profiles — was likewise stable in size and composition; only the smallest clusters (n≤4) showed some turnover between runs, consistent with them representing individually atypical days rather than recurring behavioral types.
-- Two smaller clusters, both linked by seasonal weather tags (heat/humidity or rain/low sleep), largely correspond to summer and winter periods respectively; several entries also coincide with scheduled appointments, which may confound the apparent weather effect and cannot be fully disentangled with the data as currently structured.
-- One 3-entry cluster and the single-entry cluster do not share a clear common thread beyond isolated, atypical days.
+The three small clusters were cross-referenced against calendar dates for interpretability:
+
+- A 7-entry cluster (poor sleep, stress) aligns with several personally significant dates — anniversaries and a bereavement — though not all entries in this cluster have a confirmed explanation. This cluster was reproducible across the data refresh, with an identical activity profile and date set both times.
+- A 7-entry cluster linked by seasonal weather tags (heat/humidity or clouds/tiredness) largely corresponds to summer and winter periods; several entries also coincide with scheduled appointments, which may confound the apparent weather effect and cannot be fully disentangled with the data as currently structured.
+- A 3-entry cluster (happy, relaxed, grateful) corresponds to a short run of consecutive days shortly after a positive personal life event. Notably, this cluster remains distinct even at the broadest tested resolution (`cluster_coarse`), while every other small cluster merges into the dominant mode at that resolution — suggesting these days are unusually behaviorally distinct rather than a borderline case. This aligns with a separately observed pattern of high-mood ("rad") entries concentrated in the months following the same event.
 
 ## Known limitations
 
