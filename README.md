@@ -103,4 +103,4 @@ Aggregating mood and activity data by `period` (pre: n=774, post: n=226) confirm
 
 ## Next steps
 
-- Re-run the pipeline end-to-end with the `period` segmentation applied and compare pre/post cohorts.
+- Build R script for hypothesis testing on statistical significance of attested changes outputs by python scripts.
