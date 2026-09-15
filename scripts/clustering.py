@@ -49,31 +49,35 @@ for i in sorted(top_gap_idx):
     print(f"Gap of {gaps[i]:.4f} between merge distance {merge_heights[i]:.4f} and {merge_heights[i+1]:.4f}")
 
 # Pick cuts based on gap analysis output
-# Main clustering: narrow behavioural modes
-# Coarse clustering: broad behavioural modes
+# Three resolutions, each anchored to one of the current top gaps:
+# fine:   inside 0.7885–0.8335 (3rd-largest gap)
+# main:   inside 0.8758–0.9323 (2nd-largest gap)
+# coarse: inside 0.9413–1.0000 (largest gap)
 
-clusters_main = fcluster(Z, t=0.85, criterion="distance")
+clusters_fine = fcluster(Z, t=0.81, criterion="distance")
+clusters_main = fcluster(Z, t=0.90, criterion="distance")
 clusters_coarse = fcluster(Z, t=0.95, criterion="distance")
 
-#Attach clusters back to the data
-
 df_clusters = df_micro.copy()
+df_clusters["cluster_fine"] = clusters_fine
 df_clusters["cluster_main"] = clusters_main
 df_clusters["cluster_coarse"] = clusters_coarse
 
-#Cluster sizes
-print(df_clusters["cluster_main"].value_counts()) 
-print(df_clusters["cluster_coarse"].value_counts()) 
+print(df_clusters["cluster_fine"].value_counts())
+print(df_clusters["cluster_main"].value_counts())
+print(df_clusters["cluster_coarse"].value_counts())
 
 # Examine relevant (main) clusters and identify top activities in each
 
-activity_cols = [c for c in df_micro.columns if c not in ["cluster_main", "cluster_coarse"]]
+activity_cols = [c for c in df_micro.columns if c not in ["cluster_fine", "cluster_main", "cluster_coarse"]]
 
-for label in sorted(df_clusters["cluster_main"].unique()):
-    subset = df_clusters[df_clusters["cluster_main"] == label]
-    n = len(subset)
-    print(f"\n=== cluster_main {label} (n={n}) ===")
-    print(subset[activity_cols].sum().sort_values(ascending=False).head(10))
+for tier in ["cluster_fine", "cluster_main", "cluster_coarse"]:
+    print(f"\n########## {tier} ##########")
+    for label in sorted(df_clusters[tier].unique()):
+        subset = df_clusters[df_clusters[tier] == label]
+        n = len(subset)
+        print(f"\n=== {tier} {label} (n={n}) ===")
+        print(subset[activity_cols].sum().sort_values(ascending=False).head(10))
 
 print(df_clusters[df_clusters["cluster_main"] == df_clusters["cluster_main"].value_counts().idxmin()])
 
@@ -84,7 +88,10 @@ df_dates = pd.read_csv("data/moods_cleaned.csv")
 print(len(df_dates), len(df_micro))
 
 # Check dates
-for label in sorted(df_clusters["cluster_main"].unique()):
-    idx = df_clusters[df_clusters["cluster_main"] == label].index
-    print(f"\n=== cluster_main {label} dates (n={len(idx)}) ===")
-    print(df_dates.loc[idx, "full_date"])
+
+for tier in ["cluster_fine", "cluster_main", "cluster_coarse"]:
+    print(f"\n########## {tier} dates ##########")
+    for label in sorted(df_clusters[tier].unique()):
+        idx = df_clusters[df_clusters[tier] == label].index
+        print(f"\n=== {tier} {label} dates (n={len(idx)}) ===")
+        print(df_dates.loc[idx, "full_date"])
