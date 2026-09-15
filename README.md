@@ -57,10 +57,13 @@ This mirrors the original design principle — mood held out, used only to inter
 
 **Distance metric.** Because the activity matrix is binary and sparse, Jaccard distance was chosen over cosine or Hamming, as it best captures presence/absence similarity without being dominated by shared absences.
 
-**Linkage & cut height.** Average-linkage hierarchical clustering, with cut heights chosen from the linkage matrix's own merge-distance gaps (largest jumps between consecutive merge heights) rather than arbitrary thresholds — this keeps small changes in the cut height from changing the resulting clusters.
+**Linkage & cut height.** Average-linkage hierarchical clustering, with cut heights chosen from the linkage matrix's own merge-distance gaps (largest jumps between consecutive merge heights) rather than arbitrary thresholds. As the dataset grew, additional well-separated gaps emerged, motivating a three-tier resolution rather than two:
 
-- `cluster_main` at t = 0.85 (inside a real gap in the merge distances)
-- `cluster_coarse` at t = 0.95 (inside the widest gap, near the root)
+- `cluster_fine` at t = 0.81 — most granular; used as a robustness check rather than a primary reporting tier, since very small clusters fragment further at this resolution.
+- `cluster_main` at t = 0.90 — primary reporting tier; balances interpretability with stability.
+- `cluster_coarse` at t = 0.95 — broadest split; used to test whether small clusters are genuinely distinct or merge away at low resolution.
+
+Cluster labels assigned by the clustering algorithm are arbitrary integers that are **not stable across re-runs** — the same behavioral group can receive a different label number after re-running on updated data. Clusters are therefore always re-identified by their activity profile and member dates, never by an assumed label number.
 
 ## Findings
 
