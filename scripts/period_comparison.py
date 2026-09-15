@@ -2,7 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import os
 
-os.makedirs("outputs", exist_ok=True)
+os.makedirs("imgs", exist_ok=True)
 
 df_feats = pd.read_csv("data/moods_features.csv")
 
