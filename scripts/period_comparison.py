@@ -22,11 +22,13 @@ print(df_feats["period"].value_counts())
 # 2. Mood distribution, pre vs. post (normalized — periods differ in size)
 print("\n=== Mood distribution by period (%) ===")
 mood_by_period = df_feats.groupby("period")["mood"].value_counts(normalize=True).unstack(fill_value=0) * 100
+mood_by_period = mood_by_period.reindex(["pre", "post"])
 print(mood_by_period)
 
 # 3. Macro-activity frequency, pre vs. post
 print("\n=== Macro-activity frequency by period (%) ===")
 macro_by_period = df_feats.groupby("period")[macro_cols].mean() * 100
+macro_by_period = macro_by_period.reindex(["pre", "post"])
 print(macro_by_period)
 
 # 4. Behavioral micro-activity frequency, pre vs. post — sorted by largest shift
@@ -43,7 +45,7 @@ plt.xlabel("Mood")
 plt.ylabel("Percentage of Entries")
 plt.legend(title="Period")
 plt.tight_layout()
-plt.savefig("outputs/mood_by_period.png", dpi=150)
+plt.savefig("imgs/mood_by_period.png", dpi=150)
 plt.show()
 
 # Plot: macro-activity comparison
@@ -53,5 +55,5 @@ plt.xlabel("Macro Activity")
 plt.ylabel("Percentage of Entries")
 plt.legend(title="Period")
 plt.tight_layout()
-plt.savefig("outputs/macro_by_period.png", dpi=150)
+plt.savefig("imgs/macro_by_period.png", dpi=150)
 plt.show()
