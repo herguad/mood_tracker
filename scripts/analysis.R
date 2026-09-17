@@ -60,4 +60,4 @@ ggplot(transition_probs, aes(x = next_mood, y = mood, fill = prob)) +
   labs(title = "Mood Transition Probabilities", x = "Next Mood", y = "Current Mood") +
   theme_minimal()
 
-ggsave("outputs/mood_transition_heatmap.png", width = 8, height = 6, dpi = 150)
+ggsave("imgs/mood_transition_heatmap.png", width = 8, height = 6, dpi = 150)
