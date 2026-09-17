@@ -95,6 +95,18 @@ Aggregating mood and activity data by `period` (pre: n=774, post: n=226) confirm
 - The mood scale is heavily imbalanced: "good" (n=550) and "meh" (n=321) account for the large majority of entries, while "bad" (n=42), "rad" (n=43), and especially "awful" (n=3) are comparatively rare. 
 - Heatmap rows and cluster interpretations involving underrepresented moods (particularly "awful") should be read as illustrative of individual entries rather than statistically stable patterns.
 
+### Mood transition analysis (R)
+
+To test whether day-to-day mood changes follow a discernible pattern rather than occurring independently, a first-order mood transition analysis was performed in R.
+
+**Method:** for each entry, the following day's mood was paired with the current day's mood (day-to-day pairs only; entries are excluded where no next-day mood exists). Transition frequencies were tabulated and converted to conditional probabilities (P(next mood | current mood)).
+
+`awful` (n=3) was collapsed into `bad` prior to formal testing, as its sample size was too small to support reliable estimates in a 5-category contingency table.
+
+**Findings:** transition probabilities show clear, non-uniform patterns — for example, "good" is followed by "good" 66.8% of the time (above its ~55% overall base rate, suggesting genuine day-to-day persistence rather than simple frequency), while "bad" most often transitions to "meh" (69.0%) rather than persisting or swinging to "good." Extreme-high ("rad") entries were never followed immediately by "bad," and vice versa.
+
+**Statistical test:** a Pearson's chi-square test of independence on the collapsed 4-category transition table rejected the null hypothesis of independence (X² = 195.73, df = 9, p < 2.2e-16). Because several expected cell counts were small even after collapsing (R's built-in check flagged the chi-square approximation as potentially unreliable), this was corroborated with a simulation-based Fisher's exact test (10,000 replicates), which independently confirmed the result (p ≈ 0.0001 — the minimum resolvable value at this replicate count, indicating the observed pattern was more extreme than all 10,000 null-hypothesis simulations). Both tests support the same conclusion: mood on a given day is not independent of the previous day's mood.
+
 ## Tooling split
 
 - Python (notebook + scripts) — cleaning, EDA, plotting, clustering
