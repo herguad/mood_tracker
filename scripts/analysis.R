@@ -97,3 +97,49 @@ cramers_results_behavioral <- cramers_results_behavioral %>%
   arrange(desc(cramers_v))
 
 print(cramers_results_behavioral, n = Inf)
+
+# ---- Ordinal logistic regression: mood ~ macro activities + period ----
+# Predictors restricted to macro categories (excluding near-universal
+# sleep/weather/emotions, which showed minimal variance to associate with
+# mood in the Cramer's V analysis above) plus period.
+
+library(MASS)  # NOTE: MASS::select() masks dplyr::select() — use dplyr::select()
+               # explicitly if needed elsewhere in this session
+
+df <- df %>%
+  mutate(mood = factor(mood, levels = c("awful", "bad", "meh", "good", "rad"), ordered = TRUE))
+
+# Lagged mood predictor, to account for the day-to-day mood autocorrelation
+# already established by the transition/chi-square tests earlier in this script —
+# without this, standard errors on the activity predictors would be overconfident.
+df_lagged <- df %>%
+  arrange(full_date) %>%
+  mutate(mood_lag1 = lag(mood)) %>%
+  filter(!is.na(mood_lag1))
+
+# Baseline model (no lag), fit on the same rows as the lagged model for a
+# valid likelihood ratio comparison
+mood_model <- polr(
+  mood ~ health + social + better_me + productivity + chores + period,
+  data = df_lagged,
+  Hess = TRUE
+)
+
+mood_model_lag <- polr(
+  mood ~ health + social + better_me + productivity + chores + period + mood_lag1,
+  data = df_lagged,
+  Hess = TRUE
+)
+
+# p-values (polr reports t-values only; compute via normal approximation)
+get_polr_pvalues <- function(model) {
+  coefs <- coef(summary(model))
+  p_values <- pnorm(abs(coefs[, "t value"]), lower.tail = FALSE) * 2
+  cbind(coefs, "p value" = p_values)
+}
+
+print(get_polr_pvalues(mood_model))
+print(get_polr_pvalues(mood_model_lag))
+
+# Confirm the lagged model is a significant improvement over the baseline
+anova(mood_model, mood_model_lag)
