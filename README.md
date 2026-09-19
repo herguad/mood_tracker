@@ -160,4 +160,4 @@ Critically, the `social`, `productivity`, and `better_me` associations remained 
 
 ## Next steps
 
-- Build R script for hypothesis testing on statistical significance of attested changes outputs by python scripts.
+- Summary walkthrough and visualization
