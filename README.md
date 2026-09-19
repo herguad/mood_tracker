@@ -129,6 +129,29 @@ The analyses above (Cramér's V, the mood transition tests, and the ordinal regr
 
 Establishing genuine causal claims would require either an experimental/quasi-experimental design (e.g. tracking mood changes following a deliberate, isolated change in one activity) or more advanced causal inference methods (e.g. instrumental variables, structural causal models) that are out of scope for this project. The associations reported here are best read as **candidates for further, more rigorous investigation** — not as evidence that, for example, increasing social activity would improve mood.
 
+### Ordinal logistic regression: mood and macro-category activities (R)
+
+To assess whether macro-category activities predict mood while accounting for multiple factors simultaneously (rather than one at a time, as in the Cramér's V analysis), an ordinal logistic regression (`polr`, proportional odds model) was fit with `mood` as an ordered outcome (`awful < bad < meh < good < rad`).
+
+Predictors were restricted to macro categories with meaningful variance — `health`, `social`, `better_me`, `productivity`, `chores`, and `period` — excluding `sleep`, `weather`, and `emotions`, which were logged in 97%+ of entries and showed correspondingly minimal association with mood in the Cramér's V analysis above.
+
+**Accounting for day-to-day mood persistence.** Since the transition analysis had already established that mood is not independent from one day to the next, a second model added the previous day's mood (`mood_lag1`) as a predictor. A likelihood ratio test confirmed this substantially improved model fit (χ² = 95.1, df = 4, p < 0.001) — as expected, yesterday's mood strongly and linearly predicts today's mood (p < 0.001), with no meaningful non-linear pattern.
+
+**Predictor results (from the model including `mood_lag1`):**
+
+| Predictor | Direction | Significance |
+|---|---|---|
+| `social` | positive | p < 0.001 |
+| `productivity` | positive | p < 0.001 |
+| `better_me` | positive | p < 0.001 |
+| `period` (pre vs. post) | positive (pre > post) | p < 0.001 |
+| `chores` | positive | marginal (p ≈ 0.06) |
+| `health` | positive | not significant (p ≈ 0.30) |
+
+Critically, the `social`, `productivity`, and `better_me` associations remained essentially unchanged in size and significance after controlling for the previous day's mood — indicating these relationships are not simply an artifact of similar days clustering together in runs, and represent a more robust finding than the transition or Cramér's V analyses alone could establish.
+
+`health` was not a significant predictor in either model, despite health-related activities being a defined macro category throughout this project — worth noting as a genuine null result rather than omitting it.
+
 ## Tooling split
 
 - Python (notebook + scripts) — cleaning, EDA, plotting, clustering
