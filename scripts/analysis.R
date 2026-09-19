@@ -60,4 +60,40 @@ ggplot(transition_probs, aes(x = next_mood, y = mood, fill = prob)) +
   labs(title = "Mood Transition Probabilities", x = "Next Mood", y = "Current Mood") +
   theme_minimal()
 
-ggsave("imgs/mood_transition_heatmap.png", width = 8, height = 6, dpi = 150)
+ggsave("outputs/mood_transition_heatmap.png", width = 8, height = 6, dpi = 150)
+
+# ---- Association strength: Cramer's V between mood and individual activities ----
+# Restricted to behavioral/weather/macro columns; emotion tags excluded since they
+# are a granular echo of the mood field itself and dominate any joint ranking
+# with mood, obscuring genuinely behavioral associations.
+
+library(rcompanion)
+
+macro_cols <- c("emotions", "sleep", "health", "social", "better_me", "productivity", "chores", "weather")
+weather_micro <- c("sunny", "clouds", "rain", "storm", "wind", "heat", "humid", "cold")
+emotion_micro <- c("happy", "excited", "grateful", "relaxed", "content", "tired", "unsure",
+                    "bored", "anxious", "angry", "stressed", "sad", "desperate", "irritated")
+
+all_micro_cols <- setdiff(names(df), c(macro_cols, "mood", "full_date", "period", "weekday"))
+behavioral_micro <- setdiff(all_micro_cols, c(weather_micro, emotion_micro))
+non_emotion_cols <- c(behavioral_micro, weather_micro, macro_cols)
+
+cramers_results_behavioral <- map_dfr(non_emotion_cols, function(col) {
+  tbl <- table(df$mood, df[[col]])
+  v <- tryCatch(cramerV(tbl), error = function(e) NA)
+  tibble(activity = col, cramers_v = v)
+})
+
+activity_freq <- df %>%
+  summarise(across(all_of(non_emotion_cols), ~ mean(.x))) %>%
+  pivot_longer(everything(), names_to = "activity", values_to = "freq")
+
+# Flag associations backed by too few observations (<5% of entries) as unreliable,
+# rather than silently dropping them — mirrors the small-n handling used
+# throughout the rest of this project (e.g. the "awful" mood category)
+cramers_results_behavioral <- cramers_results_behavioral %>%
+  left_join(activity_freq, by = "activity") %>%
+  mutate(reliable = freq >= 0.05) %>%
+  arrange(desc(cramers_v))
+
+print(cramers_results_behavioral, n = Inf)

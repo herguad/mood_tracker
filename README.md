@@ -107,6 +107,18 @@ To test whether day-to-day mood changes follow a discernible pattern rather than
 
 **Statistical test:** a Pearson's chi-square test of independence on the collapsed 4-category transition table rejected the null hypothesis of independence (X² = 195.73, df = 9, p < 2.2e-16). Because several expected cell counts were small even after collapsing (R's built-in check flagged the chi-square approximation as potentially unreliable), this was corroborated with a simulation-based Fisher's exact test (10,000 replicates), which independently confirmed the result (p ≈ 0.0001 — the minimum resolvable value at this replicate count, indicating the observed pattern was more extreme than all 10,000 null-hypothesis simulations). Both tests support the same conclusion: mood on a given day is not independent of the previous day's mood.
 
+### Association strength: mood vs. individual activities (R)
+
+To identify which activities are most strongly linked to mood, Cramér's V (a standard measure of association strength for categorical variables, ranging 0–1) was computed between `mood` and each activity individually.
+
+Emotion tags (e.g. `sad`, `happy`, `content`) were excluded from this comparison — as a granular, multi-select echo of the same signal as `mood` itself, they showed disproportionately high association values (up to 0.59) that reflect logging overlap rather than a genuine behavioral finding, consistent with the same reasoning applied to the clustering feature space.
+
+Among behavioral, weather, and macro-category activities, associations were generally weak to moderate. Cramér's V does not correct for small sample size, and several high-looking values were found to be artifacts of very low activity frequency (e.g. `restaurant`, appearing in only 0.4% of entries, showed V = 0.221 despite too few observations to support a reliable estimate). Associations are therefore only reported for activities present in at least 5% of entries; activities below this threshold are flagged as unreliable rather than excluded outright.
+
+The strongest reliable associations were: `good sleep` (V = 0.26), `date` (V = 0.24), `take a break` (V = 0.23), `medium sleep` (V = 0.22), `listen` (V = 0.20), the `productivity` and `social` macro categories (V ≈ 0.20 each), and `friends` (V = 0.19). Near-universal categories (`sleep`, `weather`, `emotions`, all logged in 97%+ of entries) showed correspondingly low association values, consistent with limited variance to associate with mood — the same ceiling effect observed earlier in the mood × macro-activity heatmap.
+
+As with the earlier mood-transition analysis, these results describe association strength only, not causal direction — see the note on causal inference limitations below.
+
 ## Tooling split
 
 - Python (notebook + scripts) — cleaning, EDA, plotting, clustering
