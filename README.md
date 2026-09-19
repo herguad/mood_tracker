@@ -119,6 +119,16 @@ The strongest reliable associations were: `good sleep` (V = 0.26), `date` (V = 0
 
 As with the earlier mood-transition analysis, these results describe association strength only, not causal direction — see the note on causal inference limitations below.
 
+### Note on causal inference
+
+The analyses above (Cramér's V, the mood transition tests, and the ordinal regression) establish **association**, not **causation**. This distinction matters for a few concrete reasons specific to this dataset:
+
+- **No experimental manipulation.** This is purely observational, single-subject daily-diary data — no activity was randomly assigned, so any of these associations could reflect the reverse direction (mood influencing behavior, e.g. socializing more *because* one already feels good) rather than the direction implied by a predictive framing.
+- **Confounding is likely and largely unaddressed.** Unmeasured factors (workload, external life events, weather beyond what's tagged) could independently drive both an activity and mood, producing an association between them without either causing the other.
+- **Temporal precedence, while addressed for same-day autocorrelation (via the `mood_lag1` predictor), does not establish causal direction between same-day activities and same-day mood** — both are measured concurrently, so it remains possible mood shapes behavior rather than the reverse, or both stem from a shared prior cause.
+
+Establishing genuine causal claims would require either an experimental/quasi-experimental design (e.g. tracking mood changes following a deliberate, isolated change in one activity) or more advanced causal inference methods (e.g. instrumental variables, structural causal models) that are out of scope for this project. The associations reported here are best read as **candidates for further, more rigorous investigation** — not as evidence that, for example, increasing social activity would improve mood.
+
 ## Tooling split
 
 - Python (notebook + scripts) — cleaning, EDA, plotting, clustering
