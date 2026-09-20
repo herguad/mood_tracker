@@ -95,3 +95,8 @@ for tier in ["cluster_fine", "cluster_main", "cluster_coarse"]:
         idx = df_clusters[df_clusters[tier] == label].index
         print(f"\n=== {tier} {label} dates (n={len(idx)}) ===")
         print(df_dates.loc[idx, "full_date"])
+
+#Create clusters file to feed into the dashboard clusters section
+cluster_export = df_clusters[["cluster_fine", "cluster_main", "cluster_coarse"]].copy()
+cluster_export["full_date"] = df_dates.loc[cluster_export.index, "full_date"].values
+cluster_export.to_csv("data/cluster_assignments.csv", index=False)
