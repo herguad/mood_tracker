@@ -87,7 +87,11 @@ cluster_sizes = df_clusters["cluster_main"].value_counts().sort_values(ascending
 cluster_sizes.columns = ["cluster", "n_entries"]
 cluster_sizes["cluster"] = cluster_sizes["cluster"].astype(str)
 
-fig3 = px.bar(cluster_sizes, x="cluster", y="n_entries", title="Cluster Sizes (Main Resolution)")
+fig3 = px.bar(
+    cluster_sizes, x="cluster", y="n_entries", title="Cluster Sizes (Main Resolution)",
+    category_orders={"cluster": cluster_sizes["cluster"].tolist()}
+)
+fig3.update_xaxes(type="category")
 st.plotly_chart(fig3, width="stretch")
 
 st.markdown("""
