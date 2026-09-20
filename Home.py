@@ -76,7 +76,27 @@ estimated rates.*
 
 # --- Key finding 3: clustering surfaced a grief-linked behavioral cluster ---
 st.header("3. Clustering surfaced a small, distinct 'grief cluster'")
-st.write("Placeholder: cluster size summary + link/pointer to Clustering page for detail.")
+
+@st.cache_data
+def load_clusters():
+    return pd.read_csv("data/cluster_assignments.csv")
+
+df_clusters = load_clusters()
+
+cluster_sizes = df_clusters["cluster_main"].value_counts().sort_values(ascending=False).reset_index()
+cluster_sizes.columns = ["cluster", "n_entries"]
+cluster_sizes["cluster"] = cluster_sizes["cluster"].astype(str)
+
+fig3 = px.bar(cluster_sizes, x="cluster", y="n_entries", title="Cluster Sizes (Main Resolution)")
+st.plotly_chart(fig3, width="stretch")
+
+st.markdown("""
+Hierarchical clustering on behavioral activity profiles (Jaccard distance, average
+linkage) revealed one dominant behavioral mode (~98% of entries) alongside three
+small, distinct clusters. One — characterized by poor sleep and stress — aligns with
+several personally significant dates and was confirmed stable across a full raw-data
+refresh. See the **Clustering** page for full profiles and methodology.
+""")
 
 # --- Key finding 4: mood is not random day-to-day ---
 st.header("4. Mood is statistically predictable from the previous day")
