@@ -87,12 +87,23 @@ cluster_sizes = df_clusters["cluster_main"].value_counts().sort_values(ascending
 cluster_sizes.columns = ["cluster", "n_entries"]
 cluster_sizes["cluster"] = cluster_sizes["cluster"].astype(str)
 
-fig3 = px.bar(
-    cluster_sizes, x="cluster", y="n_entries", title="Cluster Sizes (Main Resolution)",
-    category_orders={"cluster": cluster_sizes["cluster"].tolist()}
-)
-fig3.update_xaxes(type="category")
-st.plotly_chart(fig3, width="stretch")
+col1, col2 = st.columns(2)
+
+with col1:
+    fig3a = px.bar(cluster_sizes, x="cluster", y="n_entries",
+                    category_orders={"cluster": cluster_sizes["cluster"].tolist()},
+                    title="All Clusters")
+    fig3a.update_xaxes(type="category")
+    st.plotly_chart(fig3a, width="stretch")
+
+with col2:
+    small_clusters = cluster_sizes[cluster_sizes["n_entries"] < 50]
+    fig3b = px.bar(small_clusters, x="cluster", y="n_entries",
+                    category_orders={"cluster": small_clusters["cluster"].tolist()},
+                    title="Small Clusters (Detail)", text="n_entries")
+    fig3b.update_traces(textposition="outside")
+    fig3b.update_xaxes(type="category")
+    st.plotly_chart(fig3b, width="stretch")
 
 st.markdown("""
 Hierarchical clustering on behavioral activity profiles (Jaccard distance, average
