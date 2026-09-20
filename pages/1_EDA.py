@@ -3,6 +3,9 @@ import pandas as pd
 
 st.set_page_config(page_title="EDA", layout="wide")
 
+from style import apply_custom_style
+apply_custom_style()
+
 @st.cache_data
 def load_data():
     return pd.read_csv("data/moods_features.csv")

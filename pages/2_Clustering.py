@@ -3,6 +3,9 @@ import pandas as pd
 
 st.set_page_config(page_title="Clustering", layout="wide")
 
+from style import apply_custom_style
+apply_custom_style()
+
 st.title("Behavioral Clustering")
 
 st.markdown("""

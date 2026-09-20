@@ -3,6 +3,9 @@ import pandas as pd
 
 st.set_page_config(page_title="Statistical Findings", layout="wide")
 
+from style import apply_custom_style
+apply_custom_style()
+
 st.title("Statistical Findings (R)")
 
 st.header("Mood transition patterns")
