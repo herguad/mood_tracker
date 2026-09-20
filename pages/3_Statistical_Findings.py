@@ -3,6 +3,10 @@ import pandas as pd
 
 st.set_page_config(page_title="Statistical Findings", layout="wide")
 
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 from style import apply_custom_style
 apply_custom_style()
 
