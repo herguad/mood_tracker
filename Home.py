@@ -115,4 +115,24 @@ refresh. See the **Clustering** page for full profiles and methodology.
 
 # --- Key finding 4: mood is not random day-to-day ---
 st.header("4. Mood is statistically predictable from the previous day")
-st.write("Placeholder: one-line transition-analysis result + pointer to Statistical Findings page.")
+
+st.markdown("""
+A first-order mood transition analysis (R) found that mood on a given day is
+**not independent** of the previous day's mood (chi-square test of independence,
+p < 0.001; confirmed with a simulation-based Fisher's exact test as a robustness
+check for small sample cells). For example, a "good" day is followed by another
+"good" day 66.8% of the time — well above chance — while "bad" days most often
+recover to "meh" (69.0%) rather than persisting.
+
+An ordinal regression confirmed this pattern holds even after accounting for
+specific activities: **social**, **productivity**, and **better_me** activity levels
+remained significantly associated with same-day mood even after controlling for
+the previous day's mood — indicating these relationships aren't simply an artifact
+of similar days clustering together.
+
+*These findings describe statistical association, not causation — see the
+**Statistical Findings** page for full detail and the causal inference note.*
+
+See the **Statistical Findings** page for the full transition matrix, association
+rankings, and regression results.
+""")
