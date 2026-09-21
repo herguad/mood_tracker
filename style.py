@@ -8,5 +8,8 @@ def apply_custom_style():
             font-size: 1.3rem;
             line-height: 1.6;
         }
+        div[data-testid="stCaptionContainer"] p {
+            font-size: 1.35rem;
+        }
         </style>
     """, unsafe_allow_html=True)
