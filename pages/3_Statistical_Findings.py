@@ -44,16 +44,20 @@ field itself. Associations from activities logged in fewer than 5% of entries ar
 flagged as unreliable — Cramér's V does not correct for small sample size.
 """)
 
-cramers_reliable = cramers[cramers["reliable"]].sort_values("cramers_v", ascending=False).head(15)
+cramers_reliable = cramers[cramers["reliable"] == True].sort_values("cramers_v", ascending=False).head(15)
 fig_cramers = px.bar(cramers_reliable, x="activity", y="cramers_v",
                       title="Strongest Reliable Associations with Mood")
 fig_cramers.update_xaxes(type="category")
 st.plotly_chart(fig_cramers, width="stretch")
 
 with st.expander("Show excluded (low-frequency) associations"):
-    unreliable = cramers[~cramers["reliable"]].sort_values("cramers_v", ascending=False)
+    unreliable = cramers[cramers["reliable"] == False].sort_values("cramers_v", ascending=False)
     st.dataframe(unreliable, width="stretch")
 
+failed = cramers[cramers["reliable"].isna()]
+if not failed.empty:
+    st.caption(f"Note: Cramér's V could not be computed for: {', '.join(failed['activity'].tolist())} (insufficient variation).")
+    
 st.header("Ordinal regression")
 st.markdown("""
 An ordinal logistic regression tested whether macro-category activities predict
