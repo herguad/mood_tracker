@@ -1,0 +1,62 @@
+micro_activity,macro_category
+happy,emotions
+excited,emotions
+grateful,emotions
+relaxed,emotions
+content,emotions
+tired,emotions
+unsure,emotions
+bored,emotions
+anxious,emotions
+angry,emotions
+stressed,emotions
+sad,emotions
+desperate,emotions
+irritated,emotions
+early,sleep
+good,sleep
+medium,sleep
+bad,sleep
+good sleep,sleep
+bad sleep,sleep
+medium sleep,sleep
+sleep early,sleep
+excercise,health
+exercise,health
+drink water,health
+walk,health
+stretch,health
+doctor,health
+eat healthy,health
+no meat,health
+homemade,health
+fast food,health
+restaurant,health
+delivery,health
+friends,social
+family,social
+date,social
+meditation,better_me
+craft,better_me
+kindness,better_me
+listen,better_me
+give gift,better_me
+gardening,better_me
+pleasuread,better_me
+nap,better_me
+start early,productivity
+make list,productivity
+focus,productivity
+take a break,productivity
+shopping,chores
+cleaning,chores
+cooking,chores
+laundry,chores
+sunny,weather
+clouds,weather
+rain,weather
+storm,weather
+wind,weather
+heat,weather
+cold,weather
+humid,weather
