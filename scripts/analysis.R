@@ -143,3 +143,7 @@ print(get_polr_pvalues(mood_model_lag))
 
 # Confirm the lagged model is a significant improvement over the baseline
 anova(mood_model, mood_model_lag)
+
+# Create source files for dashboard
+write_csv(transition_probs, "data/mood_transition_probs.csv")
+write_csv(cramers_results_behavioral, "data/cramers_v_results.csv")
