@@ -1,7 +1,7 @@
 library(tidyverse)
 library(lubridate)
 
-df <- read_csv("data/moods_cleaned.csv")
+df <- read_csv("data/moods_features.csv")
 
 df <- df %>%
   mutate(full_date = ymd(full_date)) %>%
@@ -60,7 +60,7 @@ ggplot(transition_probs, aes(x = next_mood, y = mood, fill = prob)) +
   labs(title = "Mood Transition Probabilities", x = "Next Mood", y = "Current Mood") +
   theme_minimal()
 
-ggsave("outputs/mood_transition_heatmap.png", width = 8, height = 6, dpi = 150)
+ggsave("imgs/mood_transition_heatmap.png", width = 8, height = 6, dpi = 150)
 
 # ---- Association strength: Cramer's V between mood and individual activities ----
 # Restricted to behavioral/weather/macro columns; emotion tags excluded since they
