@@ -202,3 +202,7 @@ print("Multilabelled activities df saved as moods_features")
 
 print(macro_mood.shape)
 print(macro_mood.columns.value_counts())
+
+#Create EDA activity mapping file to feed into the dashboard.AssertionError
+mapping_export = pd.DataFrame(list(mapping.items()), columns=["micro_activity", "macro_category"])
+mapping_export.to_csv("data/activity_mapping.csv", index=False)
