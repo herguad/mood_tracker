@@ -1,0 +1,52 @@
+activity,cramers_v,freq,reliable
+next_mood,0.2865,NA,NA
+good sleep,0.2574,0.688,TRUE
+date,0.2444,0.263,TRUE
+take a break,0.23,0.751,TRUE
+restaurant,0.2213,0.004,FALSE
+medium sleep,0.2154,0.26,TRUE
+listen,0.2004,0.155,TRUE
+productivity,0.1989,0.847,TRUE
+social,0.1966,0.495,TRUE
+friends,0.1924,0.399,TRUE
+bad sleep,0.18,0.023,FALSE
+humid,0.1537,0.251,TRUE
+sleep,0.1495,0.97,TRUE
+walk,0.143,0.285,TRUE
+gardening,0.1416,0.061,TRUE
+meditation,0.1396,0.076,TRUE
+nap,0.1331,0.09,TRUE
+focus,0.1328,0.619,TRUE
+better_me,0.13,0.371,TRUE
+drink water,0.125,0.145,TRUE
+exercise,0.1231,0.091,TRUE
+health,0.1127,0.482,TRUE
+make list,0.1098,0.291,TRUE
+laundry,0.1045,0.193,TRUE
+wind,0.1038,0.297,TRUE
+clouds,0.1012,0.643,TRUE
+heat,0.09999,0.186,TRUE
+cleaning,0.09851,0.547,TRUE
+chores,0.09563,0.675,TRUE
+storm,0.09329,0.042,FALSE
+doctor,0.08959,0.021,FALSE
+family,0.08955,0.13,TRUE
+cooking,0.0829,0.01,FALSE
+stretch,0.07745,0.033,FALSE
+weather,0.06675,0.973,TRUE
+cold,0.06336,0.245,TRUE
+kindness,0.06263,0.01,FALSE
+start early,0.06022,0.403,TRUE
+pleasuread,0.05864,0.04,FALSE
+shopping,0.05615,0.31,TRUE
+eat healthy,0.05558,0.008,FALSE
+fast food,0.05527,0.004,FALSE
+give gift,0.04955,0.01,FALSE
+sleep early,0.04784,0.003,FALSE
+sunny,0.04629,0.716,TRUE
+craft,0.04061,0.005,FALSE
+emotions,0.03931,0.986,TRUE
+homemade,0.0383,0.003,FALSE
+no meat,0.0383,0.003,FALSE
+rain,0.03592,0.196,TRUE
+delivery,0.01829,0.002,FALSE
