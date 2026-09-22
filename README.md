@@ -159,5 +159,4 @@ Critically, the `social`, `productivity`, and `better_me` associations remained 
 - SQL (via `moods.db`) — sanity checks, time-based aggregates
 
 
-[![Streamlit App](https://streamlit.io)](https://moodtracker-7bhpym7ux3lh7dnjnthi4k.streamlit.app/)
-
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://moodtracker-7bhpym7ux3lh7dnjnthi4k.streamlit.app/)
