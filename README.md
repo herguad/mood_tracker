@@ -1,4 +1,5 @@
-# Mood Tracker 
+# Mood Tracker
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://moodtracker-7bhpym7ux3lh7dnjnthi4k.streamlit.app/)
 
 A personal daily mood-tracking dataset (Daylio export), analyzed to demonstrate data cleaning, EDA, and unsupervised ML skills across Python, SQL, and R.
 
@@ -157,6 +158,3 @@ Critically, the `social`, `productivity`, and `better_me` associations remained 
 - Python (notebook + scripts) — cleaning, EDA, plotting, clustering
 - R (`analysis.R`) — optional deeper statistical contrasts
 - SQL (via `moods.db`) — sanity checks, time-based aggregates
-
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://moodtracker-7bhpym7ux3lh7dnjnthi4k.streamlit.app/)
