@@ -18,7 +18,7 @@ scripts/load_db.py  ───────►  data/moods.db (SQLite)
       ▼
 scripts/clustering.py       ─►  standalone clustering script (mirrors notebook)
 scripts/analysis.R          ─►  deeper stats / contrasts
-Home.py                     ─► dashboard
+Home.py                     ─►  dashboard
 ```
 
 `load_db.py` fully replaces the `moods` table on each run (`if_exists="replace"`), so it always mirrors the current `moods_cleaned.csv` rather than accumulating duplicate rows across re-runs.
